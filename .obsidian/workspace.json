@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Pengenalan/04_Hexadecimal.md",
+                "file": "CyberSecurity/Cryptography/Pengenalan/06_bytes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_Hexadecimal"
+              "title": "06_bytes"
+            }
+          },
+          {
+            "id": "9991b9e2ba5b0196",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -168,12 +178,23 @@
   },
   "active": "efbe761b7571ac97",
   "lastOpenFiles": [
-    "CyberSecurity/Cryptography/Pengenalan/03_Ascii.md",
-    "CyberSecurity/Cryptography/Pengenalan/03.1_Dekrip ASCII dengan python.md",
     "CyberSecurity/Cryptography/Pengenalan/04_Hexadecimal.md",
-    "CyberSecurity/Cryptography/Pengenalan/02_Python dalam Crytography.md",
-    "CyberSecurity/Cryptography/Pengenalan/01_Apa Itu CTF.md",
+    "CyberSecurity/Cryptography/Pengenalan/05_Base64.md",
+    "CyberSecurity/Cryptography/Pengenalan/06_bytes.md",
+    "CyberSecurity/Cryptography/00_CryptoGraphy.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/00_Modular Aritmathic.md",
     "CyberSecurity/Cryptography/Pengenalan/00_Pengenalan.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/02_GCD.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Untitled.md",
+    "CyberSecurity/Cryptography/Pengenalan/07_Xor.md",
+    "CyberSecurity/Cryptography/Pengenalan/03_Ascii.md",
+    "CyberSecurity/Cryptography/Pengenalan/02_Python dalam Crytography.md",
+    "CyberSecurity/Cryptography/Pengenalan/04.1_Python For Hex.md",
+    "CyberSecurity/Cryptography/Pengenalan/01_Apa Itu CTF.md",
+    "CyberSecurity/Cryptography/Pengenalan/03.1_Python For Ascii.md",
+    "php.py.md",
+    "CyberSecurity/Cryptography/Pengenalan/Gambar/Enkripsi Hex.png",
+    "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi Hex.png",
     "Jaringan",
     "CyberSecurity/Reverse Engineering",
     "CyberSecurity/Blockchain",
@@ -184,16 +205,13 @@
     "Pemrograman/PHP/Framework/Laravel",
     "Pemrograman/PHP/Framework",
     "Pemrograman/PHP",
-    "CyberSecurity/Cryptography/Modular Aritmathic/00_Modular Aritmathic.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/01_Matematika Cryptography.md",
-    "CyberSecurity/Cryptography/00_CryptoGraphy.md",
     "Pemrograman/Python/00_Python.md",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/0-17.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/18 - 31.png",
     "CyberSecurity/Cryptography/Pengenalan/03.1. Ascii Table.md",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/CipherAscii.png",
-    "Untitled.md",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas",
     "CyberSecurity/tes.md",
     "Untitled.canvas",

@@ -17,5 +17,32 @@ pada umumnya kode-kode ascii ini merepresentasikan kode-kode untuk:
 - Kode komunikasi ETX< STX, ENQ. ACK...
 
 penggunaan ASCII dalam kriptografi biasanya digunakan untuk mengubah karakter menjadi bilangan numerik.
+## Python Untuk Ascii
+#python
+Disini di sediakan sebuah variable yang menyimpan ASCII nya dalam bentuk decimal
 
-Untuk Dekripsi ASCII dengan python bisa di lihat disini: [[03.1_Dekrip ASCII dengan python]]
+```python
+
+ciphertext = [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49, 110, 116, 52, 98, 108, 51, 125]
+```
+
+di dalam python ada function `chr()` yang bisa digunakan untuk mengubah bilangan ASCII menjadi karakter, sedangkan `ord()` melakukan sebaliknya
+
+disini saya menggunakan `''.join() `yang berfungsi untuk menggabungkan banyak element dalam list jadi 1 string utuh
+
+```python
+join = ''.join(chr(x)
+               for x in ciphertext)
+
+print (join)
+```
+
+Logika dari code ini:
+menggabungkan semua isi list jadi 1 bilangan ascii utuh menggunakan `''.join(),`
+
+lalu di decode menggunakan chr(x),
+variable x ini berfungsi untuk looping buat mengdecode chiphertext dengan 1 1.
+
+dan keluarkan hasilnya:
+```crypto{ASCII_pr1nt4bl3}```
+
