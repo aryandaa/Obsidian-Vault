@@ -1,2 +1,6 @@
 [[01_Matematika Cryptography]]
 [[02_GCD]]
+[[03_Algoritmh Euclides]]
+[[04_Extended GCD]]
+[[05_Modular Aritmathic]]
+[[06_Modular Inverting]]
