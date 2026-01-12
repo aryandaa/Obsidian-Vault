@@ -1,0 +1,6 @@
+[[01_Penjelasan Python]]
+[[02_Pemanggil]]
+[[03_Komentar]]
+[[04_Variable]]
+[[05_Type Data]]
+[[06_Casting Type Data]]
