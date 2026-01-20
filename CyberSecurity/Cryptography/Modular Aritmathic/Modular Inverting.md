@@ -1,3 +1,4 @@
+#cybersecurity
 di dalam aritmatika modular tidak memilliki pembagian, tapi ada yang namanya Inversting.
 
 modular bisa di bilang invers kalo gcd(a, b) = 1, atau kedua bilangan itu prima.

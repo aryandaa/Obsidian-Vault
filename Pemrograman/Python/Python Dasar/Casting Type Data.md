@@ -1,3 +1,4 @@
+#programming
 Casting Type data berfungsi untuk Merubah tipe data dari suatu tipe ke tipe lain
 Misalnuy dari int ke str, 
 dari str ke int, 

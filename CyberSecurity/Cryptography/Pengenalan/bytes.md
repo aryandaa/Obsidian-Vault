@@ -1,3 +1,4 @@
+#cybersecurity
 Komputer atau sistem tidak memahami huruf atau bahasa manusia, yang dia pahami cuman bytes.
 1 byte = 8 bit dan nilainya 0 sampai 255.
 

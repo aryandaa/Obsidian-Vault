@@ -1,3 +1,4 @@
+#programming
 Komentar adalah salah satu fitur yang ada di semua bahasa pemroggraman,
 fungsi dari komentar untuk:
 1. Memberikan penjelasan pada kode

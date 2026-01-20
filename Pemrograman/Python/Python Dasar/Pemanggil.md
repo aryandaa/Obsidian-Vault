@@ -1,3 +1,4 @@
+#programming
 kode pertama yang penting di ingat saat mempelajari bahasa pemrograman tertentu adalah function untuk menampilkan, di dalam python function itu adalah:
 ```Python
 print ("hello world")

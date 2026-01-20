@@ -1,4 +1,4 @@
-#Capture_The_Flag
+#CTF #cybersecurity
 Ctf adalah suatu tantangan yang dilakukan untuk mencari sebuah flag, flag biasanya berformat "crypto{y0ur_f1rst_fl4g}", jika menemukan flag artinya anda menemukan solusi yang tepat untuk memecahkan masalah itu. 
 
 Di dalam cryptography ctfnya biasanya menyuruh kita memecahkan sebuah cipher teks, atau teks yang belum bisa dibaca oleh manusia biasanya lalu mengubahnya menjadi plainteks, atau teks yang sudah bisa dibaca,  plainteks ini lah yang biasanya berisikan sebuah flag, untuk memecahkan cipherteks biasanya dilakukan dengan cara decode/dekripsi, decode atau dekripsi bisa dengan cara menggunakan tools online, dan bisa juga menggunakan code python jika cipherteks nya terlalu rumit untuk dipecahkan. tidak hanya decode dan dekripsi, di dalam cryptography juga ada yang namanya encode/enkripsi, kebalikannya dari decode/dekripsi, yaitu mengubah plainteks menjadi cipherteks.

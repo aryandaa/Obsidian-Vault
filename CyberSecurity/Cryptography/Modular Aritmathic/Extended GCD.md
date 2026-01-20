@@ -1,3 +1,4 @@
+#cybersecurity
 Misalkan a dan b adalah bilangan bulat positif.
 Algoritma Euclid versi extended adalah cara yang efisien untuk mencari bilangan bulat u, v
 sehingga:

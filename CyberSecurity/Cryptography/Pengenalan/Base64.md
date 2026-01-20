@@ -1,4 +1,5 @@
-BAse64 adalah sebuah encoding yang mengubah data biner seperti file, gambar, atau bytes acak menjadi teks ASCII yang aman dibaca oleh sistem teks.
+#cybersecurity
+Base64 adalah sebuah encoding yang mengubah data biner seperti file, gambar, atau bytes acak menjadi teks ASCII yang aman dibaca oleh sistem teks.
 
 kenapa perlu menggunakan base64? karena banyak sistem yang tidak ramah dengan data biner. EMAIL, JSON, URL, HTTP READER, atau database tertentu bisa rusak kalo dikasih biner, jadi data tersebut di bungkus dengan base64 terlebih dahulu agar bisa dibaca.
 

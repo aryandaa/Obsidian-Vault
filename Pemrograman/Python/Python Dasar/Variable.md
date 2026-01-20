@@ -1,3 +1,4 @@
+#programming
 Fungsi variable di python sama saja dengan bahasa yang lain, yaitu wadah untuk menyimpan data. tetapi di dalam python jika membuat variable tidak memerlukan titik koma di ujung seperti php.
 
 ini adalah variable nya

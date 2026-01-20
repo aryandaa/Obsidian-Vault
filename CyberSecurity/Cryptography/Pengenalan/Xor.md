@@ -1,3 +1,4 @@
+#cybersecurity
 Xor adalah operator bitwise yang mengembalikan 0 (False) jika keduanya sama, dan mengembalikan 1 (True) jika salah satunya true.
 di banyak challange XOR biasanya ditulis dengan simbol caret (^).
 

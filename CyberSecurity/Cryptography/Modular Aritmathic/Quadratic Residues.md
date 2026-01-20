@@ -1,3 +1,4 @@
+#cybersecurity
 Dalam aritmatika modulo, sebuah bilangan x bisa di sebut sebagai Kuadrat residu (Quadratic Residues) jika memiliki nilai a dan di kuadratkan, lalu di hasilnya di moduluskan dengan p (p adalah bilangan prima), hasilnya tersebutlah nilai x dan itu di sebut dengan "Quadratic Residue".
 
 tapi memiliki syarat tertentu, yaitu bilangan p harus prima dan a harus -1 dari p
@@ -68,6 +69,11 @@ $a^2$ mod 29,
 nilai a yang menghasilkan 6 jika di hitung itulah jawabannya...
 dari list diatas sudah bisa di ketahui kalo nilai a yang menghasilkan 6 dari perhitungan kuadrat residue adalah "8"
 
+Sifat menarik dari Quadratic (non-)Residue:
+1. Quadratic Residue × Quadratic Residue = Quadratic Residue
+2. Quadratic Residue × Quadratic Non-residue = Quadratic Non-residue
+3. Quadratic Non-residue × Quadratic Non-residue = Quadratic Residue
+
 ## Python untuk Quadratic Residue:
 
 ```Python
@@ -79,3 +85,6 @@ for a in range(p):
 jadi kode ini untuk mencari nilai a dan nilai dari Kuadrat residue dari bilangan a jika di moduluskan dengan P dengan cara di bruteforce, dan output yang keluar adalah:
 
 ![[Pasted image 20260112113540.png]]
+
+next materi saya akan membahas tentang rumus Legandre, yaitu rumus untuk mencari apakah suatu bilangan adalah Qyadratic residue atau non-residue dari a modulus p dengan cepat
+Materi Lanjutan: [[Legendre Symbol]]

@@ -1,3 +1,4 @@
+#programming
 macam macam tipe data yang bisa digunakan dalam bahasa python
 
 1. Integer (angka satuan)

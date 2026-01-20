@@ -1,3 +1,4 @@
+#cybersecurity
 Algoritma Euclides itu adalah cara sederhana dan sistematis untuk mencari FPB (Faktor Persekutuan Terbesar) dari dua bilangan. algoritma ini bekerja dengan prinsip bahwa FPB dua bilangan tidak berubah walaupun bilangan yang lebih besar diganti dengan sisa hasil pembagiannya oleh bilangan yang lebih kecil.
 
 Jadi daripada mengecek satu-satu faktor dari angka kecil sampai besar yang capek dan ribet,
