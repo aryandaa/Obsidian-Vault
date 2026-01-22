@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "file: 00_",
+      "query": "tag:#roadmap  ",
       "color": {
         "a": 1,
         "rgb": 4607
@@ -48,13 +48,6 @@
         "a": 1,
         "rgb": 5419488
       }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +60,6 @@
   "repelStrength": 15.6747404844291,
   "linkStrength": 1,
   "linkDistance": 372,
-  "scale": 0.18910749682345435,
+  "scale": 0.18363091111862342,
   "close": true
 }

@@ -1,4 +1,8 @@
 #programming
+### Apa itu Bahasa Pemrograman Python?
+- Python merupakan bahasa pemrograman tingkat tinggi dan merupakan salah satu bahasa pemrograman terpopuler di dunia.
+- Python adalah salah satu _general purpose programming language_ yang dapat digunakan untuk berbagai aplikasi. Sehingga Python banyak digunakan untuk berbagai macam program mulai dari _Artificial Intelligence_, IoT, _Data Science_, _Web Development_ hingga _Automation_.
+- 4Python menjadi salah satu bahasa pemrograman yang paling diminati karena bisa diterapkan untuk berbagai macam aplikasi.
 ### kenapa harus belajar python?
 1. mudah dipelajari, memiliki banyak sumber belajar, dan beginner frendly
 2. gratis dipakai

@@ -1,3 +1,3 @@
 #myskill 
 Fundamental:
-[[00_Fundamental Jaringan]]
+[[01_Fundamental Jaringan]]

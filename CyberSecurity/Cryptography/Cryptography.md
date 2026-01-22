@@ -1,6 +1,6 @@
 #Subskill
 
-[[00_Pengenalan]]
-[[00_Modular Aritmathic]]
-[[Cryptography Classic]]
+[[01_Pengenalan]]
+[[02_Modular Aritmathic]]
+[[03_Cryptography Classic]]
 [[Cryptography Modern]]

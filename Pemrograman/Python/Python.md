@@ -1,3 +1,4 @@
 #Subskill 
 Python Basic:
-[[00_Python Dasar]]
+[[01_Python Dasar]]
+[[02_Python Advanced]]

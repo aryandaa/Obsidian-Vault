@@ -9,6 +9,8 @@ susunan komponen dari if else python sebagai berikut:
 	- aksinya
 3. else : (aksi jika false)
 
+untuk percabangan di python ini kita wajib menggunakan indentasi sebagai baris eksekusinya, jika tidak maka aksinya tidak dianggap bagian dari function yang di inginkan.
+
 implementasi
 ```python
 umur = int(input("masukan umur km: "))

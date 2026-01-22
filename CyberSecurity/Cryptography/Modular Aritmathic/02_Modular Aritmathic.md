@@ -1,3 +1,4 @@
+#roadmap 
 Sesi ini menjelaskan hubungannya matematika dalam cryptography, karena matematika adalah salah satu fundamental selain python... 
 sebelum belajar Cryptography Modern diharapkan belajar matematika ini terlebih dahulu.
 
