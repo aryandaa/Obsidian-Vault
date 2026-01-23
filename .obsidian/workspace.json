@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Python/Python Dasar/Type Data List.md",
+                "file": "Pemrograman/Python/Python Dasar/Count Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Type Data List"
+              "title": "Count Method"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,13 +177,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "827edecc70b12317",
+  "active": "0b5619f7e7fdac3c",
   "lastOpenFiles": [
-    "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
-    "Pemrograman/Python/Python Dasar/image",
-    "Pemrograman/Python/Python Dasar/Type Data List.md",
+    "Pemrograman/Python/Python Dasar/Count Method.md",
     "Pemrograman/Python/Python Dasar/Type Data.md",
     "Pemrograman/Python/Python Dasar/01_Python Dasar.md",
+    "Pemrograman/Python/Python Dasar/Type Data Tuple.md",
+    "Pemrograman/Python/Python Dasar/Type Data List.md",
+    "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
+    "Pemrograman/Python/Python Dasar/image",
     "Pemrograman/Python/Python Dasar/Mutable & Immutable.md",
     "Pemrograman/Python/Python Dasar/Nested Loop.md",
     "Pemrograman/Python/Python Dasar/perulangan.md",
@@ -206,7 +209,6 @@
     "Pemrograman/Python/Python API",
     "Pemrograman/Python/Python Dasar/Alignment.md",
     "Pemrograman/Python/Python Dasar/Formating.md",
-    "Pemrograman/Python/Python Dasar/Variable.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/images/Pasted image 20260112113540.png",
     "CyberSecurity/Cryptography/Modular Aritmathic/images",
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key",
