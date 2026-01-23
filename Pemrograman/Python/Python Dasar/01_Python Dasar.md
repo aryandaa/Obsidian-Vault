@@ -20,8 +20,7 @@ Urutan Belajar:
 18. [[Alignment]]
 19. [[Indentasi]]
 20. [[Percabangan]]
-21. [[Nested If]]
-22. [[perulangan]]
-23. [[Pass Keyword]]
-24. [[Break dan Continue]]
-25. 
+21. [[perulangan]]
+22. [[Pass Keyword]]
+23. [[Break dan Continue]]
+24. 

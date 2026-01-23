@@ -62,3 +62,6 @@ print (data_compex)
 
 dipakai buat bilangan kompleks (yang punya bagian real dan imajiner).
 Biasanya, ini dipakai di matematika, fisika, dan teknik yang butuh perhitungan kompleks.
+
+saya membahas lebih lengkap type data list disini [[Type Data List]].
+dan sesi selanjutnya saya akan membahas 2 jenis type data yaitu [[Mutable & Immutable]]

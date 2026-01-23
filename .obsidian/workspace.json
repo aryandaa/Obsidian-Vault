@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Python/Python Dasar/01_Python Dasar.md",
+                "file": "Pemrograman/Python/Python Dasar/Type Data List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Python Dasar"
+              "title": "Type Data List"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,11 +176,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "0b5619f7e7fdac3c",
+  "active": "827edecc70b12317",
   "lastOpenFiles": [
+    "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
+    "Pemrograman/Python/Python Dasar/image",
+    "Pemrograman/Python/Python Dasar/Type Data List.md",
+    "Pemrograman/Python/Python Dasar/Type Data.md",
     "Pemrograman/Python/Python Dasar/01_Python Dasar.md",
-    "Pemrograman/Python/Python Dasar/Break dan Continue.md",
+    "Pemrograman/Python/Python Dasar/Mutable & Immutable.md",
+    "Pemrograman/Python/Python Dasar/Nested Loop.md",
     "Pemrograman/Python/Python Dasar/perulangan.md",
+    "Pemrograman/Python/Python Dasar/Percabangan.md",
+    "Pemrograman/Python/Python Dasar/Break dan Continue.md",
+    "Pemrograman/Python/Python Dasar/Aritmatika.md",
     "Pemrograman/Python/Python Dasar/Nested If.md",
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/00_Symmetric key.md",
     "Pemrograman/Python/Python Dasar/Pass Keyword.md",
@@ -194,19 +201,12 @@
     "CyberSecurity/Cryptography/Pengenalan/01_Pengenalan.md",
     "Pemrograman/Python/Python Dasar/Indentasi.md",
     "Pemrograman/Python/Python Dasar/Penjelasan Python.md",
-    "Pemrograman/Python/Python Dasar/Percabangan.md",
     "Pemrograman/Python/Python Dasar/Operator Pembanding.md",
     "Pemrograman/Python/Python Dasar/Handling Error.md",
-    "Pemrograman/Python/Python Dasar/Type Data.md",
     "Pemrograman/Python/Python API",
     "Pemrograman/Python/Python Dasar/Alignment.md",
     "Pemrograman/Python/Python Dasar/Formating.md",
     "Pemrograman/Python/Python Dasar/Variable.md",
-    "Pemrograman/Python/Python Dasar/Slash.md",
-    "Pemrograman/Python/Python Dasar/Pemanggil.md",
-    "Pemrograman/Python/Python Dasar/Method String.md",
-    "Pemrograman/Python/Python Dasar/ManipulateString.md",
-    "Pemrograman/Python/Python Dasar/Logika.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/images/Pasted image 20260112113540.png",
     "CyberSecurity/Cryptography/Modular Aritmathic/images",
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key",
@@ -217,7 +217,6 @@
     "Pemrograman/Python/Python Dasar",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Enkripsi Hex.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi Hex.png",
-    "Jaringan",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/0-17.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/18 - 31.png",

@@ -53,3 +53,5 @@ karena 5 = 5,
 maka code akan berakhir di sebelum angka 5 yaitu 4.
 
 kalo dilihat cara kerja while loop ini seperti cara kerja If, selagi bernilai true, maka akan terus berjalan.
+
+selanjutkan akan membahas [[Nested Loop]] yaitu loop di dalam loop sebagai tambahan perulangan

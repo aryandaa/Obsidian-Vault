@@ -30,3 +30,4 @@ else if kedua jika user memasukan umur dibawah 17.
 
 dan else terakhir jika user memasukan umur yang tidak disebutkan dalam rasio maupun memasukan type data yang salah.
 
+next saya akan membahas [[Nested If]] yang berfungsi untuk melakukan if di dalam if untuk kondisi tertentu sebagai verifikasi
