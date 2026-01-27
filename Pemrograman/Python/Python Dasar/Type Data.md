@@ -67,7 +67,7 @@ Biasanya, ini dipakai di matematika, fisika, dan teknik yang butuh perhitungan k
 # sesi lain:
 saya membahas lebih lengkap type data list disini [[Type Data List]].
 setelah itu akan mempelajari [[Type Data Tuple]].
-dan terakhir akan mempelajari [[Dictionary]]
+dan terakhir akan mempelajari [[Dictionary]] dan [[Type Data Set]]
 setelah mempelajari type data saya akan membahas 2 jenis type data yaitu [[Mutable & Immutable]].
 selanjutnya saya akan mempelajari cara menghitung jumlah data maupun jumlah karakter yang terdapat pada type data dengan menggunakan [[Count Method]]
 

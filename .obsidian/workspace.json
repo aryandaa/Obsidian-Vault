@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Python/Python Dasar/Membuat List 2D.md",
+                "file": "Pemrograman/Python/Python Dasar/Type Data Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Membuat List 2D"
+              "title": "Type Data Set"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,8 +176,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef57ea865f870edc",
+  "active": "827edecc70b12317",
   "lastOpenFiles": [
+    "Pemrograman/Python/Python Dasar/Type Data Set.md",
+    "Pemrograman/Python/Python Dasar/Type Data Tuple.md",
     "Pemrograman/Python/Python Dasar/Membuat List 2D.md",
     "Pemrograman/Python/Python Dasar/Type Data.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
@@ -192,7 +193,6 @@
     "Pemrograman/Python/Python.md",
     "Pemrograman/Python/Python Advanced/02_Python Advanced.md",
     "CyberSecurity/Cryptography/Pengenalan/Hexadecimal.md",
-    "Pemrograman/Python/Python Dasar/Type Data Tuple.md",
     "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
     "Pemrograman/Python/Python Dasar/image",
     "Pemrograman/Python/Python Dasar/Nested Loop.md",
@@ -207,7 +207,6 @@
     "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
     "CyberSecurity/Cryptography/Cryptography Classic/03_Cryptography Classic.md",
     "Pemrograman/Python/Python Dasar/Indentasi.md",
-    "Pemrograman/Python/Python Dasar/Penjelasan Python.md",
     "Pemrograman/Python/Python API",
     "CyberSecurity/Cryptography/Modular Aritmathic/images/Pasted image 20260112113540.png",
     "CyberSecurity/Cryptography/Modular Aritmathic/images",
