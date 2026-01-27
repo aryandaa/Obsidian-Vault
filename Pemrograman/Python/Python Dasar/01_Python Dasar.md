@@ -23,4 +23,7 @@ Urutan Belajar:
 21. [[perulangan]]
 22. [[Pass Keyword]]
 23. [[Break dan Continue]]
-24. 
+
+
+Setelah Mempelajari Python Basic, Lanjut ke Python advanced:
+[[02_Python Advanced]]
