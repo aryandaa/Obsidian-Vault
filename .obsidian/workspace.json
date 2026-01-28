@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Python/Python Dasar/Type Data Set.md",
+                "file": "Pemrograman/Python/Python Advanced/Lambda Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Type Data Set"
+              "title": "Lambda Function"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +177,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "827edecc70b12317",
+  "active": "ef57ea865f870edc",
   "lastOpenFiles": [
+    "Pemrograman/Python/Python Advanced/Lambda Function.md",
+    "Pemrograman/Proggraming.md",
+    "Pemrograman/JavaScript/Javascript.md",
+    "Pemrograman/Html/Html.md",
+    "Pemrograman/PHP/PHP.md",
+    "Pemrograman/Python/Python Advanced/02_Python Advanced.md",
+    "Pemrograman/JavaScript/Javascript Dasar",
+    "Pemrograman/Python/Python Advanced/Recursive Function.md",
+    "Pemrograman/Python/Python Advanced/Default Parameter.md",
+    "Pemrograman/Python/Python Advanced/Arbitrary Arguments.md",
+    "Pemrograman/Python/Python Advanced/Structure Function.md",
+    "I'Am.md",
     "Pemrograman/Python/Python Dasar/Type Data Set.md",
     "Pemrograman/Python/Python Dasar/Type Data Tuple.md",
     "Pemrograman/Python/Python Dasar/Membuat List 2D.md",
@@ -191,22 +204,11 @@
     "CyberSecurity/Cryptography/Pengenalan/01_Pengenalan.md",
     "Pemrograman/Python/Python Dasar/01_Python Dasar.md",
     "Pemrograman/Python/Python.md",
-    "Pemrograman/Python/Python Advanced/02_Python Advanced.md",
     "CyberSecurity/Cryptography/Pengenalan/Hexadecimal.md",
     "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
     "Pemrograman/Python/Python Dasar/image",
     "Pemrograman/Python/Python Dasar/Nested Loop.md",
-    "Pemrograman/Python/Python Dasar/perulangan.md",
-    "Pemrograman/Python/Python Dasar/Percabangan.md",
-    "Pemrograman/Python/Python Dasar/Break dan Continue.md",
-    "Pemrograman/Python/Python Dasar/Aritmatika.md",
-    "Pemrograman/Python/Python Dasar/Nested If.md",
-    "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/00_Symmetric key.md",
-    "Pemrograman/Python/Python Dasar/Pass Keyword.md",
     "Pemrograman/Python/Python Advanced",
-    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
-    "CyberSecurity/Cryptography/Cryptography Classic/03_Cryptography Classic.md",
-    "Pemrograman/Python/Python Dasar/Indentasi.md",
     "Pemrograman/Python/Python API",
     "CyberSecurity/Cryptography/Modular Aritmathic/images/Pasted image 20260112113540.png",
     "CyberSecurity/Cryptography/Modular Aritmathic/images",
@@ -215,7 +217,6 @@
     "CyberSecurity/Cryptography/Cryptography Modern",
     "CyberSecurity/Cryptography/Cryptography Classic",
     "Jaringan/Fundamental jaringan",
-    "Pemrograman/Python/Python Dasar",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Enkripsi Hex.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi Hex.png",
     "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi.png",
