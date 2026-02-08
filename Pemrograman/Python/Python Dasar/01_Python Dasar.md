@@ -11,7 +11,7 @@ Urutan Belajar:
 9. [[Aritmatika]]
 10. [[Operator Pembanding]]
 11. [[Assignment]]
-12. [[Logika]]
+12. [[Pemrograman/Python/Python Dasar/Logika]]
 13. [[Bitwise]]
 14. [[Slash]]
 15. [[ManipulateString]]
