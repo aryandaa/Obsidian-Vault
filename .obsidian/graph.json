@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "tag:#jaringan  ",
+      "color": {
+        "a": 1,
+        "rgb": 16767831
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +67,6 @@
   "repelStrength": 15.6747404844291,
   "linkStrength": 1,
   "linkDistance": 372,
-  "scale": 0.11817197028977681,
+  "scale": 0.13148872578980955,
   "close": true
 }

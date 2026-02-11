@@ -7,4 +7,4 @@ Computational Thinking bukan sebuah istilah tunggal, terdapat beberapa elemen pe
 - Pelajari pola dari setiap permasalahan ([[Pattern Recognition]]).
 - Mengabstraksikan suatu permasalahan ([[Abstraction]]).
 - Susun langkah menggunakan algoritma ([[Algorithm]]).
-- Mengevaluasi solusi yang didapatkan (evaluation).
+- Mengevaluasi solusi yang didapatkan ([[Evaluation]]).

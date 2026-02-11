@@ -10,3 +10,8 @@ Macam-macam logika di bahasa pemrograman.
 [[Logika Perulangan]]
 [[Gerbang Logika]]
 [[Computational Thinking]]
+
+Konsep dasar Pemrograman:
+[[Sintaksis dan Case Sensitive]]
+[[Statement dan Whitespace]]
+[[Keyword dan Pseudocode]]

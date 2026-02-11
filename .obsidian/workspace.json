@@ -8,35 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "827edecc70b12317",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pemrograman/Fundamental/Abstraction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Abstraction"
-            }
-          },
-          {
             "id": "ef57ea865f870edc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Fundamental/Deduktif.md",
+                "file": "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deduktif"
+              "title": "Pengenalan Laravel"
+            }
+          },
+          {
+            "id": "b9bc7b21dc82380f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -109,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pemrograman/Rancangan Software/Perencanaan Modifikasi Aplikasi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Perencanaan Modifikasi Aplikasi"
             }
           },
           {
@@ -155,12 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Pemrograman/Rancangan Software/Perencanaan Modifikasi Aplikasi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Perencanaan Modifikasi Aplikasi"
             }
           }
         ]
@@ -183,53 +180,53 @@
   },
   "active": "ef57ea865f870edc",
   "lastOpenFiles": [
+    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
+    "Pemrograman/Fundamental/Konsep Dasar/Keyword dan Pseudocode.md",
+    "Pemrograman/Fundamental/Konsep Dasar/Statement dan Whitespace.md",
+    "Pemrograman/Fundamental/01_Fundamental Pemrograman.md",
+    "Pemrograman/Fundamental/Konsep Dasar/Sintaksis dan Case Sensitive.md",
+    "Pemrograman/Fundamental/Konsep Dasar",
+    "Pemrograman/Rancangan Software/02_Rancangan Software.md",
+    "Pemrograman/Rancangan Software/Pengenalan Flowchart.md",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210200512.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210200216.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210200037.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210195729.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210195710.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210195635.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210195612.png",
+    "Pemrograman/Rancangan Software/Pembuatan SKPL.md",
+    "Pemrograman/Rancangan Software/Problem Solving dengan berpikir Komputasional.md",
+    "Pemrograman/Rancangan Software/Spesifikasi kebutuhan software.md",
+    "Pemrograman/Rancangan Software/Alur Kerja Aplikasi.md",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210184659.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210184519.png",
+    "Pemrograman/Rancangan Software/image/Pasted image 20260210184416.png",
     "Pemrograman/Fundamental/Abstraction.md",
-    "Pemrograman/Fundamental/Computational Thinking.md",
+    "Pemrograman/Rancangan Software/Membuat Spesifikasi Teknis.md",
+    "Pemrograman/Rancangan Software/Kebutuhan User.md",
+    "Pemrograman/Rancangan Software/Studi Kasus Menganalisis Spesifikasi Teknis.md",
+    "Pemrograman/Rancangan Software/image",
+    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
+    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
+    "Jaringan/Jaringan.md",
+    "Pemrograman/Proggraming.md",
+    "Rancangan Software.md",
+    "Pemrograman/Untitled.md",
+    "Pemrograman/Rancangan Software",
     "Pemrograman/Fundamental/Evaluation.md",
+    "Pemrograman/Fundamental/Computational Thinking.md",
+    "Pemrograman/Fundamental/Deduktif.md",
     "Pemrograman/Fundamental/Algorithm.md",
     "Pemrograman/Fundamental/Pattern Recognition.md",
-    "Pemrograman/Fundamental/Decomposition.md",
-    "Pemrograman/Fundamental/XNOR.md",
-    "Pemrograman/Fundamental/01_Fundamental Pemrograman.md",
-    "Pemrograman/Fundamental/Gerbang Logika.md",
-    "Pemrograman/Fundamental/XOR.md",
-    "Pemrograman/Fundamental/NOR.md",
-    "Pemrograman/Fundamental/NAND.md",
-    "Pemrograman/Fundamental/NOT.md",
-    "Pemrograman/Fundamental/AND.md",
-    "Pemrograman/Fundamental/OR.md",
-    "Pemrograman/Fundamental/Logika Perulangan.md",
-    "Pemrograman/Fundamental/image/20210208143436fc9a3355d9ae65d7f4582d333e3ac8f2.png",
     "Pemrograman/Fundamental/image",
-    "Pemrograman/Fundamental/Logika Perbandingan.md",
-    "Pemrograman/Fundamental/Logika.md",
-    "Pemrograman/Fundamental/Logika Aritmatika.md",
-    "Pemrograman/Python/Python Dasar/Aritmatika.md",
-    "Pemrograman/Fundamental/Deduktif.md",
-    "Pemrograman/Fundamental/Induktif.md",
-    "Pemrograman/Fundamental/Algoritma.md",
-    "1.md",
-    "Pemrograman/Proggraming.md",
-    "Pemrograman/Python/Python Dasar/01_Python Dasar.md",
     "Pemrograman/Fundamental",
     "Pemrograman/JavaScript/Javascript Dasar",
-    "Pemrograman/Python/Python Dasar/image/Pasted image 20260123213948.png",
     "Pemrograman/Python/Python Dasar/image",
     "Pemrograman/Python/Python Advanced",
     "Pemrograman/Python/Python API",
-    "CyberSecurity/Cryptography/Modular Aritmathic/images/Pasted image 20260112113540.png",
     "CyberSecurity/Cryptography/Modular Aritmathic/images",
-    "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key",
-    "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key",
-    "CyberSecurity/Cryptography/Cryptography Modern",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/Enkripsi Hex.png",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi Hex.png",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/Dekripsi.png",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/0-17.png",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/18 - 31.png",
-    "CyberSecurity/Cryptography/Pengenalan/Gambar/CipherAscii.png",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas",
-    "Untitled.canvas",
-    "Pasted image 20260107135750.png"
+    "Untitled.canvas"
   ]
 }
