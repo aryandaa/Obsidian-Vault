@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef57ea865f870edc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pengenalan Laravel"
-            }
-          },
-          {
             "id": "b9bc7b21dc82380f",
             "type": "leaf",
             "state": {
@@ -30,8 +16,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "9e0ed8156ac1dabd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,15 +175,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "ef57ea865f870edc",
+  "active": "9e0ed8156ac1dabd",
   "lastOpenFiles": [
-    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
+    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Dokumentasi Teknis Aplikasi.md",
+    "Cloud Komputasi",
+    "Pemrograman/CSS/Native/01_Css Native.md",
+    "Pemrograman/CSS/Native/Pengenalan Css native.md",
+    "Pemrograman/CSS/CSS.md",
+    "Pemrograman/Rancangan Software/02_Rancangan Software.md",
+    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Style guide.md",
+    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Pengarsipan Perangkat Lunak.md",
+    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman",
+    "Pemrograman/Proggraming.md",
+    "Pemrograman/CSS/Native",
+    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Perulangan.md",
+    "Pemrograman/Html/Pengenalan HTML.md",
+    "Pemrograman/Html/Html.md",
+    "Pemrograman/Html/Untitled",
+    "Pemrograman/JavaScript/Javascript Dasar/Function.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Variable Javascript.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Type data.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Pengenalan Javascript.md",
+    "Pemrograman/JavaScript/Javascript.md",
     "Pemrograman/Fundamental/Konsep Dasar/Keyword dan Pseudocode.md",
+    "Pemrograman/Fundamental/Konsep Dasar/Sintaksis dan Case Sensitive.md",
+    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
     "Pemrograman/Fundamental/Konsep Dasar/Statement dan Whitespace.md",
     "Pemrograman/Fundamental/01_Fundamental Pemrograman.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Sintaksis dan Case Sensitive.md",
     "Pemrograman/Fundamental/Konsep Dasar",
-    "Pemrograman/Rancangan Software/02_Rancangan Software.md",
     "Pemrograman/Rancangan Software/Pengenalan Flowchart.md",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200512.png",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200216.png",
@@ -197,35 +214,14 @@
     "Pemrograman/Rancangan Software/image/Pasted image 20260210195612.png",
     "Pemrograman/Rancangan Software/Pembuatan SKPL.md",
     "Pemrograman/Rancangan Software/Problem Solving dengan berpikir Komputasional.md",
-    "Pemrograman/Rancangan Software/Spesifikasi kebutuhan software.md",
-    "Pemrograman/Rancangan Software/Alur Kerja Aplikasi.md",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210184659.png",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210184519.png",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210184416.png",
-    "Pemrograman/Fundamental/Abstraction.md",
-    "Pemrograman/Rancangan Software/Membuat Spesifikasi Teknis.md",
-    "Pemrograman/Rancangan Software/Kebutuhan User.md",
-    "Pemrograman/Rancangan Software/Studi Kasus Menganalisis Spesifikasi Teknis.md",
     "Pemrograman/Rancangan Software/image",
-    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
-    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
-    "Jaringan/Jaringan.md",
-    "Pemrograman/Proggraming.md",
-    "Rancangan Software.md",
-    "Pemrograman/Untitled.md",
     "Pemrograman/Rancangan Software",
-    "Pemrograman/Fundamental/Evaluation.md",
-    "Pemrograman/Fundamental/Computational Thinking.md",
-    "Pemrograman/Fundamental/Deduktif.md",
-    "Pemrograman/Fundamental/Algorithm.md",
-    "Pemrograman/Fundamental/Pattern Recognition.md",
     "Pemrograman/Fundamental/image",
     "Pemrograman/Fundamental",
     "Pemrograman/JavaScript/Javascript Dasar",
-    "Pemrograman/Python/Python Dasar/image",
-    "Pemrograman/Python/Python Advanced",
-    "Pemrograman/Python/Python API",
-    "CyberSecurity/Cryptography/Modular Aritmathic/images",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas",
     "Untitled.canvas"
   ]

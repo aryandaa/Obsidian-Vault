@@ -1,0 +1,9 @@
+#programming 
+Mungkin Anda kerap mendengar JavaScript erat kaitannya dengan pengembangan web. Ya, itu memang benar karena bahasa JavaScript merupakan bahasa yang umum digunakan untuk membuat suatu website supaya terlihat dinamis. Pernah melihat sebuah website yang menerapkan animasi ketika masuk ke sebuah artikel? Atau sebuah website yang interaktif yang menunjukkan _slide_ foto serta saran penulisan di kolom pencarian? Hal tersebut dilakukan oleh JavaScript.
+
+Contoh lainnya adalah dalam penggunaan sosial media, misalnya Instagram. Tentunya Anda akan melihat beranda Instagram Anda selalu diperbarui dengan memperlihatkan posting terbaru. Pembaruan beranda tersebut biasanya secara otomatis ketika masuk ke aplikasinya atau mengusap layar Anda ke bawah. Hal tersebut juga merupakan contoh sederhana dari penerapan JavaScript yang sering kita temui.
+
+Dalam sebuah website setidaknya ada 3 bagian utama yaitu HTML, CSS, dan juga JavaScript. HTML digunakan untuk membuat struktur atau kerangka dari sebuah halaman website seperti header, isi teks, dan gambar. Sedangkan CSS digunakan untuk membuat halaman website terlihat estetik dari sisi visual, seperti penyesuaian font, background, ataupun tampilan lainnya. Sedangkan untuk JavaScript merupakan bagian yang paling ajaib karena dapat membuat website berjalan secara dinamis dan interaktif.
+
+Selain itu terdapat beberapa kegunaan dari JavaScript seperti, mengembangkan aplikasi mobile, membuat game berbasis web, dan juga bisa digunakan untuk pengembangan _back-end_ dari sebuah web. Namun, kali ini kita akan lebih berfokus pada JavaScript secara umum yang nantinya akan kita gunakan untuk mengimplementasikan proyek latihan halaman login.
+

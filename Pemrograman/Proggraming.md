@@ -9,7 +9,10 @@ setelah itu, saya akan menjelasakan apa saja kebutuhan sebelum membuat software 
 Bahasa Pemrograman yang sudah saya pelajari:
 [[Python]]
 [[PHP]]
-[[Html]]
 [[Javascript]]
+
+dan bahasa pendukung:
+[[Html]]
+[[CSS]]
 
 

@@ -9,4 +9,7 @@ Modifikasi Aplikasi:
 [[Alur Kerja Aplikasi]]
 [[Pengenalan Flowchart]]
 
-
+Dokumentasi Pemrograman:
+[[Pengarsipan Perangkat Lunak]]
+[[Style guide]]
+[[Dokumentasi Teknis Aplikasi]]

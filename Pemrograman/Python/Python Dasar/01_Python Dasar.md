@@ -5,7 +5,7 @@ Urutan Belajar:
 3. [[Pemanggil]]
 4. [[Komentar]]
 5. [[Variable]]
-6. [[Type Data]]
+6. [[Pemrograman/Python/Python Dasar/Type Data]]
 7. [[Casting Type Data]]
 8. [[Input]]
 9. [[Aritmatika]]
@@ -20,7 +20,7 @@ Urutan Belajar:
 18. [[Alignment]]
 19. [[Indentasi]]
 20. [[Percabangan]]
-21. [[perulangan]]
+21. [[Pemrograman/Python/Python Dasar/perulangan]]
 22. [[Pass Keyword]]
 23. [[Break dan Continue]]
 
