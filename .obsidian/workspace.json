@@ -8,27 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b9bc7b21dc82380f",
+            "id": "5d49c551fd1173a9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "9e0ed8156ac1dabd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Dasar/Konektivitas ke AWS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Konektivitas ke AWS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,10 +168,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "9e0ed8156ac1dabd",
+  "active": "5d49c551fd1173a9",
   "lastOpenFiles": [
+    "Cloud/Dasar/Konektivitas ke AWS.md",
+    "Cloud/Dasar/Image/Pasted image 20260213204916.png",
+    "Cloud/Dasar/Image/Pasted image 20260213204903.png",
+    "Cloud/Dasar/Image/Pasted image 20260213204853.png",
+    "Cloud/Dasar/01_Dasar.md",
+    "Cloud/Dasar/Pengenalan Jaringan di AWS.md",
+    "Cloud/Dasar/Cara Menyediakan Resource AWS.md",
+    "Cloud/Dasar/Edge Locations.md",
+    "Cloud/Dasar/Amazon Elastic Compute Cloud (Amazon EC2).md",
+    "Cloud/Dasar/Infrastruktur Global AWS.md",
+    "Cloud/Dasar/Tipe Instance Amazon EC2.md",
+    "Cloud/Dasar/Manfaat Komputasi Cloud.md",
+    "Cloud/Dasar/Model Penerapan.md",
+    "Cloud/Cloud.md",
+    "Cloud/Dasar/Komputasi Cloud.md",
+    "Cloud/Dasar/Image/Pasted image 20260212100434.png",
+    "Cloud/Dasar/Tujuan Pembelajaran.md",
+    "Cloud/Dasar/Image/Pasted image 20260212094640.png",
+    "Cloud/Dasar/Image/Pasted image 20260212094559.png",
+    "Cloud/Dasar/Image",
+    "Cloud/Dasar/Image/Pasted image 20260212094240.png",
+    "I'Am.md",
+    "Cloud/Dasar",
+    "Pemrograman/PHP/PHP.md",
+    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
+    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
+    "Pemrograman/PHP/Framework/03_Framework.md",
+    "AI",
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Dokumentasi Teknis Aplikasi.md",
-    "Cloud Komputasi",
+    "Cloud",
     "Pemrograman/CSS/Native/01_Css Native.md",
     "Pemrograman/CSS/Native/Pengenalan Css native.md",
     "Pemrograman/CSS/CSS.md",
@@ -186,42 +207,14 @@
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Style guide.md",
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Pengarsipan Perangkat Lunak.md",
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman",
-    "Pemrograman/Proggraming.md",
     "Pemrograman/CSS/Native",
-    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Perulangan.md",
-    "Pemrograman/Html/Pengenalan HTML.md",
-    "Pemrograman/Html/Html.md",
     "Pemrograman/Html/Untitled",
-    "Pemrograman/JavaScript/Javascript Dasar/Function.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Variable Javascript.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Type data.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Pengenalan Javascript.md",
-    "Pemrograman/JavaScript/Javascript.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Keyword dan Pseudocode.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Sintaksis dan Case Sensitive.md",
-    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Statement dan Whitespace.md",
-    "Pemrograman/Fundamental/01_Fundamental Pemrograman.md",
     "Pemrograman/Fundamental/Konsep Dasar",
-    "Pemrograman/Rancangan Software/Pengenalan Flowchart.md",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200512.png",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200216.png",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200037.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210195729.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210195710.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210195635.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210195612.png",
-    "Pemrograman/Rancangan Software/Pembuatan SKPL.md",
-    "Pemrograman/Rancangan Software/Problem Solving dengan berpikir Komputasional.md",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210184659.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210184519.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210184416.png",
     "Pemrograman/Rancangan Software/image",
     "Pemrograman/Rancangan Software",
-    "Pemrograman/Fundamental/image",
-    "Pemrograman/Fundamental",
-    "Pemrograman/JavaScript/Javascript Dasar",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas",
     "Untitled.canvas"
   ]
