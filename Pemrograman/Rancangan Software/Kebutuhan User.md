@@ -1,7 +1,7 @@
 #programming #webdev
 Dalam dunia software development (pengembangan aplikasi), ada beberapa proses yang bisa diikuti untuk membuat suatu aplikasi. Dimulai dari perencanaan hingga ke pengelolaan, biasanya runtutan ini disebut dengan Software Development Life Cycle (SDLC).
+![](image/SDLC.png)
 
-![[Pasted image 20260209112531.png]]
 
 1. Planning: Perencanaan
 2. Analysis: Analisis

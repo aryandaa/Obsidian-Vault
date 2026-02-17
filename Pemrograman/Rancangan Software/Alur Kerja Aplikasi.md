@@ -2,15 +2,15 @@
 Berkomunikasi dengan komputer tidak dapat menggunakan bahasa manusia, melainkan menggunakan bahasa pemrograman. Instruksi yang kita berikan akan diproses oleh CPU _(Central Processing Unit)_ yang ada pada komputer. Lalu, bagaimana kode yang kita buat bisa dipahami oleh komputer?
 
 Ketika seorang pengembang software menulis dan menjalankan sebuah kode, maka terjadilah proses konversi. Proses tersebut dibedakan menjadi dua yaitu **Compile** dan **Interpret**.
-![[Pasted image 20260210184416.png]]
+![](Pemrograman/Rancangan%20Software/image/2.png)
 
 Bayangkan Anda membuat sebuah aplikasi sederhana di komputer milik Anda sendiri. Kemudian Anda juga ingin menjalankan aplikasi tersebut di komputer teman Anda. Metode pertama kita menggunakan compile.
-![[Pasted image 20260210184519.png]]
+![](Pemrograman/Rancangan%20Software/image/3.png)
 
 Jika membahas tentang metode compile, kita akan berteman dengan _compiler_. Compiler merupakan sebuah aplikasi yang bertugas untuk mengonversi source code yang kita buat menjadi bahasa mesin. Apabila terdapat penulisan kode yang salah, maka compiler akan mengirimkan pesan eror kepada kita dan harus diperbaiki. Jika tidak, maka akan menghasilkan berkas executable, contohnya seperti .exe. 
 
 Setelah proses compile di komputer Anda selesai, berikanlah berkas .exe tersebut kepada teman Anda. Lalu, apa yang terjadi? Aplikasi dapat dijalankan di komputer teman Anda, tetapi ia tidak mengetahui source code atau bahasa pemrograman apa yang digunakan. Sehingga, source code-nya masih berada di komputer Anda.
-![[Pasted image 20260210184659.png]]
+![](Pemrograman/Rancangan%20Software/image/4.png)
 
 Metode interpret sama dengan compile yaitu mengonversi bahasa pemrograman supaya bisa dipahami oleh mesin dengan bantuan interpreter. Perbedaannya adalah ketika kita menggunakan compiler, source code akan dikonversi menjadi machine code (membuat berkas executable) sebelum aplikasi tersebut dijalankan. Sedangkan interpreter mengonversi source code menjadi machine code secara langsung ketika aplikasi dijalankan.
 

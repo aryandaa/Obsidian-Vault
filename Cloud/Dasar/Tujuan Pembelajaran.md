@@ -13,13 +13,13 @@ Bahkan termasuk juga layanan yang sangat terspesialisasi, seperti sistem manajem
 Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi _cloud_ dasar.
 
 Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk _client-server_. 
-![[Pasted image 20260212094240.png]]
+![](Cloud/Dasar/Image/1.png)
 Dalam dunia komputasi, client dapat berupa web browser atau aplikasi yang dapat membuat permintaan ke server. Sebuah server dapat berupa layanan seperti Amazon Elastic Compute Cloud (Amazon EC2).
 
 Contoh interaksinya adalah client membuat permintaan untuk mengakses sebuah artikel berita, skor dalam game online, atau video lucu lalu server mengevaluasi detail permintaan tersebut dan memenuhinya dengan mengembalikan informasi ke client.
 
 Mungkin terdengar ribet oleh orang yang awam terdahap komputasi, jadi saya akan membuat perumpamaan dengan kedai kopi.
-![[Pasted image 20260212094559.png]]
+![](Cloud/Dasar/Image/2.png)
 Dalam model client-server. Kasir berperan sebagai server sedangkan pelanggan adalah client. Di kedai kopi pelanggan membuat suatu permintaan berupa segelas kopi. 
 Namun di dunia komputasi, permintaan dapat berbentuk apa pun: analisis pola hujan di negara Afrika Selatan, rontgen terbaru dari lutut Anda, atau mungkin video anak kucing yang menggemaskan.
 

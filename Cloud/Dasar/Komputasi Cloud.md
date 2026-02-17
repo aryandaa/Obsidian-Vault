@@ -28,7 +28,7 @@ Tak perlu kontrak apa pun, cukup bayar dengan mekanisme _pay-as-you-go_ (sesua
 
 Sebelum datangnya komputasi cloud, perusahaan yang ingin membuat data center harus membangunnya sendiri dan harus memprediksikan beban kerja layanan. Ini tentu akan sangat merepotkan karena perlu biaya yang cukup besar.
 
-![[Pasted image 20260212100434.png]]
+![](Cloud/Dasar/Image/4.png)
 
 Sebuah data center biasanya terdiri dari rak-rak komputer yang berjajar; jaringan yang kompleks; dan juga sistem penyimpanan yang terkelola. Selain itu, perusahaan juga harus mengeluarkan dana untuk membayar sewa bangunan, kebersihan, listrik, pendingin, dan keamanan.
 

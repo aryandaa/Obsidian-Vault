@@ -98,9 +98,7 @@ print (list1[5:8])
 ```
 
 beberapa syntax untuk melakukan Slicing:
-
-![[Pasted image 20260123213948.png]]
-
+![](image/Slicing.png)
 
 next saya akan belajar membuat List dalam bentuk 2D, 
 dimulai dari [[Membuat List 2D]]

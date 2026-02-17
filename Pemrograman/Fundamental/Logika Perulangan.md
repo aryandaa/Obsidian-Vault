@@ -14,5 +14,5 @@ Nah, jika dimasukkan dengan contoh kasus menulis kalimat “Saya tidak akan meng
 
 Ketika variabel counter yang menyimpan posisi perulangan sudah mencapai seratus, kondisi perulangan akan berhenti.
 
-![[20210208143436fc9a3355d9ae65d7f4582d333e3ac8f2.png]]
+![](image/perulangan.png)
 

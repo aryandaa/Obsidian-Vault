@@ -20,8 +20,8 @@ Namun, dalam skenario lain, Anda mungkin ingin memiliki sumber daya yang hanya
 Berkaca dari materi sebelumnya, mari kita telaah tentang sumber daya yang _internet-facing_ atau _public-facing_ (berhubungan dengan internet/publik).
 
 Untuk mengizinkan _traffic_ dari internet publik mengalir masuk dan keluar dari VPC, Anda harus melampirkan apa yang disebut dengan Internet Gateway (IGW). Di bawah ini adalah contoh arsitektur yang menggunakan Internet Gateway.
-
-![[Pasted image 20260213204916.png]]Jika Anda tak kunjung paham apa fungsi dari Internet Gateway, bayangkanlah ia seperti pintu depan yang terbuka untuk publik. Di kedai kopi, pintu depan berguna supaya orang-orang dapat keluar masuk dengan leluasa. Jika tak ada, bagaimana pelanggan ingin memesan kopi?
+![](Cloud/Dasar/Image/7.png)
+Jika Anda tak kunjung paham apa fungsi dari Internet Gateway, bayangkanlah ia seperti pintu depan yang terbuka untuk publik. Di kedai kopi, pintu depan berguna supaya orang-orang dapat keluar masuk dengan leluasa. Jika tak ada, bagaimana pelanggan ingin memesan kopi?
 
 Pintu depan ini adalah perumpamaan yang ideal untuk Internet Gateway. Tanpanya, tidak ada yang dapat menjangkau sumber daya di dalam VPC Anda.
 
@@ -31,9 +31,9 @@ Selanjutnya, timbul pertanyaan seperti ini, “Bagaimana jika kita memiliki sum
 
 Anda bisa memasang gateway privat yang hanya mengizinkan masuk suatu permintaan jika ia berasal dari jaringan yang disetujui, bukan internet publik. Gateway privat ini disebut juga dengan _virtual private gateway_. Ia memudahkan Anda untuk membuat koneksi VPN (virtual private network) terenkripsi antara jaringan privat--seperti data center on-premise atau jaringan perusahaan internal--ke VPC Anda.
 
-Jadi, dapat disederhanakan bahwa _virtual private gateway_ adalah komponen yang memungkinkan traffic internet yang terlindungi masuk ke dalam VPC. Silakan amati contoh arsitektur berikut:
+Jadi, dapat ![](Cloud/Dasar/Image/6.png)zdisederhanakan bahwa _virtual private gateway_ adalah komponen yang memungkinkan traffic internet yang terlindungi masuk ke dalam VPC. Silakan amati contoh arsitektur berikut:
 
-![[Pasted image 20260213204903.png]]
+![](Cloud/Dasar/Image/6.png)
 
 Bingung? Nah, untuk mempermudah penjelasan bagaimana virtual private gateway bekerja, mari kita cari tahu dengan mengaitkannya ke skenario kedai kopi. Anda bisa mengibaratkan internet itu sebagai jalan raya antara rumah Anda dan kedai kopi.
 

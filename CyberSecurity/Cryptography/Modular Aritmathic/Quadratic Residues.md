@@ -84,7 +84,7 @@ for a in range(p):
 ```
 jadi kode ini untuk mencari nilai a dan nilai dari Kuadrat residue dari bilangan a jika di moduluskan dengan P dengan cara di bruteforce, dan output yang keluar adalah:
 
-![[Pasted image 20260112113540.png]]
+![](images/Residue.png)
 
 next materi saya akan membahas tentang rumus Legandre, yaitu rumus untuk mencari apakah suatu bilangan adalah Qyadratic residue atau non-residue dari a modulus p dengan cepat
 Materi Lanjutan: [[Legendre Symbol]]
