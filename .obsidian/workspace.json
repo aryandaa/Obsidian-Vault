@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Html/Heading.md",
+                "file": "Pemrograman/Html/Html.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heading"
+              "title": "Html"
             }
           }
         ]
@@ -170,6 +170,10 @@
   },
   "active": "5d49c551fd1173a9",
   "lastOpenFiles": [
+    "Pemrograman/Html/Gambar.md",
+    "Pemrograman/Html/Pengenalan HTML.md",
+    "Pemrograman/Html/List.md",
+    "Pemrograman/Html/Heading.md",
     "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
     "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Quadratic Residues.md",
@@ -200,14 +204,10 @@
     "Pemrograman/Rancangan Software/Membuat Spesifikasi Teknis.md",
     "Pemrograman/Rancangan Software/Kebutuhan User.md",
     "Pemrograman/Rancangan Software/Alur Kerja Aplikasi.md",
-    "Pemrograman/Rancangan Software/02_Rancangan Software.md",
     "Pemrograman/Rancangan Software/image/9.png",
     "Pemrograman/Rancangan Software/image/8.png",
-    "Pemrograman/Html/Heading.md",
-    "Image/Hirariki.md",
     "Image",
     "Pemrograman/Html/Image",
-    "Pemrograman/Html/Html.md",
     "Cloud/Dasar/Image",
     "Cloud/Dasar",
     "AI",
