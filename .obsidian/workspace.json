@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Dasar/Konektivitas ke AWS.md",
+                "file": "Pemrograman/Html/Heading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Konektivitas ke AWS"
+              "title": "Heading"
             }
           }
         ]
@@ -168,8 +168,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d49c551fd1173a9",
+  "active": "0b845e28c070f0e4",
   "lastOpenFiles": [
+    "Pemrograman/Html/Image/Hirariki Head.png",
+    "Pemrograman/Html/Heading.md",
+    "Pemrograman/Html/Image/Heading.png",
+    "Pemrograman/Html/Image",
+    "Pemrograman/Html/Html.md",
+    "Pemrograman/Html/Paragraf.md",
+    "Pemrograman/Html/Pengenalan HTML.md",
     "Cloud/Dasar/Konektivitas ke AWS.md",
     "Cloud/Dasar/Image/Pasted image 20260213204916.png",
     "Cloud/Dasar/Image/Pasted image 20260213204903.png",
@@ -202,17 +209,10 @@
     "Cloud",
     "Pemrograman/CSS/Native/01_Css Native.md",
     "Pemrograman/CSS/Native/Pengenalan Css native.md",
-    "Pemrograman/CSS/CSS.md",
-    "Pemrograman/Rancangan Software/02_Rancangan Software.md",
-    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Style guide.md",
-    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Pengarsipan Perangkat Lunak.md",
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman",
     "Pemrograman/CSS/Native",
-    "Pemrograman/Html/Untitled",
     "Pemrograman/Fundamental/Konsep Dasar",
     "Pemrograman/Rancangan Software/image/Pasted image 20260210200512.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210200216.png",
-    "Pemrograman/Rancangan Software/image/Pasted image 20260210200037.png",
     "Pemrograman/Rancangan Software/image",
     "Pemrograman/Rancangan Software",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas",

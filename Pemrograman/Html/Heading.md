@@ -1,0 +1,41 @@
+#programming 
+Kita menggunakan `<h1>` dan `<h2>` dalam mengindikasi judul dan subjudul pada kontennya. Pada HTML, ada elemen `<h1>` hingga `<h6>` elemen heading yang dapat kita gunakan.
+
+Ini contoh penerapan heading empat level pada sebuah dokumen. Tiap level heading dituliskan dengan cara yang sama.
+
+```html
+<h1>Bandung</h1>
+
+<h2>Geografis</h2>
+<p>
+  Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok raksasa
+</p>
+
+<h2>Wisata</h2>
+<p>
+  Kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya.
+</p>
+
+<h3>Farm House Lembang</h3>
+<h4>Lokasi</h4>
+<p>
+  Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung.
+</p>
+
+<h4>Kondisi</h4>
+<p>
+  Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.
+</p>
+
+<h3>Observatorium Bosscha</h3>
+<p>
+  Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya.
+</p>
+```
+
+Output:
+![[Image/Heading.png]]
+
+jadi semakin tinggi heading nya, maka semakin tipis juga, karena headding di web fungsinya sama dengan fungsi heading di word, yaitu menuliskan hirarki judul, seperti ini:
+![[Image/Hirariki Head.png]]
+
