@@ -34,8 +34,9 @@ Ini contoh penerapan heading empat level pada sebuah dokumen. Tiap level heading
 ```
 
 Output:
-![[Image/Heading.png]]
+![Gambar](Image/Heading.png)
 
 jadi semakin tinggi heading nya, maka semakin tipis juga, karena headding di web fungsinya sama dengan fungsi heading di word, yaitu menuliskan hirarki judul, seperti ini:
-![[Image/Hirariki Head.png]]
+![Gambar](Image/Hirarki.PNG)
 
+![](Pasted%20image%2020260217142255.png)
