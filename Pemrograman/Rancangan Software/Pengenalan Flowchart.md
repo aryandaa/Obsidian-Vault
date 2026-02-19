@@ -28,7 +28,6 @@ Beberapa keunggulan dari diagram proses antara lain:
 Sebuah perusahaan pasti memiliki banyak tugas dan orang yang terlibat di dalamnya. Masing-masing orang memiliki tugas yang berbeda, bahkan bisa saja merangkap beberapa tugas sekaligus. Agar lebih mudah mengetahui alur kerja dalam perusahaan maupun bisnis, kita dapat menggunakan diagram alur kerja. Selain untuk menggambarkan tugas dari individu atau kelompok, diagram alur kerja ini juga dapat digunakan untuk sebuah proses. Sehingga diagram ini merupakan cara terbaik untuk merancang, mengubah, dan menganalisis sebuah proses bisnis.
 
 #### Program Flowchart (Diagram Program)
-![](image10.png)
 Seperti namanya, diagram program dapat membantu kita untuk menggambarkan algoritma ke dalam bentuk visual. Sehingga waktu yang dibutuhkan untuk proses pemahaman akan lebih cepat dan efisien. Selain itu juga terdapat beberapa manfaat yang didapat dari diagram program berikut:
 
 - Membantu pengembang software menemukan dan menganalisis bug dari sebuah alur proses, bahkan sebelum menjalankan aplikasinya.

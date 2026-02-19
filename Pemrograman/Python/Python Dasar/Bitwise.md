@@ -1,5 +1,6 @@
 #programming
-Untuk memahami Bilangan Biner lebih lanjut, ke sesi ini terlebih dahulu [[Binary]]
+Untuk memahami Bilangan Biner lebih lanjut, ke sesi ini terlebih dahulu 
+![Binary](Binary.md)
 
 Operasi Bitwise pada Python yaitu untuk menggeser atau membandingkan bilangan biner yang sudah di tentukan dengan cara perbit, contoh:
 saya mempunyai bilangan 
