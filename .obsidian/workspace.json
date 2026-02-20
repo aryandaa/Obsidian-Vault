@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Html/Mengirim Data Formulir.md",
+                "file": "tes parrot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mengirim Data Formulir"
+              "title": "tes parrot"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "f216d7d00c27137e",
   "lastOpenFiles": [
-    "Pemrograman/Html/Input User.md",
     "Pemrograman/Html/Mengirim Data Formulir.md",
+    "tes parrot.md",
+    "Pemrograman/Html/Input User.md",
     "Pemrograman/Python/Python Dasar/Bitwise.md",
     "Untitled.canvas",
     "2026-02-19.md",
@@ -206,7 +207,6 @@
     "Pemrograman/Html/List.md",
     "Pemrograman/Html/Heading.md",
     "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
-    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
     "Image",
     "Pemrograman/Html/Image",
     "Cloud/Dasar/Image",
