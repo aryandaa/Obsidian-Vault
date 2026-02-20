@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/Html/Mengirim Data Formulir.md",
+                "file": "Pemrograman/CSS/Native/CSS Conception.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mengirim Data Formulir"
+              "title": "CSS Conception"
             }
           }
         ]
@@ -170,8 +170,20 @@
   },
   "active": "f216d7d00c27137e",
   "lastOpenFiles": [
-    "tes kedua.md",
+    "Pemrograman/CSS/Native/image/Inharitance.png",
+    "Pemrograman/CSS/Native/Css Native.md",
+    "Pemrograman/CSS/Native/Melampirkan Styling pada Dokumen HTML.md",
+    "Pemrograman/CSS/Native/CSS Conception.md",
+    "Pemrograman/CSS/Native/Aturan Styling.md",
+    "Pemrograman/CSS/Native/image",
+    "Pemrograman/CSS/Native/image/Styling.png",
+    "Pemrograman/CSS/Native/Pengenalan Css native.md",
+    "Pemrograman/CSS/CSS.md",
+    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
+    "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
+    "Pemrograman/Html/Html.md",
     "Pemrograman/Html/Mengirim Data Formulir.md",
+    "tes kedua.md",
     "tes parrot.md",
     "Pemrograman/Html/Input User.md",
     "Pemrograman/Python/Python Dasar/Bitwise.md",
@@ -179,7 +191,6 @@
     "2026-02-19.md",
     "CyberSecurity/Cryptography/Pengenalan/Binary.md",
     "Pemrograman/Html/Tabel.md",
-    "Pemrograman/Html/Html.md",
     "Pemrograman/Html/Image/Tabel6.png",
     "Pemrograman/Html/Image/Tabel5.png",
     "Pemrograman/Html/Image/Tabel4.png",
@@ -191,22 +202,12 @@
     "Pemrograman/Html/Image/Span.png",
     "Pemrograman/Html/Image/DIV.png",
     "Pemrograman/Html/Semantic HTML. Mengorganisasi Halaman Konten.md",
-    "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
     "Pemrograman/PHP/Framework/Laravel/Struktur Folder & File.md",
     "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
-    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
     "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
-    "Pemrograman/Html/Image/semantic.png",
     "Pemrograman/Rancangan Software/Pengenalan Flowchart.md",
     "image10.png.md",
     "I'Am.md",
-    "Pemrograman/Html/Inline Formatting Text. Citation, Defining Terms, Subscript, Superscript, Highlighted Text, dan Line Break.md",
-    "Pemrograman/Html/Inline Formatting Text. Anchor, Emphasized Text, Important Text, dan Short Quotation.md",
-    "Pemrograman/Html/Block Formatting Text.md",
-    "Pemrograman/Html/Gambar.md",
-    "Pemrograman/Html/Pengenalan HTML.md",
-    "Pemrograman/Html/List.md",
-    "Pemrograman/Html/Heading.md",
     "Image",
     "Pemrograman/Html/Image",
     "Cloud/Dasar/Image",
@@ -216,7 +217,6 @@
     "Pemrograman/Rancangan Software/Dokumentasi Pemrograman",
     "Pemrograman/CSS/Native",
     "Pemrograman/Fundamental/Konsep Dasar",
-    "Pemrograman/Rancangan Software/image",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
 }

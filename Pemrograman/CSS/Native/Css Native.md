@@ -1,0 +1,10 @@
+#roadmap 
+
+Pembuka:
+1. [Pengenalan Css native](Pengenalan%20Css%20native.md)
+2. [Aturan Styling](Aturan%20Styling.md)
+3. [Melampirkan Styling pada Dokumen HTML](Melampirkan%20Styling%20pada%20Dokumen%20HTML.md)
+4. [CSS Conception](CSS%20Conception.md)
+
+Pendalaman:
+1. 
