@@ -7,4 +7,7 @@ Pembuka:
 4. [CSS Conception](CSS%20Conception.md)
 
 Pendalaman:
-1. 
+1. [Selector](Selector.md)
+2. [Pseudo Selector](Pseudo%20Selector.md)
+3. [Font Styling](Font%20Styling.md)
+4. 
