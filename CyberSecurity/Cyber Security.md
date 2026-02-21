@@ -1,3 +1,3 @@
 #myskill
-![[Cryptography/Cryptography]]
+[Cryptography](Cryptography/Cryptography.md)
 
