@@ -158,3 +158,125 @@ main > p {
 
 ![](image/background.png)
 
+
+## Opacity
+Apakah Anda pernah melihat suatu objek atau gambar yang tak terlihat atau tembus pandang? Pada dunia nyata, Anda dapat menemukan objek yang memiliki sifat tersebut. Contohnya adalah plastik mika. Jika mengingat tugas makalah di sekolah, biasanya plastik mika dibutuhkan sebagai sampulnya. Ia memiliki banyak macam warnanya, tetapi kita tidak membahas hal tersebut. Kita lebih fokus untuk berbicara tentang bahannya yang terlihat transparan.
+
+Plastik mika tersebut memiliki tingkat opacity tertentu. Bayangkan ia adalah sebuah elemen HTML. Satu lembar mika akan memiliki tingkat opacity lebih kecil sehingga transparansinya semakin tinggi. Namun, bagaimana cara memperbesar tingkat opacity-nya? Jawabannya, tentu dengan menambah lembar mika menjadi dua, tiga, atau lebih. Alhasil, tingkat transparansinya semakin rendah. Inilah konsep dari opacity. Makin tinggi tingkat atau nilai opacity maka makin besar kemungkinan elemen HTML akan terlihat.
+
+Mungkin sebagian dari Anda ada yang bertanya, “Apa perbedaan antara transparan dan opacity?” Jawabannya, transparan adalah seberapa besar tingkat tembus pandang atau tak terlihatnya suatu objek, sedangkan opacity adalah seberapa besar tingkat terlihat suatu objek. Semakin besar tingkat transparansi suatu objek, semakin tak terlihat objek tersebut. Namun, semakin besar tingkat opacity suatu objek, semakin terlihat objek tersebut (solid).
+
+|**Nilai**|**Deskripsi**|
+|---|---|
+|0%|Elemen tak akan terlihat.|
+|Persentase berapa pun di antara 0% sampai 100%|Elemen akan tembus cahaya alias masih dapat terlihat.|
+|100%|Elemen sepenuhnya terlihat (tak transparan).|
+  
+Berikut adalah contoh penerapan opacity pada CSS.
+
+HTML:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>Opacity 50%:</div>
+    <p class="opacity-50">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore temporibus facere impedit
+      natus blanditiis similique laudantium quaerat tenetur quod praesentium.
+    </p>
+
+    <div>Opacity 100% (default):</div>
+    <p class="opacity-100">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reprehenderit aut perferendis
+      totam tempore, obcaecati suscipit. Explicabo assumenda recusandae voluptas.
+    </p>
+  </body>
+</html>
+```
+CSS:
+```css
+p {
+  background-color: red;
+}
+
+p.opacity-50 {
+  opacity: 50%;
+}
+
+p.opacity-100 {
+  opacity: 100%;
+}
+```
+Hasilnya:
+![](image/opacity.png)
+
+
+### Opacity pada Warna
+Sebenarnya, opacity akan memberikan efek transparansi pada keseluruhan elemen, termasuk konten maupun child element di dalamnya. Ada kalanya, kita hanya ingin menerapkan opacity pada warnanya saja tanpa memberikan efek pada keseluruhan elemen.
+
+Selain komponen warna-warna, CSS memiliki fitur bernama opacity yang dapat ditetapkan dalam warna. Ini merupakan komponen keempat setelah red, blue, dan green. Biasanya, ia disebut sebagai alpha channel. Untuk melakukannya, kita bisa menggunakan format warna RGBA, HSLA, dan Hex.
+
+Berikut adalah contoh penerapan dari alpha channel pada warna.
+
+HTML:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box-1">Box 1</div>
+      <div class="box-2">Box 2</div>
+      <div class="box-3">Box 3</div>
+    </main>
+  </body>
+</html>
+```
+CSS:
+```css
+body {
+  font-family: sans-serif;
+}
+
+div {
+  width: 50%;
+  height: 200px;
+
+  line-height: 200px;
+  text-align: center;
+}
+
+.box-1 {
+  background-color: rgb(255, 255, 0, 0.75);
+
+  float: left;
+}
+
+.box-2 {
+  background-color: hsl(120, 100%, 25%, 0.75);
+
+  float: left;
+  margin-left: -25%;
+}
+
+.box-3 {
+  background-color: #0000ffaa;
+
+  float: left;
+  margin-left: -25%;
+}
+```
+Hasilnya:
+![](image/ColorOpacity.png)
+
