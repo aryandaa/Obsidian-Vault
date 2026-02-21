@@ -11,4 +11,4 @@ mari kita ilustrasikan manfaat belajar logika pemrograman dalam kehidupan sehari
 
 Kemudian Anda lihat plakatnya lebih dekat lagi untuk mengetahui syarat dan ketentuan diskon yang tertulis kecil di pojok kanan bawah. Di sana tertulis, “Diskon berlaku dengan minimum pembelian senilai 300 ribu rupiah.”  Nah, di sini Anda dapat menerapkan salah satu logika pemrograman yaitu perbandingan. Sehingga di benak Anda kemudian muncul pemikiran berikut, “Jika jumlah harga barang yang saya beli lebih dari atau sama dengan 300 ribu, maka saya berhak mendapat diskon 20%.” Setelah berpikir demikian Anda memutuskan untuk memborong barang-barang yang dijual dan memastikan totalnya sudah lebih dari atau sama dengan 300 ribu.
 
-ada 2 jenis logika yaitu [[Induktif]] dan [[Deduktif]]
+ada 2 jenis logika yaitu [Induktif](Induktif.md) dan [Deduktif](Deduktif.md)
