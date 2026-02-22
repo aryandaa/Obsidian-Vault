@@ -335,7 +335,7 @@ Dengan demikian, kita butuh menuliskan properti yang banyak untuk menetapkan bor
 
 Perhatikan gambar berikut.
 
-[![dos-449f11b185b8c75e7f142bbcb798503f20240219102651.jpeg](https://assets.cdn.dicoding.com/original/academy/dos-449f11b185b8c75e7f142bbcb798503f20240219102651.jpeg)
+![dos-449f11b185b8c75e7f142bbcb798503f20240219102651.jpeg](https://assets.cdn.dicoding.com/original/academy/dos-449f11b185b8c75e7f142bbcb798503f20240219102651.jpeg)
 Properti **border** memiliki tiga buah nilai yang digunakan untuk menentukan ketebalan, tipe, dan warna pada border. Berikut contoh penerapannya.
 
 Beberapa di antara Anda mungkin bertanya-tanya, "Apakah urutan nilainya akan mempengaruhi hasil". Jawabannya, tidak. Anda tidak perlu pusing dengan aturan peletakkan nilai ini karena tidak menjadi masalah.
