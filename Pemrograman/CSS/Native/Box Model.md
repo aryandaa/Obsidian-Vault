@@ -1,5 +1,4 @@
 #programming 
-
 # Box Model
 
 Pada pembahasan background-color disinggung bahwa setiap elemen ditampilkan seperti sebuah _boxes_ atau kotak. Setiap elemen yang dibuat pada HTML akan menciptakan sebuah kotak untuk menampung kontennya. Layaknya bentuk kotak pada umumnya, ada beberapa nilai atau komponen padanya.
