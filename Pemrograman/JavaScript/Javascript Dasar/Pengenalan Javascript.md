@@ -5,5 +5,7 @@ Contoh lainnya adalah dalam penggunaan sosial media, misalnya Instagram. Tentuny
 
 Dalam sebuah website setidaknya ada 3 bagian utama yaitu HTML, CSS, dan juga JavaScript. HTML digunakan untuk membuat struktur atau kerangka dari sebuah halaman website seperti header, isi teks, dan gambar. Sedangkan CSS digunakan untuk membuat halaman website terlihat estetik dari sisi visual, seperti penyesuaian font, background, ataupun tampilan lainnya. Sedangkan untuk JavaScript merupakan bagian yang paling ajaib karena dapat membuat website berjalan secara dinamis dan interaktif.
 
-Selain itu terdapat beberapa kegunaan dari JavaScript seperti, mengembangkan aplikasi mobile, membuat game berbasis web, dan juga bisa digunakan untuk pengembangan _back-end_ dari sebuah web. Namun, kali ini kita akan lebih berfokus pada JavaScript secara umum yang nantinya akan kita gunakan untuk mengimplementasikan proyek latihan halaman login.
+Selain itu terdapat beberapa kegunaan dari JavaScript seperti, mengembangkan aplikasi mobile, membuat game berbasis web, dan juga bisa digunakan untuk pengembangan _back-end_ dari sebuah web. Anda ingin membuat aplikasi berbasis web, _cellphone_, _desktop_, _command line_, hingga model dengan _machine learning_ pun bisa diwujudkan dengan JavaScript.
+
+
 

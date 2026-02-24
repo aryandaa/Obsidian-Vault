@@ -13,4 +13,14 @@ Pendalaman:
 4. [Text Styling](Text%20Styling.md)
 5. [Pewarnaan](Pewarnaan.md)
 6. [Box Model](Box%20Model.md)
-7. 
+7. [Box Shadow](Box%20Shadow.md)
+8. [Display role](Display%20role.md)
+9. [Rounded Corner](Rounded%20Corner.md)
+10. [Positioning](Positioning.md)
+11. [Floating](Floating.md)
+12. [Konfigurasi Meta Tag Viewport untuk Responsivitas Layout](Konfigurasi%20Meta%20Tag%20Viewport%20untuk%20Responsivitas%20Layout.md)
+
+Responsif Dengan flexbox:
+1. [Flexbox](Flexbox.md)
+2. 
+3. 

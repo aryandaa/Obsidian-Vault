@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f216d7d00c27137e",
+            "id": "7635231df77310e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/CSS/Native/Box Model.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Box Model"
+              "title": "Expression & Statement"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#multiline",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pemrograman/Rancangan Software/Perencanaan Modifikasi Aplikasi.md",
+                "file": "Pemrograman/CSS/Native/Flexbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Perencanaan Modifikasi Aplikasi"
+              "title": "Backlinks for Flexbox"
             }
           },
           {
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -168,54 +168,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "f216d7d00c27137e",
+  "active": "7635231df77310e3",
   "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/sintaksi.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek",
+    "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js.md",
+    "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
+    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Function.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/compiler.png",
+    "Pemrograman/JavaScript/Javascript Dasar/img",
+    "Pemrograman/JavaScript/Javascript Dasar/Pengenalan Javascript.md",
+    "Pemrograman/CSS/Native/Flexbox.md",
+    "youtube.com/watch?reload=9&v=gNC7bHxEqRk&embeds_referring_euri=https%3A%2F%2Fwww.dicoding.com%2F.md",
+    "youtube.com",
+    "Pemrograman/CSS/Native/image/Terminologi.png",
+    "Note Personal/Daily/2026-02-23.md",
+    "Note Personal/Daily",
+    "Pemrograman/CSS/Native/01_Css Native.md",
+    "Pemrograman/CSS/Native/Konfigurasi Meta Tag Viewport untuk Responsivitas Layout.md",
+    "Pemrograman/CSS/Native/image/responsive2.png",
+    "Pemrograman/CSS/Native/image/Responsive.png",
+    "Pemrograman/CSS/Native/image/Inspect.png",
+    "Pemrograman/CSS/Native/Floating.md",
+    "Pemrograman/CSS/Native/image/Floating 2.png",
+    "Pemrograman/CSS/Native/image/Floating.png",
+    "Pemrograman/CSS/Native/Positioning.md",
+    "Pemrograman/CSS/Native/Rounded Corner.md",
+    "Pemrograman/CSS/Native/image/Rounded.png",
+    "Pemrograman/CSS/Native/Box Shadow.md",
+    "Pemrograman/CSS/Native/image/BoxShadow.png",
+    "Pemrograman/CSS/Native/Display role.md",
+    "Pemrograman/CSS/Native/image/displayrole.png",
+    "Pemrograman/CSS/Native/Box Model.md",
     "kelompok 1.md",
     "Note Personal/Catatan kuliah",
     "Note Personal",
-    "Pemrograman/CSS/Native/Box Model.md",
     "Pemrograman/Proggraming.md",
-    "Pemrograman/CSS/Native/image/groove.png",
-    "Pasted image 20260222212225.png",
-    "Pemrograman/CSS/Native/image/double.png",
-    "Pemrograman/CSS/Native/image/dashed.png",
-    "Pemrograman/CSS/Native/image/dotted.png",
-    "Pemrograman/CSS/Native/image/Solid.png",
-    "Pemrograman/CSS/Native/image/Box-Sizing.png",
-    "Pemrograman/CSS/Native/image/Overflow2.png",
-    "Pemrograman/CSS/Native/image/Overflow content.png",
-    "Pemrograman/CSS/Native/image/LimitingDimension.png",
     "Pemrograman/Fundamental/Decomposition.md",
     "Pemrograman/Fundamental/Computational Thinking.md",
     "Pemrograman/Fundamental/Evaluation.md",
     "Pemrograman/Fundamental/Algorithm.md",
     "Pemrograman/Fundamental/Abstraction.md",
     "Pemrograman/Fundamental/Pattern Recognition.md",
-    "Pemrograman/Rancangan Software/Spesifikasi kebutuhan software.md",
-    "Pemrograman/Rancangan Software/Rancangan Software.md",
-    "Pemrograman/Rancangan Software/Pengenalan Flowchart.md",
-    "Pemrograman/Rancangan Software/Pembuatan SKPL.md",
-    "Pemrograman/Rancangan Software/Membuat Spesifikasi Teknis.md",
-    "Pemrograman/Rancangan Software/Kebutuhan User.md",
-    "Pemrograman/Rancangan Software/Alur Kerja Aplikasi.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Statement dan Whitespace.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Sintaksis dan Case Sensitive.md",
-    "Pemrograman/Fundamental/Konsep Dasar/Keyword dan Pseudocode.md",
-    "Pemrograman/CSS/Native/01_Css Native.md",
-    "Pemrograman/CSS/Native/Pewarnaan.md",
-    "Pemrograman/Fundamental/Fundamental Pemrograman.md",
-    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman/Pengarsipan Perangkat Lunak.md",
-    "Pemrograman/Python/Python.md",
-    "Pemrograman/Python/Python Advanced/02_Python Advanced.md",
     "Pemrograman/CSS/Native/image",
     "Untitled.canvas",
     "Image",
     "Pemrograman/Html/Image",
-    "Cloud/Dasar/Image",
-    "Cloud/Dasar",
-    "AI",
-    "Cloud",
-    "Pemrograman/Rancangan Software/Dokumentasi Pemrograman",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
 }

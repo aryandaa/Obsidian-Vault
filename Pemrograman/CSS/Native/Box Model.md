@@ -340,3 +340,146 @@ Properti **border** memiliki tiga buah nilai yang digunakan untuk menentukan k
 
 Beberapa di antara Anda mungkin bertanya-tanya, "Apakah urutan nilainya akan mempengaruhi hasil". Jawabannya, tidak. Anda tidak perlu pusing dengan aturan peletakkan nilai ini karena tidak menjadi masalah.
 
+## Padding
+
+Padding merupakan jarak antara area konten dan border. Padding banyak diterapkan pada elemen jika elemen tersebut menerapkan warna latar atau pun border. Padding memberikan sedikit ruang sehingga konten di dalam elemen dapat lebih nyaman untuk ditampilkan.
+
+Berikut adalah contoh implementasi dari padding.
+HTML
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae commodi
+      dignissimos eaque fugiat inventore maiores neque nisi sint.
+    </p>
+    <p class="example">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda blanditiis cum
+      dignissimos enim esse excepturi illum inventore maiores minima, nemo nisi obcaecati officia
+      pariatur qui quibusdam sed. Ab, dolorum?
+    </p>
+  </body>
+</html>
+```
+CSS:
+```css
+p {
+  border: 4px solid #00a2c6;
+  width: 350px;
+}
+
+p.example {
+  padding: 10px;
+}
+```
+Output:
+![](image/padding.png)
+
+Seperti yang kita lihat, paragraf kedua jauh lebih nyaman dibaca karena terdapat jarak antara teks dan border dari kotak. Kotak pun menjadi sedikit lebar karena ada padding.
+
+Piksel merupakan satuan yang sering digunakan dalam menetapkan nilai properti ini (meskipun kita bisa juga menggunakan persentase atau ems). Jika menetapkan menggunakan persentase, nilai akan _relative_ pada elemen induk atau jendela browser (jika tidak memiliki induk elemen).
+
+Kita dapat menentukan nilai padding yang berbeda untuk masing-masing sisi elemen dengan menggunakan daftar properti berikut.
+```css
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-left: 15px;
+```
+Selain itu, hal di atas dapat juga dilakukan dengan menggunakan shorthand seperti berikut.
+```css
+padding: 10px 15px 10px 15px;
+```
+
+hasil dari penerapannya:
+![](image/padding2.png)
+
+## Margin
+
+Seperti padding, margin merupakan ruang atau jarak pada sebuah elemen. Namun, jarak tersebut terletak diluar dari konten dan border element. Margin digunakan untuk menjaga elemen agar tidak bertabrakan satu sama lain atau dari tepi jendela browser.
+
+Sebelum Menggunakan Margin:
+![](image/beforemargin.png)
+
+Sesudah Menggunakan Margin:
+![](image/aftermargin.png)
+
+Margin ini bersifat collapsed, yang artinya dapat menumpuk jika terdapat dua margin yang saling bertumpukkan. Kalian bisa melihat pada margin bawah dan margin atas pada kedua elemen tersebut. Hal itu menjelaskan alasan jarak vertikal antar elemen tersebut tidak sebesar 40px, tetapi sebesar 20px. Jika terjadi pertumpukan margin, nilai yang paling besar yang akan diterapkan.
+
+Kita dapat menentukan nilai margin yang berbeda untuk masing-masing sisi elemen dengan menggunakan contoh daftar properti berikut.
+```css
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 20px;
+margin-left: 25px;
+```
+
+Selain itu, kita juga dapat menggunakan shorthand untuk menetapkan keempat nilai di atas dalam satu properti berikut.
+```css
+margin: 10px 15px 20px 25px;
+```
+
+Kita juga bisa menggunakan dua nilai saja untuk menentukan nilai margin vertikal dan horizontal.
+```css
+/* top dan bottom bernilai 10px, left dan right bernilai 15px */
+margin: 10px 15px;
+```
+## Centering Content
+
+Jika kita ingin membuat sebuah kotak berada tepat pada tengah sebuah halaman atau di dalam elemen induknya, margin kanan dan kiri bisa diatur dengan nilai auto. Untuk membuat kotak berada di tengah kita juga harus menentukan lebar dari kotak tersebut (menggunakan properti width). Jika tidak, kotak akan mengambil lebar penuh pada halaman atau induk elemen.
+
+Setelah kita menentukan lebar kotak dan mengatur margin kiri dan kanan menjadi auto, secara otomatis browser akan memberi jarak yang sama di setiap sisi horizontal kotak sehingga membuat kotak berada di tengah halaman. 
+
+Berikut contohnya.
+HTML:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+        autem commodi dignissimos dolores ea, eaque, earum esse harum illo in
+        incidunt molestias nam non qui recusandae sunt ullam veniam vero!
+      </p>
+    </div>
+
+    <div class="box center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea,
+        id. Aliquid consectetur dolorum exercitationem ipsam, necessitatibus
+        nostrum pariatur sunt! Accusantium architecto at dolorem itaque quisquam
+        quod soluta sunt voluptatum.
+      </p>
+    </div>
+  </body>
+</html>
+```
+CSS:
+```css
+.box {
+  width: 50%;
+  border: 4px solid darkblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box.center {
+  margin: 0 auto;
+}
+```
+Output:
+![](image/Centering.png)
