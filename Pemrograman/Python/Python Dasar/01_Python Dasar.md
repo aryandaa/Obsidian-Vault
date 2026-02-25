@@ -4,7 +4,7 @@ Urutan Belajar:
 2. [Handling Error](Handling%20Error.md)
 3. [Pemanggil](Pemanggil.md)
 4. [Komentar](Komentar.md)
-5. [Variable](Variable.md)
+5. [Variable](Pemrograman/Python/Python%20Dasar/Variable.md)
 6. [Type Data](Type%20Data.md)
 7. [Casting Type Data](Casting%20Type%20Data.md)
 8. [Input](Input.md)

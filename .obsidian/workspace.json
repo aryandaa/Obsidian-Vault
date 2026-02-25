@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Expression & Statement"
+              "title": "Function"
             }
           }
         ]
@@ -170,12 +170,22 @@
   },
   "active": "7635231df77310e3",
   "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Untitled.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Perulangan.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Mengubah Type Data.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Mengubah Type Data.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Comment.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Variable.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Comment.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Variable.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Variable.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Expression & Statement.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/sintaksi.js",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek",
     "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js.md",
     "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
-    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
     "Pemrograman/JavaScript/Javascript Dasar/Function.md",
     "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/compiler.png",
@@ -204,19 +214,9 @@
     "Pemrograman/CSS/Native/image/displayrole.png",
     "Pemrograman/CSS/Native/Box Model.md",
     "kelompok 1.md",
-    "Note Personal/Catatan kuliah",
-    "Note Personal",
     "Pemrograman/Proggraming.md",
     "Pemrograman/Fundamental/Decomposition.md",
-    "Pemrograman/Fundamental/Computational Thinking.md",
-    "Pemrograman/Fundamental/Evaluation.md",
-    "Pemrograman/Fundamental/Algorithm.md",
-    "Pemrograman/Fundamental/Abstraction.md",
-    "Pemrograman/Fundamental/Pattern Recognition.md",
-    "Pemrograman/CSS/Native/image",
     "Untitled.canvas",
-    "Image",
-    "Pemrograman/Html/Image",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
 }
