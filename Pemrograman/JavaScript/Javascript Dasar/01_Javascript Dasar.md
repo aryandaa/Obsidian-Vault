@@ -6,8 +6,10 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 2. [Pengenalan Javascript](Pengenalan%20Javascript.md)
 
 ## Sintaksis JS:
-1. 
-2. [Variable Javascript](Variable%20Javascript.md)
-3. [Function](Function.md)
-4. [[Pemrograman/JavaScript/Javascript Dasar/Perulangan|Perulangan]]
+1. [Expression & Statement](Expression%20&%20Statement.md)
+2. [Variable](Pemrograman/JavaScript/Javascript%20Dasar/Variable.md)
+3. [[Pemrograman/JavaScript/Javascript Dasar/Perulangan|Perulangan]]
 
+## Function JS:
+1. [Function](Function.md)
+2. 

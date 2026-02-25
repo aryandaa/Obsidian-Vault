@@ -1,4 +1,5 @@
 #programming 
+
 Fungsi atau function merupakan bagian penting dalam bahasa pemrograman. Tanpa sadar, sebenarnya kita sudah menggunakan sebuah fungsi pada contoh kode yang ada sebelumnya. Seperti, console.log() merupakan function yang berguna untuk menampilkan data pada konsol dan juga fungsi typeof yang digunakan untuk memeriksa tipe data variabel. 
 
 Namun, apa sebenarnya function itu? Bagaimana ia bisa bekerja? Mari kita lihat contoh kodenya.
