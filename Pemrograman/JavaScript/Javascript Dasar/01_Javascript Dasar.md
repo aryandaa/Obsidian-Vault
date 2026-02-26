@@ -9,7 +9,13 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 1. [Expression & Statement](Expression%20&%20Statement.md)
 2. [Variable](Pemrograman/JavaScript/Javascript%20Dasar/Variable.md)
 3. [[Pemrograman/JavaScript/Javascript Dasar/Perulangan|Perulangan]]
+4. [Comment](Comment.md)
 
 ## Function JS:
 1. [Function](Function.md)
-2. 
+2. [Return Value](Return%20Value.md)
+3. [Function Expression](Function%20Expression.md)
+4. [Arrow Function](Arrow%20Function.md)
+
+## Bukan Sembarang Data:
+1. 

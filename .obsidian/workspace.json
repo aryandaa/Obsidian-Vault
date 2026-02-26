@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Function.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function"
+              "title": "01_Javascript Dasar"
             }
           }
         ]
@@ -171,7 +171,17 @@
   "active": "7635231df77310e3",
   "lastOpenFiles": [
     "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Untitled.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Arrow Function.md",
+    "Pasted image 20260225214418.png",
+    "Pemrograman/JavaScript/Javascript Dasar/img/ArrowFunction.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Function Expression.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/FunExpression.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Function Expression.js",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Fexspression.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Function.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Return Value.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/returnvalue.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Function.js",
     "Pemrograman/JavaScript/Javascript Dasar/Perulangan.md",
     "Pemrograman/JavaScript/Javascript Dasar/Mengubah Type Data.md",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Mengubah Type Data.js",
@@ -186,17 +196,13 @@
     "Pemrograman/JavaScript/Javascript Dasar/Praktek",
     "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js.md",
     "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Function.md",
     "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/compiler.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img",
     "Pemrograman/JavaScript/Javascript Dasar/Pengenalan Javascript.md",
     "Pemrograman/CSS/Native/Flexbox.md",
     "youtube.com/watch?reload=9&v=gNC7bHxEqRk&embeds_referring_euri=https%3A%2F%2Fwww.dicoding.com%2F.md",
-    "youtube.com",
     "Pemrograman/CSS/Native/image/Terminologi.png",
     "Note Personal/Daily/2026-02-23.md",
-    "Note Personal/Daily",
     "Pemrograman/CSS/Native/01_Css Native.md",
     "Pemrograman/CSS/Native/Konfigurasi Meta Tag Viewport untuk Responsivitas Layout.md",
     "Pemrograman/CSS/Native/image/responsive2.png",
@@ -204,18 +210,11 @@
     "Pemrograman/CSS/Native/image/Inspect.png",
     "Pemrograman/CSS/Native/Floating.md",
     "Pemrograman/CSS/Native/image/Floating 2.png",
-    "Pemrograman/CSS/Native/image/Floating.png",
     "Pemrograman/CSS/Native/Positioning.md",
     "Pemrograman/CSS/Native/Rounded Corner.md",
-    "Pemrograman/CSS/Native/image/Rounded.png",
     "Pemrograman/CSS/Native/Box Shadow.md",
-    "Pemrograman/CSS/Native/image/BoxShadow.png",
     "Pemrograman/CSS/Native/Display role.md",
-    "Pemrograman/CSS/Native/image/displayrole.png",
     "Pemrograman/CSS/Native/Box Model.md",
-    "kelompok 1.md",
-    "Pemrograman/Proggraming.md",
-    "Pemrograman/Fundamental/Decomposition.md",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
