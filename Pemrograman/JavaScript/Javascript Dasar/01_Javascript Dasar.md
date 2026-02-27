@@ -18,4 +18,13 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 4. [Arrow Function](Arrow%20Function.md)
 
 ## Bukan Sembarang Data:
-1. 
+1. [Mengubah Type Data](Mengubah%20Type%20Data.md) 
+2. [Data dengan Object](Data%20dengan%20Object.md)
+3. [Data dengan Array](Data%20dengan%20Array.md)
+4. [Data dengan Map](Data%20dengan%20Map.md)
+5. [Data dengan Set](Data%20dengan%20Set.md)
+6. [Spread Operator](Spread%20Operator.md)
+
+
+
+

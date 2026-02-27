@@ -1,3 +1,4 @@
+#programming 
 Function expression terdiri dari dua kata, yaitu "function" dan "expression". Kita sudah mengenal function, begitu juga dengan expression. Lantas, function expression dapat kita artikan sebagai kode yang mengembalikan nilai function. Bagaimana bentuknya, ya?
 
 Kali ini, kita sudah mahir membuat function. Tata caranya adalah keyword function, identifier, parentheses untuk parameter, dan function body. Disadari ataupun tidak, sebetulnya kita sedang membuat, sebut saja, function statement. Artinya, kita memerintahkan JavaScript membuat function dengan statement tersebut. Tentunya, ini tidak akan mengembalikan nilai apa pun. Nah, kita dapat membuat function dengan gaya expression layaknya membuat variabel seperti kode di bawah ini.
