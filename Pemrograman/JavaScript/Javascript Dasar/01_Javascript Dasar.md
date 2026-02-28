@@ -25,6 +25,8 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 5. [Data dengan Set](Data%20dengan%20Set.md)
 6. [Spread Operator](Spread%20Operator.md)
 
-
+### Pengatur Proggram
+1. [Error Handling](Error%20Handling.md)
+2. 
 
 
