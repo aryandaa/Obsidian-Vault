@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c55ba1616c2328ab",
+        "id": "cdbde8ed8b7f70f7",
         "type": "tabs",
         "children": [
           {
-            "id": "7635231df77310e3",
+            "id": "3dd679e0f496ca71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Error Handling.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Error Handling"
+              "title": "01_Javascript Dasar"
             }
           }
         ]
@@ -168,14 +168,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "7635231df77310e3",
+  "active": "0b845e28c070f0e4",
   "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Module/utils.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Module/main.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Module",
+    "Jaringan/Fundamental jaringan/IP Address.md",
+    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
+    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
+    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Modularisasi ESM.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/package.json.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Module.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Export.md",
+    "Note Personal/Catatan kuliah/Ide Bisnis.md",
+    "CyberSecurity/Cryptography/Pengenalan/Binary.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Import.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/alias.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Mengenal Modularisasi.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Modularisasi.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Error Handling.md",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Latihan1.js",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Implementasi Flow Control.js",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Implementasi Flow Control.jw",
     "Pemrograman/JavaScript/Javascript Dasar/img/try catch.png",
-    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Error Handling.md",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Error Handling.js",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Looping.js",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Conditional.js",
@@ -186,14 +202,11 @@
     "Pemrograman/JavaScript/Javascript Dasar/Data dengan Map.md",
     "Pemrograman/JavaScript/Javascript Dasar/Data dengan Array.md",
     "Pemrograman/JavaScript/Javascript Dasar/Function Expression.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/DataArray.js",
     "Pemrograman/JavaScript/Javascript Dasar/Data dengan Object.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/DataObject.js",
     "Pemrograman/JavaScript/Javascript Dasar/img/DataObject.png",
     "Pemrograman/JavaScript/Javascript Dasar/Arrow Function.md",
     "Pasted image 20260225214418.png",
     "Pemrograman/JavaScript/Javascript Dasar/img/ArrowFunction.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/FunExpression.js",
     "Pemrograman/JavaScript/Javascript Dasar/img/Fexspression.png",
     "Pemrograman/JavaScript/Javascript Dasar/Function.md",
     "Pemrograman/JavaScript/Javascript Dasar/Return Value.md",
@@ -202,20 +215,7 @@
     "Pemrograman/JavaScript/Javascript Dasar/Mengubah Type Data.md",
     "Pemrograman/JavaScript/Javascript Dasar/Comment.md",
     "Pemrograman/JavaScript/Javascript Dasar/Variable.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Variable.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Expression & Statement.md",
-    "Pemrograman/JavaScript/Javascript Dasar/sintaksi.js.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/compiler.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Pengenalan Javascript.md",
-    "Pemrograman/CSS/Native/Flexbox.md",
-    "youtube.com/watch?reload=9&v=gNC7bHxEqRk&embeds_referring_euri=https%3A%2F%2Fwww.dicoding.com%2F.md",
-    "Pemrograman/CSS/Native/image/Terminologi.png",
-    "Note Personal/Daily/2026-02-23.md",
-    "Pemrograman/CSS/Native/01_Css Native.md",
-    "Pemrograman/CSS/Native/Konfigurasi Meta Tag Viewport untuk Responsivitas Layout.md",
-    "Pemrograman/CSS/Native/image/responsive2.png",
-    "Pemrograman/CSS/Native/image/Responsive.png",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]

@@ -27,6 +27,11 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 
 ### Pengatur Proggram
 1. [Error Handling](Error%20Handling.md)
-2. 
 
+### Modularisasi
+1. [Mengenal Modularisasi](Mengenal%20Modularisasi.md)
+2. [Import](Import.md)
+3. [Export](Export.md)
+4. [Module](Module.md)
+5. [Modularisasi ESM](Modularisasi%20ESM.md)
 
