@@ -3,4 +3,5 @@
 2. [Instalasi](Instalasi.md)
 3. [Struktur Folder & File](Struktur%20Folder%20&%20File.md)
 4. [Dasar Routing](Dasar%20Routing.md)
-5. 
+5. [Konsep MVC](Konsep%20MVC.md)
+6. 

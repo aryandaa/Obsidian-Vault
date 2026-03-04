@@ -36,4 +36,6 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 5. [Modularisasi ESM](Modularisasi%20ESM.md)
 
 ### OOP
-1. 
+1. [Paradigma Object](Paradigma%20Object.md)
+2. [Tonggak Utama dari OOP](Tonggak%20Utama%20dari%20OOP.md)
+3. 
