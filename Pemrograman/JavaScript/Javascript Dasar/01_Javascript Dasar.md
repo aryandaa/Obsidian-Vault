@@ -35,3 +35,5 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 4. [Module](Module.md)
 5. [Modularisasi ESM](Modularisasi%20ESM.md)
 
+### OOP
+1. 
