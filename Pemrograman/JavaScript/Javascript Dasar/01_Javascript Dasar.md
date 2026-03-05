@@ -38,4 +38,7 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 ### OOP
 1. [Paradigma Object](Paradigma%20Object.md)
 2. [Tonggak Utama dari OOP](Tonggak%20Utama%20dari%20OOP.md)
-3. 
+3. [Inheritance](Inheritance.md)
+4. [Encapsulation](Encapsulation.md)
+5. [Polymorphism](Polymorphism.md)
+6. [Object Composition](Object%20Composition.md)
