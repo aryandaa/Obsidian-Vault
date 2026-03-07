@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3dd679e0f496ca71",
+            "id": "ba32b95665208613",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Javascript Dasar"
-            }
-          },
-          {
-            "id": "38bfafb56754372d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Object Composition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Object Composition"
+              "title": "Callback"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,28 +168,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "0b845e28c070f0e4",
+  "active": "ba32b95665208613",
   "lastOpenFiles": [
-    "Pemrograman/JavaScript/Javascript Dasar/img/Worrior.png",
+    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Simulasi Asynchronous Proses.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Simulasi.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/main.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/coffee.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronus",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynhcronus",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Assyncronus",
+    "Pemrograman/JavaScript/Javascript Dasar/Pengantar Asynchronous.md",
+    "Pemrograman/JavaScript/Javascript Dasar/img/asinkron.png",
+    "Pemrograman/JavaScript/Javascript Dasar/Yang Sudah Tercipta, Tak Bisa Diubah Lagi (Immutability).md",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/FunctionalProggraming.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Aku Memanggil Diriku (Recursive).md",
+    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Recursive.js",
+    "Pemrograman/JavaScript/Javascript Dasar/Potensi Tersembunyi Sebuah Fungsi (High-Order Function).md",
+    "Pemrograman/JavaScript/Javascript Dasar/Fungsi Sejati (Pure Function).md",
+    "Pemrograman/JavaScript/Javascript Dasar/Berkenalan dengan Functional Programming.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Pengantar Functional Proggraming.md",
     "Pemrograman/JavaScript/Javascript Dasar/Object Composition.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/OOP2.js",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Worrior.png",
     "Pemrograman/JavaScript/Javascript Dasar/img/ObjectComposition.png",
     "Pasted image 20260305191904.png",
-    "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
     "Pemrograman/JavaScript/Javascript Dasar/Polymorphism.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Polymorphism dengan Perhitungan.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Polymorphism Method Override.js",
     "Pemrograman/JavaScript/Javascript Dasar/Paradigma Object.md",
     "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
     "Pemrograman/JavaScript/Javascript Dasar/Variable.md",
     "Pemrograman/JavaScript/Javascript Dasar/Tonggak Utama dari OOP.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/OOP.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/ObjectManipulation.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/ArrayProcessing.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/ArrayProsec",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Loop.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/BasicLogic.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/LatihanFunction.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Latihan1.js",
     "Pemrograman/JavaScript/Javascript Dasar/Encapsulation.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/Encapsulation.png",
     "Pemrograman/JavaScript/Javascript Dasar/Inheritance.md",
@@ -220,16 +216,6 @@
     "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
     "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
     "Jaringan/Fundamental jaringan/IP Address.md",
-    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
-    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Modularisasi ESM.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/package.json.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Module.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Export.md",
-    "Note Personal/Catatan kuliah/Ide Bisnis.md",
-    "CyberSecurity/Cryptography/Pengenalan/Binary.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Import.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/alias.png",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
