@@ -53,4 +53,5 @@ disini saya cuman akan membahas hal yang berbeda ketika penulisan sintaksi di ja
 
 ## Asynchronous
 1. [Pengantar Asynchronous](Pengantar%20Asynchronous.md)
-2. 
+2. [Promise](Promise.md)
+3. 

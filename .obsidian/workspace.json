@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
+                "file": "Pemrograman/JavaScript/Javascript Dasar/Promise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Callback"
+              "title": "Promise"
             }
           }
         ]
@@ -170,8 +170,14 @@
   },
   "active": "ba32b95665208613",
   "lastOpenFiles": [
+    "Jaringan/Fundamental jaringan/IP Address.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Promise.md",
+    "Pasted image 20260307220824.png",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Promise2.png",
+    "Pemrograman/JavaScript/Javascript Dasar/img/Promise.png",
     "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
     "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Assynchronous.js",
     "Pemrograman/JavaScript/Javascript Dasar/Simulasi Asynchronous Proses.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/Simulasi.png",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/main.mjs",
@@ -192,7 +198,6 @@
     "Pemrograman/JavaScript/Javascript Dasar/Berkenalan dengan Functional Programming.md",
     "Pemrograman/JavaScript/Javascript Dasar/Pengantar Functional Proggraming.md",
     "Pemrograman/JavaScript/Javascript Dasar/Object Composition.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/OOP2.js",
     "Pemrograman/JavaScript/Javascript Dasar/img/Worrior.png",
     "Pemrograman/JavaScript/Javascript Dasar/img/ObjectComposition.png",
     "Pasted image 20260305191904.png",
@@ -205,17 +210,12 @@
     "Pemrograman/JavaScript/Javascript Dasar/img/Encapsulation.png",
     "Pemrograman/JavaScript/Javascript Dasar/Inheritance.md",
     "Pemrograman/JavaScript/Javascript Dasar/img/inheritance2.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/inheritance.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/TonggakUtamaDariOop.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/ParadigmObject.png",
     "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
     "Pemrograman/PHP/Framework/Laravel/Laravel.md",
     "Pemrograman/PHP/PHP.md",
     "Pemrograman/PHP/Framework/Laravel/Struktur Folder & File.md",
     "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
     "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
-    "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
-    "Jaringan/Fundamental jaringan/IP Address.md",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
