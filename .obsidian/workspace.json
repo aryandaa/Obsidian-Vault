@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
+                "file": "Pemrograman/JavaScript/Javascript Advanced/02_Javascript Advanced.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSDoc, Alat Dokumentasi Kode"
+              "title": "02_Javascript Advanced"
             }
           }
         ],
@@ -183,8 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "0b845e28c070f0e4",
+  "active": "fd5f6845f2cea484",
   "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript Advanced/praktek/Paradigma Object.js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Asynchronous/support.mjs",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Asynchronous/Asynchronous Process.mjs",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Asynchronous",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/support.mjs",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Polymorphism Method Override.js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/OOP2.js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/OOP.js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/FunctionalProggraming.js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Game Character (Object Composition).js",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/Asynchronous Process.mjs",
+    "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
     "Pemrograman/JavaScript/Javascript Advanced/02_Javascript Advanced.md",
     "Pemrograman/JavaScript/Javascript Advanced/Type System dalam JavaScript.md",
     "Pemrograman/JavaScript/Javascript Advanced/Code Quality.md",
@@ -214,22 +226,11 @@
     "Pemrograman/JavaScript/Javascript Advanced/img/inheritance.png",
     "Pemrograman/JavaScript/Javascript Advanced/Encapsulation.md",
     "Pemrograman/JavaScript/Javascript Advanced/img/Encapsulation.png",
-    "Pemrograman/JavaScript/Javascript Advanced/img",
-    "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
     "Pemrograman/JavaScript/Javascript Dasar/Simulasi Asynchronous Proses.md",
     "Pemrograman/JavaScript/Javascript.md",
     "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
-    "Pemrograman/JavaScript/Javascript Advanced",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Asynchronous Process.mjs",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/support.mjs",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Asynchronous Process.js",
     "Jaringan/Fundamental jaringan/IP Address.md",
     "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Assynchronous.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/main.mjs",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/coffee.mjs",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous.js",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
