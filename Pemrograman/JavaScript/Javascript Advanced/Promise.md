@@ -23,7 +23,7 @@ makeCoffee(order, (makeCoffeeError, makeCoffeeData) => {
 
 Tentunya kode di atas baik-baik saja. Katakanlah aktivitas meminum kopi ditandai dengan munculnya teks “Saya mendapatkan Kopi Espresso dan menghabiskannya”. Hal yang menjadi permasalahan adalah bagaimana jika proses minum kopi bergantung pada lebih dari dua, tiga, empat, atau lebih async process? Dalam konteks penulisan kode, itu akan makin menjorok ke dalam dan lebih sulit dipahami. Inilah efek dari pemanfaatan callback dan akan merujuk pada istilah [callback hell](http://callbackhell.com/).
 
-![](img/Promise.png)
+![](Promise.png)
 
 Teknik terkini yang disajikan oleh JavaScript adalah Promise. Promise adalah sebuah objek khusus yang akan menentukan keberhasilan atau kegagalan dari proses asynchronous. Secara bahasa, Promise memiliki arti janji dan memang konsep yang dianut sangat mirip dengan makna tersebut.
 
@@ -35,7 +35,7 @@ Promise bekerja dengan tiga buah state atau kondisi.
 
 Dari ketiga kondisi Promise, ini mirip dengan kehidupan nyata. Pending menandakan sebuah janji sedang berproses untuk menuju state diselesaikan, baik itu fulfilled maupun rejected. Masuk ke kategori fulfilled untuk menandakan sebuah janji ditepati dan memberikan hasil kesuksesannya serta rejected untuk menandakan sebuah janji teringkari dan memberikan alasannya.
 
-![](img/Promise2.png)
+![](Promise2.png)
 
 Mari kita ambil contoh tugas mencuci pakaian pada mesin cuci. Bayangkan saja mesin cuci punya tiga buah state.
 
@@ -304,3 +304,20 @@ makeCoffee(order)
   });
 ```
 
+Contoh kode di atas akan berhenti sampai then pertama saja. Oleh karena itu, pastikan kembalikan nilai Promise-nya, ya.
+
+```js
+makeCoffee(order)
+  .then((value) => {
+    return sendCoffee(value); // <-- akan dilanjutkan ke then berikutnya.
+  })
+  .then((value) => {
+    console.log(`Pramusaji memberikan ${value} pesanan.`);
+    console.log(`Saya mendapatkan ${value} dan menghabiskannya.`);
+  })
+  .catch((error) => {
+    console.log(error.message);
+    throw error;
+  });
+```
+Mantap! Kode kita makin enak dibaca dengan adanya Promise. Anda ingin penulisan kode yang lebih enak lagi? Mari kita pelajari async-await dalam materi berikutnya.

@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba32b95665208613",
+            "id": "ea3c99c43cb95243",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript Dasar/Promise.md",
+                "file": "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promise"
+              "title": "JSDoc, Alat Dokumentasi Kode"
+            }
+          },
+          {
+            "id": "fd5f6845f2cea484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JSDoc, Alat Dokumentasi Kode"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,54 +183,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "ba32b95665208613",
+  "active": "0b845e28c070f0e4",
   "lastOpenFiles": [
-    "Jaringan/Fundamental jaringan/IP Address.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Promise.md",
-    "Pasted image 20260307220824.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/Promise2.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/Promise.png",
+    "Pemrograman/JavaScript/Javascript Advanced/02_Javascript Advanced.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Type System dalam JavaScript.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Code Quality.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Concurrency dengan Promise.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Synchronous dengan Async-Await.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Promise.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/Promise2.png",
+    "Pemrograman/JavaScript/Javascript Advanced/img/Promise.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Pengantar Asynchronous.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/asinkron.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Yang Sudah Tercipta, Tak Bisa Diubah Lagi (Immutability).md",
+    "Pemrograman/JavaScript/Javascript Advanced/Aku Memanggil Diriku (Recursive).md",
+    "Pemrograman/JavaScript/Javascript Advanced/Potensi Tersembunyi Sebuah Fungsi (High-Order Function).md",
+    "Pemrograman/JavaScript/Javascript Advanced/Fungsi Sejati (Pure Function).md",
+    "Pemrograman/JavaScript/Javascript Advanced/Berkenalan dengan Functional Programming.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Pengantar Functional Proggraming.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Tonggak Utama dari OOP.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/TonggakUtamaDariOop.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Polymorphism.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/ParadigmObject.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Paradigma Object.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/Worrior.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Object Composition.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/ObjectComposition.png",
+    "Pemrograman/JavaScript/Javascript Advanced/img/inheritance2.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Inheritance.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/inheritance.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Encapsulation.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/Encapsulation.png",
+    "Pemrograman/JavaScript/Javascript Advanced/img",
+    "Pemrograman/JavaScript/Javascript Advanced/JSDoc, Alat Dokumentasi Kode.md",
+    "Pemrograman/JavaScript/Javascript Dasar/Simulasi Asynchronous Proses.md",
+    "Pemrograman/JavaScript/Javascript.md",
     "Pemrograman/JavaScript/Javascript Dasar/01_Javascript Dasar.md",
+    "Pemrograman/JavaScript/Javascript Advanced",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Asynchronous Process.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/support.mjs",
+    "Pemrograman/JavaScript/Javascript Dasar/Latihan/Asynchronous Process.js",
+    "Jaringan/Fundamental jaringan/IP Address.md",
     "Pemrograman/JavaScript/Javascript Dasar/Callback.md",
     "Pemrograman/JavaScript/Javascript Dasar/Latihan/Assynchronous.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Simulasi Asynchronous Proses.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/Simulasi.png",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/main.mjs",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous/coffee.mjs",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous",
     "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronous.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynchronus",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Asynhcronus",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Assyncronus",
-    "Pemrograman/JavaScript/Javascript Dasar/Pengantar Asynchronous.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/asinkron.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Yang Sudah Tercipta, Tak Bisa Diubah Lagi (Immutability).md",
-    "Pemrograman/JavaScript/Javascript Dasar/Latihan/FunctionalProggraming.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Aku Memanggil Diriku (Recursive).md",
-    "Pemrograman/JavaScript/Javascript Dasar/Praktek/Recursive.js",
-    "Pemrograman/JavaScript/Javascript Dasar/Potensi Tersembunyi Sebuah Fungsi (High-Order Function).md",
-    "Pemrograman/JavaScript/Javascript Dasar/Fungsi Sejati (Pure Function).md",
-    "Pemrograman/JavaScript/Javascript Dasar/Berkenalan dengan Functional Programming.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Pengantar Functional Proggraming.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Object Composition.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/Worrior.png",
-    "Pemrograman/JavaScript/Javascript Dasar/img/ObjectComposition.png",
-    "Pasted image 20260305191904.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Polymorphism.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Paradigma Object.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Scripting dan Compiled Language.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Variable.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Tonggak Utama dari OOP.md",
-    "Pemrograman/JavaScript/Javascript Dasar/Encapsulation.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/Encapsulation.png",
-    "Pemrograman/JavaScript/Javascript Dasar/Inheritance.md",
-    "Pemrograman/JavaScript/Javascript Dasar/img/inheritance2.png",
-    "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
-    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
-    "Pemrograman/PHP/PHP.md",
-    "Pemrograman/PHP/Framework/Laravel/Struktur Folder & File.md",
-    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
-    "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]

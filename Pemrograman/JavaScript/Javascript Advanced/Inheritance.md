@@ -14,10 +14,11 @@ Istilah _SuperClass_ dan _SubClass_ akan sering kita dengar ketika bahas inh
 
 Misalnya, Anda memiliki smartphones dengan jenis Android dan iOS, setiap smartphones tersebut pasti memiliki property color, brand, model, dan method-nya adalah charging. Dengan paradigma OOP, property dan method yang memiliki kesamaan bisa kita abstraksikan menjadi sebuah class baru bernama Smartphones. Kemudian kita bisa membuat dua class baru, yaitu Android dan iOS.
 
-![](img/inheritance.png)
+![](inheritance.png)
 
 Android dan iOS akan mewariskan property dan method dari class Smartphones seperti yang ada pada gambar di atas. Dengan begitu, class Android dan iOS akan memiliki property color, brand, model dan method charging. Selain itu, di masing-masing class kita dapat menambahkan property yang hanya ada pada dirinya. Misalkan, class Android memungkinkan untuk memiliki method split screen, sedangkan class iOS memungkinkan untuk memiliki method AirDrop.
-![](img/inheritance2.png)
+
+![](inheritance2.png)
 
 Jika contoh di atas kita terapkan pada kode JavaScript, kodenya akan menjadi seperti berikut ini.
 

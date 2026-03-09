@@ -34,6 +34,6 @@ Jadi, apa kesimpulan dari proses asynchronous? Proses yang tidak melakukan block
 
 Perhatikan ilustrasi berikut untuk melihat perbedaan antara synchronous dan asynchronous process.
 
-![](img/asinkron.png)
+![](asinkron.png)
 
 Keren! Kali ini Anda sudah paham maksud dari asynchronous process. Pada beberapa materi ke depan, kita akan belajar metode penanganan asynchronous process dalam JavaScript, mulai dari cara lama hingga terkini.

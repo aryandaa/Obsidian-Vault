@@ -13,7 +13,7 @@ Jika memiliki lima kucing, bayangkan betapa repotnya kita untuk mendefinisikan s
 
 Object adalah bentuk nyata dari suatu entitas, sedangkan class adalah cetak biru (blueprint), cetakan atau template yang dapat kita gunakan berulang kali untuk membuat object. Object dan class mempermudah ketika ingin membuat entitas yang kompleks dengan cepat dan efektif. Anda perlu untuk mencermati kedua hal ini agar bisa menguasai paradigma OOP.
 
-![](img/ParadigmObject.png)
+![](ParadigmObject.png)
 
 Karena object dan class memiliki peran sangat penting di paradigma OOP, kita akan membahas cara membuatnya dengan dua cara di bawah ini.
 
