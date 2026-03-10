@@ -18,11 +18,22 @@
 
 ## Asynchronous
 1. [Pengantar Asynchronous](Pengantar%20Asynchronous.md)
-2. [Promise](Promise.md)
-3. [Synchronous dengan Async-Await](Synchronous%20dengan%20Async-Await.md)
-4. [Concurrency dengan Promise](Concurrency%20dengan%20Promise.md)
+2. [Simulasi Asynchronous Proses](Simulasi%20Asynchronous%20Proses.md)
+3. [Callback](Callback.md)
+4. [Promise](Promise.md)
+5. [Synchronous dengan Async-Await](Synchronous%20dengan%20Async-Await.md)
+6. [Concurrency dengan Promise](Concurrency%20dengan%20Promise.md)
+
 ## Code Quality
 1. [Code Quality](Code%20Quality.md)
 2. [Type System dalam JavaScript](Type%20System%20dalam%20JavaScript.md)
 3. [JSDoc, Alat Dokumentasi Kode](JSDoc,%20Alat%20Dokumentasi%20Kode.md)
-4. 
+4. [Flow, Type Check Library](Flow,%20Type%20Check%20Library.md)
+5. [TypeScript, Superset dari JavaScript](TypeScript,%20Superset%20dari%20JavaScript.md)
+6. [Style Guide](Pemrograman/JavaScript/Javascript%20Advanced/Style%20Guide.md)
+7.  [Code Convention dengan Linter Library](Code%20Convention%20dengan%20Linter%20Library.md)
+8. [Pengujian Program](Pengujian%20Program.md)
+9. [Testing dalam Node.js](Testing%20dalam%20Node.js.md)
+10. [Testing dalam Bun](Testing%20dalam%20Bun.md)
+11. [Strategi Terbaik Susun Testing](Strategi%20Terbaik%20Susun%20Testing.md)
+
