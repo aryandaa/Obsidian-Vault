@@ -4,20 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "cdbde8ed8b7f70f7",
+        "id": "c02214d244d8bc67",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "053a5161af9e1246",
+=======
+            "id": "ed79e2668196b322",
+>>>>>>> 83894dddfa81f22d110b901f5a5db823eeaf7748
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
+=======
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
+>>>>>>> 83894dddfa81f22d110b901f5a5db823eeaf7748
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "01_Fundamental Jaringan"
             }
           },
@@ -33,6 +42,9 @@
               },
               "icon": "lucide-file",
               "title": "Alamat Network, Host dan Broadcast"
+=======
+              "title": "BOM-Alert"
+>>>>>>> 83894dddfa81f22d110b901f5a5db823eeaf7748
             }
           }
         ],
@@ -183,6 +195,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< HEAD
   "active": "0b845e28c070f0e4",
   "lastOpenFiles": [
     "Jaringan/Fundamental jaringan/img/Network Address.png",
@@ -231,6 +244,55 @@
     "Pemrograman/JavaScript/Javascript Dasar/img/inheritance.png",
     "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
     "Pemrograman/PHP/Framework/Laravel/Laravel.md",
+=======
+  "active": "ed79e2668196b322",
+  "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+    "Pemrograman/Python/Python Dasar/Praktek",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/alert 1.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/window.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Browser Environment.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/browenv.png",
+    "Pemrograman/PHP/Framework/Laravel/Database Dan Migrasi.md",
+    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
+    "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Menjalankan JavaScript di Website.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/JavaScript Mengontrol Website dan Browser.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Dom.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/ManipulateThis.html",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Output alert.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Alert.png",
+    "Pasted image 20260310202851.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/index.html",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/Alert.js",
+    "Pemrograman/JavaScript/Javascript For Frontend/Pendahulan.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/latihan",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek",
+    "Pemrograman/JavaScript/Javascript For Frontend/img",
+    "Pasted image 20260310180124.png",
+    "Pemrograman/JavaScript/Javascript.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/03-writing-test/instruksi.md",
+    "Pemrograman/JavaScript/Javascript For Frontend",
+    "Pemrograman/JavaScript/Javascript Advanced/02_Javascript Advanced.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Strategi Terbaik Susun Testing.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment.zip",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment.zip.vi5czq.part",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-07-real-world-scenario/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-06-full-coverage-testing/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-05-recursive/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-04-oop/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/02-code-style/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/01-writing-comments/instruksi.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Testing dalam Bun.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/TestingBun.png",
+    "Programming.md",
+    "Pemrograman/JavaScript/Javascript Advanced/Testing dalam Node.js.md",
+    "Pemrograman/JavaScript/Javascript Advanced/img/TestingNode.png",
+    "Pemrograman/JavaScript/Javascript Advanced/Pengujian Program.md",
+>>>>>>> 83894dddfa81f22d110b901f5a5db823eeaf7748
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]

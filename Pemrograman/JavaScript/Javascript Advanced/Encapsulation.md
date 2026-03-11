@@ -96,7 +96,7 @@ class CoffeeMachine {
 ```
 
 Jika mencoba mengakses property yang bersifat private, Anda akan mendapatkan pesan error seperti berikut ini.
-![](img/Encapsulation.png)
+![](Encapsulation.png)
 
 Seperti itulah konsep encapsulation, membatasi bagian kode yang dapat diakses. Secara default buatlah bagian kode menjadi tidak dapat diakses, jika tidak diperlukan.
 

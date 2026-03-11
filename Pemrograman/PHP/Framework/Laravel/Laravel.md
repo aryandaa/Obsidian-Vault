@@ -4,4 +4,5 @@
 3. [Struktur Folder & File](Struktur%20Folder%20&%20File.md)
 4. [Dasar Routing](Dasar%20Routing.md)
 5. [Konsep MVC](Konsep%20MVC.md)
-6. 
+6. [Database Dan Migrasi](Database%20Dan%20Migrasi.md)
+7. 
