@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM \"Prompt\".md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BOM \"Prompt\""
+              "title": "BOM-Alert"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "ed79e2668196b322",
   "lastOpenFiles": [
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM \"Alert\".md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM \"Prompt\".md",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+    "Pemrograman/Python/Python Dasar/Praktek",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
     "Pemrograman/JavaScript/Javascript For Frontend/img/alert 1.png",
     "Pemrograman/JavaScript/Javascript For Frontend/BOM.md",
     "Pemrograman/JavaScript/Javascript For Frontend/img/window.png",
@@ -202,7 +203,6 @@
     "Pemrograman/JavaScript/Javascript Advanced/Strategi Terbaik Susun Testing.md",
     "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment.zip",
     "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment.zip.vi5czq.part",
-    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-07-real-world-scenario/package.json",
     "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-07-real-world-scenario/instruksi.md",
     "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-06-full-coverage-testing/instruksi.md",
     "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-05-recursive/instruksi.md",
@@ -215,7 +215,6 @@
     "Pemrograman/JavaScript/Javascript Advanced/Testing dalam Node.js.md",
     "Pemrograman/JavaScript/Javascript Advanced/img/TestingNode.png",
     "Pemrograman/JavaScript/Javascript Advanced/Pengujian Program.md",
-    "praktek/testingcode.js.md",
     "Untitled.canvas",
     "CyberSecurity/Cryptography/Introduction/Untitled.canvas"
   ]
