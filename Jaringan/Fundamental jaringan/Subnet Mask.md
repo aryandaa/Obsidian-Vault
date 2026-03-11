@@ -1,0 +1,5 @@
+#jaringan 
+
+Setiap alamat IPv4 terdiri dari dua bagian yaitu identitas jaringan (Network ID) dan identitas host (Host ID). Dua buah alamat IP dikatakan berada pada alamat jaringan yang sama jika memiliki identitas jaringan yang sama persis. Dalam satu identitas jaringan yang sama tidak boleh ada dua perangkat yang memiliki identitas host yang sama. Untuk mengetahui bagian mana dari IPv4 yang merupakan Network ID dan bagian mana yang merupakan HostID maka perlu adanya suatu penanda, penanda ini yang disebut sebagai subnet mask. Dalam penulisan alamat IPv4 selalu didampingi dengan subnet mask dari IP tersebut yang akan menandakan bagian yang masuk Network ID atau Host ID. Bit 1 pada Subnet Mask menunjukkan porsi untuk Network atau Network ID sedangkan bit 0 pada subnet mask menunjukkan porsi untuk Host (Host ID). Jika terdapat IP address 192.168.10.10 dengan subnetmask 255.255.255.0 maka untuk mendapatkan network portion dan host portion dengan mengubah nilai desimal IP dan subnet mask nya ke dalam bilangan biner sehingga network portion dan host portion terlihat pada gambar berikut ini
+
+![](img/Subnet%20Mask.png)
