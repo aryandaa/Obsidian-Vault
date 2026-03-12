@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BOM-Prompt"
+              "title": "03_Javascript For Frontend"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BOM-Prompt"
+              "title": "Backlinks for 03_Javascript For Frontend"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from BOM-Prompt"
+              "title": "Outgoing links from 03_Javascript For Frontend"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BOM-Prompt"
+              "title": "Outline of 03_Javascript For Frontend"
             }
           }
         ]
@@ -170,5 +170,31 @@
     }
   },
   "active": "ecc6bc7a6dd6e338",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript For Frontend/Memanipulasi Atribut Melalui setAttribute.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/buttonmanipulationcode.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/buttonmanipulationoutput.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/indexingbutton.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Mengubah Konten HTML - Menyiapkan Konten.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Web.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/Membuat Elemen HTML.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Mencari DOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/FindDOM3.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/FindDOM2.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/FindDOM1.png",
+    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/DOM Tree.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/DOM-Tree2.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/DOM-Tree.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/DOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Cara memanggil BOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Bom-Console.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/console2.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/JavaScript Mengontrol Website dan Browser.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Browser Environment.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md"
+  ]
 }

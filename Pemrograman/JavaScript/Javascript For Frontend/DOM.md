@@ -1,0 +1,4 @@
+#programming 
+Sejauh ini kita sudah mempelajari bagaimana cara menggunakan JavaScript untuk memanipulasi _browser object_ melalui objek **window**_._ Namun, bagaimana jika kita ingin memanipulasi atau mengatur elemen-elemen yang terdapat pada berkas HTML dengan JavaScript? Jawabannya adalah bisa! Yakni melalui **Document Object Model**.
+
+Apa _sih_ **DOM** itu? Pada lingkungan _browser_, **DOM** memberikan izin bagi kode JavaScript untuk mengakses dan memanipulasi konten pada dokumen melalui sebuah Application Programming Interface (API), yakni sesuatu yang memungkinkan JavaScript dan dokumen HTML untuk "berkomunikasi". Masih ingat **B****rowser Object Model** yang diwakilkan oleh objek **window** yang bisa kita masukkan ke kode JavaScript? Nah, **DOM** diwakilkan oleh global objek bernama **document**, yang mana dapat dimanfaatkan oleh JavaScript.
