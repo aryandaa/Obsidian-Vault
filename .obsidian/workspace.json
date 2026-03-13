@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/Apa Itu Event.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/Macam-Macam Event.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apa Itu Event"
+              "title": "Macam-Macam Event"
             }
           }
         ]
@@ -172,7 +172,10 @@
   "active": "ecc6bc7a6dd6e338",
   "lastOpenFiles": [
     "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Macam-Macam Event.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Apa Itu Event.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/click.html",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/click.js",
     "Pemrograman/JavaScript/Javascript For Frontend/Pendahuluan Event.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Menambahkan Elemen HTML ke DOM.md",
     "Pemrograman/JavaScript/Javascript For Frontend/img/insertBeforeOutput.png",
