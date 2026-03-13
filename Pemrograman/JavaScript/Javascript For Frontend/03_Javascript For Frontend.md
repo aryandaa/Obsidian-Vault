@@ -16,4 +16,10 @@
 13. [Membuat Elemen HTML](Membuat%20Elemen%20HTML.md)
 14. [Mengubah Konten HTML - Menyiapkan Konten](Mengubah%20Konten%20HTML%20-%20Menyiapkan%20Konten.md)
 15. [Memanipulasi Atribut Melalui setAttribute](Memanipulasi%20Atribut%20Melalui%20setAttribute.md)
-16. 
+16. [Memanipulasi Konten Melalui innerText, innerHTML, dan style.property](Memanipulasi%20Konten%20Melalui%20innerText,%20innerHTML,%20dan%20style.property.md)
+17. [Menambahkan Elemen HTML ke DOM](Menambahkan%20Elemen%20HTML%20ke%20DOM.md)
+
+## Interaktif dengan Event
+1. [Pendahuluan Event](Pendahuluan%20Event.md)
+2. [Apa Itu Event](Apa%20Itu%20Event.md)
+3. 

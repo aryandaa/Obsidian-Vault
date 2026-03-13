@@ -2,12 +2,16 @@
 <html>
     <head>
         <title>Welcome to Cube World!</title>
-        <style>
+          <style>
             button {
             width: 200px;
             font-size: 15px;
             margin: 8px;
             padding: 3px;
+            }
+            
+            main {
+            margin: 2px;
             }
         </style>
     </head>
@@ -36,6 +40,14 @@
                 </div>
             </div>
         </div>
+        <hr size="2" width="95%" color="black">
+        <div id="links">
+            <p>Situs lainnya yang tidak kalah menarik:</p>
+            <ul>
+                <li><a href="http://www.dicoding.com" id="dicodingLink">Dicoding</a></li>
+                <li><a href="http://www.google.com" id="googleLink">Google</a></li>
+            </ul>
+        </div>
     </body>
 </html>
 
@@ -56,6 +68,22 @@ gambar.setAttribute('height', 215);
 const buttons = document.querySelectorAll('.button')[3].children[0];
 buttons.setAttribute('disabled', true);
 
+// Mengubah Text (innerTEXT)
+const dicoding = document.getElementById('dicodingLink');
+const google = document.getElementById('googleLink');
+
+dicoding.innerText = 'Belajar Programming di Dicoding';
+google.innerText = 'Mencari sesuatu di Google';
+
+// Mengubah Konten (innerHtml)
+dicoding.innerHTML = '<i>Belajar Programming di Dicoding</i>';
+google.innerHTML = '<i>Mencari sesuatu di Google</i>';
+
+// Mengubah style (Style.property)
+const buttonstyle = document.getElementsByClassName('button');
+for (const button of buttonstyle) {
+  button.children[0].style.borderRadius = '6px';
+}
 
 
 // function newElement(text) {
