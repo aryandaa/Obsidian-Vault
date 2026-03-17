@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ecc6bc7a6dd6e338",
+            "id": "a91f8721698eb294",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Frontend/Macam-Macam Event.md",
+                "file": "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Macam-Macam Event"
+              "title": "03_Javascript For Frontend"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.5004348754883
   },
   "right": {
     "id": "185a65e11649d47b",
@@ -169,40 +169,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "ecc6bc7a6dd6e338",
+  "active": "a91f8721698eb294",
   "lastOpenFiles": [
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/script/script.js",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/script",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/index.html",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/css/style.css",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/css",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets/undo-ouline.svg",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets/trash-outline.svg",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets/trash-fill.svg",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets/check-solid.svg",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets/check-outline.svg",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App/assets",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/TODO App",
+    "Pemrograman/JavaScript/Javascript For Frontend/onChange, onCopy, dan onPaste.md",
     "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/onInput, onFocus, dan onBlur.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Input Event-Menyiapkan Halaman Web.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/inputEvent/index.js",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/inputEvent/styles.css",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/inputEvent/index.html",
+    "Pemrograman/JavaScript/Javascript For Frontend/praktek/inputEvent",
+    "Pemrograman/JavaScript/Javascript For Frontend/Form With DOM.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Form Event.md",
+    "Pasted image 20260315165705.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Form.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/Bubbling dan Capturing.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/Bubbling.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/Membangkitkan Custom Event.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Menambahkan Custom Event.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/addEventListener().md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Event Handler Inline.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Onclick.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Onload.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Menyiapkan Halaman Website.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Macam-Macam Event.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/MouseEvent.png",
+    "Pemrograman/JavaScript/Javascript For Frontend/img/ClipboardEvent.png",
     "Pemrograman/JavaScript/Javascript For Frontend/Apa Itu Event.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/praktek/click.html",
-    "Pemrograman/JavaScript/Javascript For Frontend/praktek/click.js",
     "Pemrograman/JavaScript/Javascript For Frontend/Pendahuluan Event.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Menambahkan Elemen HTML ke DOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/insertBeforeOutput.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/appendchildoutput.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/praktek2.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/praktek/praktek2.html",
     "Pemrograman/JavaScript/Javascript For Frontend/Memanipulasi Konten Melalui innerText, innerHTML, dan style.property.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/style.property.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/InnerHTMLOutput.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/InnertextOutput.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/innertext.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/innerHTML.png",
     "Pemrograman/JavaScript/Javascript For Frontend/Memanipulasi Atribut Melalui setAttribute.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/buttonmanipulationcode.png",
-    "Pemrograman/JavaScript/Javascript For Frontend/img/buttonmanipulationoutput.png",
     "Pemrograman/JavaScript/Javascript For Frontend/Mengubah Konten HTML - Menyiapkan Konten.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Membuat Elemen HTML.md",
     "Pemrograman/JavaScript/Javascript For Frontend/Mencari DOM.md",
     "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/DOM Tree.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/DOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Cara memanggil BOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Bom-Console.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/JavaScript Mengontrol Website dan Browser.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Browser Environment.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md"
+    "Pemrograman/JavaScript/Javascript For Frontend/DOM Tree.md"
   ]
 }

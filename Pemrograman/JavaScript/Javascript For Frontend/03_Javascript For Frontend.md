@@ -23,4 +23,17 @@
 1. [Pendahuluan Event](Pendahuluan%20Event.md)
 2. [Apa Itu Event](Apa%20Itu%20Event.md)
 3. [Macam-Macam Event](Macam-Macam%20Event.md)
-4. 
+4. [Menyiapkan Halaman Website](Menyiapkan%20Halaman%20Website.md)
+5. [Onload](Onload.md)
+6. [Onclick](Onclick.md)
+7. [Event Handler Inline](Event%20Handler%20Inline.md)
+8. [addEventListener()](addEventListener().md)
+9. [Menambahkan Custom Event](Menambahkan%20Custom%20Event.md)
+10. [Membangkitkan Custom Event](Membangkitkan%20Custom%20Event.md)
+11. [Bubbling dan Capturing](Bubbling%20dan%20Capturing.md)
+12. [Form With DOM](Form%20With%20DOM.md)
+13. [Form Event](Form%20Event.md)
+14. [Input Event-Menyiapkan Halaman Web](Input%20Event-Menyiapkan%20Halaman%20Web.md)
+15. [onInput, onFocus, dan onBlur](onInput,%20onFocus,%20dan%20onBlur.md)
+16. [onChange, onCopy, dan onPaste](onChange,%20onCopy,%20dan%20onPaste.md)
+17. 
