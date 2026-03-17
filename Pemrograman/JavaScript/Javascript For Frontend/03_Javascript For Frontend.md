@@ -36,4 +36,10 @@
 14. [Input Event-Menyiapkan Halaman Web](Input%20Event-Menyiapkan%20Halaman%20Web.md)
 15. [onInput, onFocus, dan onBlur](onInput,%20onFocus,%20dan%20onBlur.md)
 16. [onChange, onCopy, dan onPaste](onChange,%20onCopy,%20dan%20onPaste.md)
-17. 
+
+## Web Storage
+1. [Pendahuluan Web Storage](Pendahuluan%20Web%20Storage.md)
+2. [Pengertian dan Fungsi Web Storage](Pengertian%20dan%20Fungsi%20Web%20Storage.md)
+3. [Macam-Macam web storage](Macam-Macam%20web%20storage.md)
+4. [Local Storage](Local%20Storage.md)
+5. [Session Storage](Session%20Storage.md)
