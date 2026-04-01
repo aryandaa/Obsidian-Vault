@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "28f155c92b2d2d6c",
+        "id": "b3e26033ce7ac310",
         "type": "tabs",
         "children": [
           {
-            "id": "934c23da3c34268c",
+            "id": "c8458c68ae34b44e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Framework/React/React Element.md",
+                "file": "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Router.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Element"
-            }
-          },
-          {
-            "id": "f6561d2b92e8307e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "React Router"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,52 +169,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "f6561d2b92e8307e",
+  "active": "c8458c68ae34b44e",
   "lastOpenFiles": [
-    "Pemrograman/JavaScript/Framework/React/React Element.md",
-    "Pemrograman/JavaScript/Framework/React/praktek",
-    "Pemrograman/JavaScript/Framework/React/React JS.md",
-    "Pemrograman/JavaScript/Framework/React/img/reactelement.png",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Lanjutan.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Router.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Latihan Membuat Single-Page App di React.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Web Routing.md",
     "Pemrograman/JavaScript/Framework/React/Instalasi React.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/json-buffer/README.md",
-    "Pemrograman/JavaScript/Framework/React/img/installreact3.png",
-    "Pemrograman/JavaScript/Framework/React/img/installreact2.png",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/5.gif",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/4.png",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Pendahuluan React Router.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Runtime Property Validation di React > v19.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/3.png",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/PropsTypes API.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/2.jpg",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Pentingnya Validasi Properti.md",
+    "Pemrograman/JavaScript/Javascript For Backend",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/1.png",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Pendahuluan Property Validation.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img.md",
+    "Pemrograman/JavaScript/Framework/React/React JS.md",
+    "Pemrograman/JavaScript/Framework/React/React Lanjutan",
+    "Pemrograman/JavaScript/Framework/React/Debugging Component menggunakan React DevTools.md",
+    "Pemrograman/JavaScript/Framework/React/img/dos_09eb00462ebbd5eb2c55898f6502036120220419134145.gif",
+    "Pemrograman/JavaScript/Framework/React/img/dos_10c96a7e86b1404614a0e40238717a0120220419134018.gif",
+    "Pemrograman/JavaScript/Framework/React/img/dos_8a475253ae3a4abb63f5f00fd8a9f0fe20220419134050.gif",
+    "Pemrograman/JavaScript/Framework/React/img/Pasted image 20260325214149.jpg",
+    "Pemrograman/JavaScript/Framework/React/Controlled Component (Form).md",
+    "Pemrograman/JavaScript/Framework/React/React Hooks?.md",
+    "Pemrograman/JavaScript/Framework/React/Fitur Hapus Kontak.md",
+    "Pemrograman/JavaScript/Framework/React/Compositional Component.md",
+    "Pemrograman/JavaScript/Framework/React/Latihan Component State dan Event Handling.md",
+    "Pemrograman/JavaScript/Framework/React/img/dos_8c8544c5941b22837b03f0f93872194f20220419170526.gif",
+    "Pemrograman/JavaScript/Framework/React/State Component.md",
+    "Note Personal/Daily/2026-03-25.md",
+    "Note Personal/Daily/2026-02-23.md",
+    "Pemrograman/JavaScript/Framework/React/Event Handling.md",
+    "Pemrograman/JavaScript/Framework/React/Class Component.md",
+    "Pemrograman/JavaScript/Framework/React/Pengantar Stateful Component.md",
+    "Pemrograman/JavaScript/Framework/React/Memberikan Styling.md",
+    "Pemrograman/JavaScript/Framework/React/Menampilkan Daftar Kontak.md",
+    "Pemrograman/JavaScript/Framework/React/praktek/properti.html",
+    "Pemrograman/JavaScript/Framework/React/praktek/properti.jsx",
+    "Pemrograman/JavaScript/Framework/React/latihan/element.js",
+    "Pemrograman/JavaScript/Framework/React/praktek",
     "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/package-lock.json",
     "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/zh-TW.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/zh-CN.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/yo.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/vi.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/core/versions.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/uz.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/core/util.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/ur.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/caniuse-lite/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/eslint/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/react-dom/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/eslint-plugin-react-hooks/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/ajv/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/vite/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/vite/LICENSE.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint/eslintrc/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/esquery/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/uri-js/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint/config-array/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/js-yaml/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/react/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint-community/eslint-utils/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint-community/regexpp/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/rolldown/node_modules/@rolldown/pluginutils/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/eslint-scope/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@eslint/js/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/@rolldown/pluginutils/README.md",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/src/assets/vite.svg",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/src/assets/react.svg",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/src/assets/hero.png",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/public/icons.svg",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/public/favicon.svg",
-    "Pemrograman/JavaScript/Framework/React/img/installreact.png",
-    "Pemrograman/JavaScript/Framework/React/img/Surveyreact.png"
+    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/zh-CN.d.ts"
   ]
 }

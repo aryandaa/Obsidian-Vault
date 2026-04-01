@@ -46,3 +46,7 @@ u untuk menampilkan link localhost, contoh output ` ➜  Local:   http://localho
 o untuk membuka browser secara otomatis dan akan menampilkan web react localhost.
 c untuk membersihkan layar seperti perintah "cls"
 dan terakhir q untuk keluar atau menyetopkan server localhostnya.
+
+7. Masih ada step setelahnya, yaitu menginstall seluruh package yang dibutuhkan di dalam berkas package.json dengan perintah `npm install`
+
+Oke! Proyek berhasil dibuat dan Vite sudah menyediakan beberapa berkas sebagai template yang dapat Anda manfaatkan di sana.
