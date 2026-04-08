@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "16eb82be2f1c3e91",
+        "id": "7acbd5e65ae419f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b697eb58ec25b509",
+            "id": "3d2dccc01ce50c9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman/JavaScript/Javascript For Backend/04_Javascript For Backend.md",
+                "file": "Pemrograman/JavaScript/Javascript For Backend/Node.js/Readable Stream.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_Javascript For Backend"
+              "title": "Readable Stream"
+            }
+          },
+          {
+            "id": "b6b42b2d7ca7afe9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -169,53 +179,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "b697eb58ec25b509",
+  "active": "3d2dccc01ce50c9e",
   "lastOpenFiles": [
-    "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Readable Stream.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Node.js.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Filesystem.md",
+    "Pemrograman/JavaScript/Framework/React/Persiapan Awal.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Events.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Node Package Manager.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Modularization.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Process Object.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Node.js Global Object.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Latihan Menjalankan JavaScript Menggunakan Node.js.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img/5.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img/4.png",
+    "Pasted image 20260408164800.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img/3.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img/2.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Apa itu Node.js.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Latihan Membuat Node.js.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img/1.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Tools Belajar Dasar-Dasar Node.js untuk Back-End.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Dasar-Dasar Node.js untuk Back-End.md",
     "Pemrograman/JavaScript/Javascript For Backend/04_Javascript For Backend.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Aturan Penggunaan React Hooks.md",
+    "Pemrograman/JavaScript/Javascript For Backend/URL Design.md",
+    "Pemrograman/JavaScript/Javascript For Backend/HTTP Verbs Atau Methods.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Format Request dan Response.md",
+    "img/Webstorage.md",
+    "Pemrograman/JavaScript/Javascript For Backend/REST Web Service.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Latihan. Membuat Permintaan HTTP (HTTP Request).md",
+    "Pemrograman/JavaScript/Javascript For Backend/Komunikasi Client-Server.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Img/3.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Img/2.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Server.md",
+    "1.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Web Server dan Web Service.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Img/1.png",
+    "Pemrograman/JavaScript/Javascript For Backend/Apa itu Back-End.md",
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js",
+    "Pemrograman/JavaScript/Javascript For Backend/Img",
     "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/19.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Lanjutan.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Custom Hooks.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Context dengan useContext().md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Side-Effect dengan useEffect().md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/18.gif",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/17.gif",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Mengelola State dengan useState().md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Hooks.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/React Context.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Alasan Hadirnya hooks.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/17.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Pendahuluan React Hooks.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/16.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/15.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/14.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Pendahuluan React Context.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/Component Lifecycle.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/13.jpg",
-    "Pemrograman/JavaScript/Javascript Advanced/02_Javascript Advanced.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Session Storage.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Macam-Macam web storage.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Onclick.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Mencari DOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/DOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Bom-Console.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Prompt.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/Browser Environment.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM-Alert.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/BOM.md",
-    "Pemrograman/JavaScript/Javascript For Frontend/JavaScript Mengontrol Website dan Browser.md",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/12.jpg",
-    "Pemrograman/JavaScript/Framework/React/React Lanjutan/img/11.jpg",
     "Pemrograman/JavaScript/Javascript For Backend",
     "Pemrograman/JavaScript/Framework/React/React Lanjutan/img",
     "Pemrograman/JavaScript/Framework/React/React Lanjutan",
     "Pemrograman/JavaScript/Framework/React/praktek/properti.html",
     "Pemrograman/JavaScript/Framework/React/praktek/properti.jsx",
     "Pemrograman/JavaScript/Framework/React/latihan/element.js",
-    "Pemrograman/JavaScript/Framework/React/praktek",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/package-lock.json",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/zh-TW.d.ts",
-    "Pemrograman/JavaScript/Framework/React/praktek/belajar_react/node_modules/zod/v4/locales/zh-CN.d.ts"
+    "Pemrograman/JavaScript/Framework/React/praktek"
   ]
 }

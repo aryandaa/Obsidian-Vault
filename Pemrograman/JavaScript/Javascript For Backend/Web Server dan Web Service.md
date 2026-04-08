@@ -1,0 +1,13 @@
+#programming 
+Kedai kopi memiliki Standar Operasional Prosedur (SOP) selama beroperasi. Kita tidak tahu apakah setiap kedai kopi memiliki SOP yang sama atau tidak. Yang kita ketahui secara umum kedai kopi memiliki pelayan sebagai perantara interaksi dari dapur ke pelanggannya. Kita juga tidak mengetahui proses apa yang terjadi ketika barista menyerahkan kopi buatannya ke pelayan. Apakah pelayan memastikan kopi yang dipesan sesuai? Atau diberikan ke pelanggan secara langsung tanpa melalui proses pengecekan? Hal ini hanya diketahui oleh pegawai kedai kopi saja. Sebagai pelanggan kita hanya menikmati hasil akhirnya, bukan?
+
+Sama halnya seperti sistem aplikasi. Ketika Front-End meminta sesuatu hal ke Back-End, contohlah meminta data pembatalan transaksi yang terjadi selama bulan Januari, kita sebagai pengguna aplikasi tidak tahu proses apa yang terjadi di Back-End. Kita tidak tahu bahwa sebenarnya Back-End melakukan proses yang sangat rumit untuk memenuhi permintaan dari Front-End. Kita tidak tahu bahwa sebelum mulai mengeksekusi permintaan, Back-End sebenarnya perlu memvalidasi permintaan tersebut untuk memastikan ia dapat menyanggupinya. Kita pun tidak tahu bagaimana proses bisnis di belakang berjalan. Hanya pemilik dan pengembang sistem aplikasi tersebut yang paham.
+
+Bidang bisnis bolehlah sama, namun tidak menjamin SOP-nya sama juga. Perbedaan tersebut dipengaruhi oleh banyak faktor, contohnya model bisnis, letak geografis, target konsumen, tipe kopi atau makanan yang ditawarkan, ataupun faktor lainnya. SOP haruslah fleksibel sesuai dengan keadaan. Misal, tidak bisa SOP kedai kopi kelas atas diterapkan ke kedai kopi kelas-kelas bawah. Alhasil, jika dipaksakan, _gulung tikar_ lah bisnisnya.
+
+Sistem untuk aplikasi pun demikian. Kita perlu membuat dan menjalankan program (mirip seperti SOP) agar dapat menentukan logika bisnis sesuai dengan kebutuhan. Program tersebut perlu disimpan di server dan dapat diakses secara remote melalui internet atau intranet agar aplikasi Front-End dan Back-End dapat saling terhubung. Jadi untuk membuat sistem aplikasi setidaknya membutuhkan:
+
+- **Web Server** : Server yang dapat menjalankan program dan dapat diakses melalui internet atau intranet. 
+- **Web Service** : Program yang dijalankan di web server agar kebutuhan bisnis terpenuhi.
+
+Web service berjalan di dalam web server sehingga ia dapat diakses melalui internet. Melalui web service inilah aplikasi Front-End (_client_) dan Back-End dapat bertransaksi.
