@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag: #myskill ",
@@ -62,11 +62,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.8378892733564,
   "lineSizeMultiplier": 2.22785467128028,
-  "collapse-forces": true,
-  "centerStrength": 0.306228373702422,
-  "repelStrength": 15.6747404844291,
+  "collapse-forces": false,
+  "centerStrength": 0.295595358792385,
+  "repelStrength": 16.8446547256956,
   "linkStrength": 1,
-  "linkDistance": 372,
+  "linkDistance": 500,
   "scale": 0.05785512935833556,
   "close": true
 }

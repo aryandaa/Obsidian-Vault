@@ -10,4 +10,7 @@
 9. [Events](Events.md)
 10. [Filesystem](Filesystem.md)
 11. [Readable Stream](Readable%20Stream.md)
-12. 
+12. [Writable Stream](Writable%20Stream.md)
+
+Jika sudah memahami Node.js, maka kita akan langsung melanjutkan module [Web Service Dengan Node.js](Web%20Service%20Dengan%20Node.js.md)
+

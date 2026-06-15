@@ -41,7 +41,7 @@ Dengan menetapkan propTypes seperti di atas, jika kita menggunakan component Say
 ```
 
 Hasil pada console.
-![](img/2.jpg)
+![](Pemrograman/JavaScript/Framework/React/React%20Lanjutan/img/2.jpg)
 
 Lalu, bagaimana cara menetapkan PropTypes pada class component? Sintaksisnya masih sama, Anda bisa menambahkan properti static **propTypes** setelah pembuatan class component seperti ini.
 ```jsx
