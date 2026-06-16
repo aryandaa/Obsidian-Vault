@@ -13,7 +13,7 @@ pada umumnya kode-kode ascii ini merepresentasikan kode-kode untuk:
 - huruf A-Z (uppercase)
 - huruf a-z (lowercase)
 - simbol & ^ % $ @ # ! dan sebagainya.
-- tombol eter, esc, backspace, space, tab, shift, dll.
+- tombol enter, esc, backspace, space, tab, shift, dll.
 - Karakter grafis (kode ASCII standar nomor 128 s/d 255)
 - Kode komunikasi ETX< STX, ENQ. ACK...
 
