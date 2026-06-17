@@ -6,7 +6,7 @@ misalnya 16 dan 28 = 12
   
 cari pembagian 16 yang hasilnya mendekati 28
 16 x 1 = 16 hasilnya 1
-16 x 2 = 32 (salah)
+16 x 2 = 32 (salah karna melebihi)
 1 x 16 = 16
 28 (nilai tertinggi di awal) - 16 (sisa di atas) = 12
 

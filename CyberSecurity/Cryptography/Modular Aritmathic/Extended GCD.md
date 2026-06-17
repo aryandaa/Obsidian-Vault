@@ -34,7 +34,7 @@ hasilnya tepat sama dengan gcd-nya.
 ini namanya "extended GCD"
 Karena p dan q adalah bilangan prima yang berbeda, maka kalo di gcd kan hasilnya "1"
 
-Jadi sebenarnya kita cuma lagi nyari cara nulis angka 1 sewbagai:
+Jadi sebenarnya kita cuma lagi nyari cara nulis angka 1 sebagai:
 
 1 = (kelipatan p) + (kelipatan q)  
 
