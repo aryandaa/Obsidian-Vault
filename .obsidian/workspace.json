@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b7fd784ad3f152ca",
+        "id": "6f28138b4a3a14bb",
         "type": "tabs",
         "children": [
           {
-            "id": "78e38782e01ac77b",
+            "id": "13fe7784fda21325",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "CyberSecurity/Cryptography/Modular Aritmathic/GCD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GCD"
             }
           }
         ]
@@ -165,8 +169,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "78e38782e01ac77b",
+  "active": "13fe7784fda21325",
   "lastOpenFiles": [
+    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Matematika Cryptography.md",
     "Programming.md",
     "Note Personal/Daily/2026-04-26.md",
     "Note Personal/Daily/2026-02-23.md",
@@ -206,8 +212,6 @@
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Membuat HTTP Server.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Membangun Web Service menggunakan Node.js.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Routing Request.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Body Request.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Method Atau Verb Request.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/img",
