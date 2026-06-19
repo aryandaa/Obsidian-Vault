@@ -56,12 +56,8 @@ Di sinilah inti dari algoritma Tonelli-Shanks. Kita melakukan pemeriksaan terhad
 2. **Jika $t \equiv 0 \pmod p$**, maka $a \equiv 0$, artinya akarnya adalah $0$.
     
 3. **Jika $t \not\equiv 1 \pmod p$**, kita harus mencari bilangan bulat terkecil $i$ (di mana $0 < i < M$) sedemikian rupa sehingga:
-    
     $$t^{2^i} \equiv 1 \pmod p$$
-    
-
 Setelah menemukan nilai $i$ tersebut, kita perbarui semua variabel kita untuk iterasi berikutnya:
-
 - $b = c^{2^{M - i - 1}} \pmod p$
     
 - $R = R \cdot b \pmod p$ _(Memperbarui tebakan akar)_
@@ -74,3 +70,11 @@ Setelah menemukan nilai $i$ tersebut, kita perbarui semua variabel kita untuk it
     
 
 Proses ini diulangi terus sampai nilai $t$ menjadi $1$.
+
+### Hasil Akhir (Dua Akar)
+Jika algoritma selesai dan menghasilkan nilai $R$, maka persamaan tersebut sebenarnya memiliki dua solusi akar kuadrat modulo $p$, yaitu:
+$$r_1 = R$$
+$$r_2 = p - R$$
+
+### Mengapa Algoritma ini Diperlukan?
+Jika $p \equiv 3 \pmod 4$, kita bisa langsung menggunakan rumus cepat Fermat: $R = a^{\frac{p+1}{4}} \pmod p$. Namun, rumus cepat itu **tidak bekerja** jika $p \equiv 1 \pmod 4$. Di sinilah Tonelli-Shanks masuk dengan menggunakan variabel $t$ dan $b$ untuk "menyisir" dan mengeliminasi komponen non-kuadrat yang mengganggu perhitungan hingga akhirnya menemukan akar yang tepat.

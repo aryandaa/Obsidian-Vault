@@ -39,7 +39,7 @@ else:
         # Lakukan perulangan untuk mengkuadratkan t secara berturut-turut
         while faktor_t != 1 and i < m:
             i += 1
-            faktor_t = pow(faktor_t, 2, p)  # Ini sama dengan t^(2^i) mod p, jauh lebih cepat!
+            faktor_t = pow(faktor_t, 2, p)
 
         # Jika i sama dengan m, berarti 'a' bukan sisa kuadrat (tidak ada akar)
         if i == m:
