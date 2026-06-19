@@ -2,7 +2,7 @@
 pada pembahasan [[Quadratic Residues]] sebelumnya kita memakai p = 29 sebagai bilangan prima modulus, nah itu masih kecil jadi masih mudah untuk dihitung, tapi bagaimana jika bilangan p nya sangat besar? dengan Legendre.
 
 Legendre Symbol memberikan cara yang efektif untuk menentukan apakah suatu bilangan bulat adalah Quadratic residue modulo bilangan prima p, yaitu:
-(a/p) = a^p-1/2 mod p.
+(a/p) = a$^p-1/2$ mod p.
 dengan syarat:
 (a/p) = 1 (jika a adalah quadratic residue dan a != 0) mod p -> Quadratic residue
 (a/p) = -1 (jika a adalah quadratic non-residue) mod p -> Quadratic Non-Residue
@@ -61,7 +61,7 @@ def legendre (p, a):
     else:
         return f"{a} ≡ 0 (mod {p})"
 
-print(legendre(7, 2))
+print(legendre(7, 2)
 ```
 
 
