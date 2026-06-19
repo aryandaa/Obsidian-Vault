@@ -7,7 +7,7 @@ ini penting di dalam Cryptograpy karena "Pembagian" di modulo itu menggunakan in
 
 dalam Cryptography modern seperti RSA, ECC, maupun tanda tangan digital menggunakan konsep invers ini.
 
-langsung saja saya contohkan cara mencari inverst dari 5 (mod 17):
+langsung saja saya contohkan cara mencari invers dari 5 (mod 17):
 
 cari x sehingga:
 `5 * x = 1 (mod 17)`
@@ -53,5 +53,6 @@ Terlihat rumit, tetapi python sdh menyediakan Function untuk menghitungnya secar
 pow(5, -1, 17)
 #Output = 7
 ```
-5 itu angka pertama dan 17 itu modulusnya, Function itu berfungsi seperti "Cari nilai dari 5 (mod 17)".... lalu apa itu -1?
+5 itu angka pertama dan 17 itu modulusnya, Function itu berfungsi seperti "Cari nilai dari 5 (mod 17)". 
+lalu apa itu -1?
 itu adalah simbol untuk modular inversting untuk memerintahkan python agar mencari yang hasilnya 1 saja. 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f28138b4a3a14bb",
+        "id": "1443f8b4e4386018",
         "type": "tabs",
         "children": [
           {
-            "id": "13fe7784fda21325",
+            "id": "f1c2afe04819c96a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Modular Aritmathic/GCD.md",
+                "file": "CyberSecurity/Cryptography/Modular Aritmathic/Quadratic Residues.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCD"
+              "title": "Quadratic Residues"
             }
           }
         ]
@@ -169,10 +169,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "13fe7784fda21325",
+  "active": "f1c2afe04819c96a",
   "lastOpenFiles": [
-    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Quadratic Residue.py",
+    "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Modular inverting.py",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Inverting.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmathic.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Quadratic Residues.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Rumus Tonelli-Shanks.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Matematika Cryptography.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Legendre Symbol.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Extended GCD.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Algoritmh Euclides.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/GCD.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
     "Programming.md",
     "Note Personal/Daily/2026-04-26.md",
     "Note Personal/Daily/2026-02-23.md",
@@ -195,28 +205,18 @@
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Membuat HTTP Server Pada Express.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Membangun Web Server menggunakan Express.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Web Framework di Node.js.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Node.js Web Framework.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/1.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Web Service Dengan Node.js.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Node.js.md",
     "Untitled.canvas",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/7.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Response Body.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Response Header.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/6.png",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/5.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Response Status.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Membuat HTTP Server.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Membangun Web Service menggunakan Node.js.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/Routing Request.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/img",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js",
-    "Pemrograman/JavaScript/Javascript For Backend/Img",
-    "Pemrograman/JavaScript/Javascript For Backend"
+    "Pemrograman/JavaScript/Javascript For Backend/Img"
   ]
 }

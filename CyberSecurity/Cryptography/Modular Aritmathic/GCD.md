@@ -1,4 +1,4 @@
-	#cybersecurity
+#cybersecurity
 Faktor persekutuan besar (FPB) Atau Greatest Common Divisor (GCD) adalah bilangan terbesar yang dapat membagi 2 bilangan bulat positif.
 
 misalnya:

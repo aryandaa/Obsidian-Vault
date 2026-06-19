@@ -10,19 +10,19 @@ Jadi intinya, quadratic residue adalah bilangan yang **bisa muncul sebagai hasil
 
 ### Contoh
 p = 29 (bilangan prima)
-a = 11 (bilangan bulat apapun)
+a = 11 (bilangan bulat apapun asalkan -1 dari p)
 x = $a^2$ mod p
 
 pertama saya akan menghitung a kuadrat terlebih dahulu,
 $a^2$ = 11 * 11 = 121 
 
 lalu di moduskan dengan p.
-modulus 29 = 5.
+modulus 121 mod 29 = 5.
 
 berarti x nya adalah 5,
 akar kuadrat dari 5 adalah 11, dan itu berarti Quadratic residue.
 
-### Contoh Lengkap Perhitungan Quadratic Residue dan Non-Residue
+### Contoh Lengkap Perhitungan Manual Quadratic Residue dan Non-Residue
 p = 29
 
 saya akan mencari bilangan yang muncul dan tidak pada perhitungan kali ini:
@@ -63,7 +63,7 @@ Dari daftar ini kelihatan jelas:
 	- 0, 2, 3, 8, 10, 11, 12, 14, 15, 17, 18, 19, 21, 26, 27.
 
 
-Di CryptoHack memiliki 1 soal disuruh mencari satu Quadratic residue dari tiga bilangan yaitu 6 11 dan 14, untuk membuktikan bahwak itu adalah Quadratic residue yaitu memiliki akar kuadrat, jadi perhitungan dari 3 bilangan itu adalah jawabannya...
+Di CryptoHack memiliki 1 soal disuruh mencari satu Quadratic residue dari tiga bilangan yaitu 6 11 dan 14, untuk membuktikan bahwa itu adalah Quadratic residue yaitu memiliki akar kuadrat, jadi perhitungan dari 3 bilangan itu adalah jawabannya...
 dari list di atas saya sudah mengetahui kalo kuadrat residue nya adalah 6, tetapi saya harus membuktikan kalo 6 adalah kuadrat residue dari rumus berikut:
 $a^2$ mod 29, 
 nilai a yang menghasilkan 6 jika di hitung itulah jawabannya...
@@ -79,12 +79,15 @@ Sifat menarik dari Quadratic (non-)Residue:
 ```Python
 p = 29
 for a in range(p):
-    qr = (pow(a, 2, p))
+    qr = (pow(a, 2, p)
     print(f"a={a} : qr={qr}")
 ```
 jadi kode ini untuk mencari nilai a dan nilai dari Kuadrat residue dari bilangan a jika di moduluskan dengan P dengan cara di bruteforce, dan output yang keluar adalah:
 
 ![](images/Residue.png)
+
+kenapa disitu pake 2 untuk rumusnya? tidak seperti inverting yang -1?
+karena 2 menunjukan pangkat yang digunakan yaitu pangkat 2 atau kaudrat.
 
 next materi saya akan membahas tentang rumus Legandre, yaitu rumus untuk mencari apakah suatu bilangan adalah Qyadratic residue atau non-residue dari a modulus p dengan cepat
 Materi Lanjutan: [[Legendre Symbol]]
