@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Modular Aritmathic/Rumus Tonelli-Shanks.md",
+                "file": "CyberSecurity/Cryptography/Modular Aritmathic/Chinese Remainder Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rumus Tonelli-Shanks"
+              "title": "Chinese Remainder Theorem"
             }
           }
         ]
@@ -171,20 +171,21 @@
   },
   "active": "f1c2afe04819c96a",
   "lastOpenFiles": [
-    "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Tonelli-Shanks.py",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Extended GCD.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Chinese Remainder Theorem.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Legendre Symbol.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Rumus Tonelli-Shanks.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Tonelli-Shanks.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Legendre Symbol.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/Quadratic Residues.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Quadratic Residue.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Modular inverting.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/Modular Inverting.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmathic.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Rumus Tonelli-Shanks.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Matematika Cryptography.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Extended GCD.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/Algoritmh Euclides.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/GCD.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
     "Programming.md",
     "Note Personal/Daily/2026-04-26.md",
     "Note Personal/Daily/2026-02-23.md",
@@ -216,7 +217,6 @@
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/6.png",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/5.png",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/img"
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js"
   ]
 }

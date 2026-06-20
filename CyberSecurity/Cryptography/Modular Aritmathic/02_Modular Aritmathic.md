@@ -10,4 +10,7 @@ Urutan Belajar:
 5. [[Modular Aritmathic]]
 6. [[Modular Inverting]]
 7. [[Quadratic Residues]]
-8. 
+8. [Legendre Symbol](Legendre%20Symbol.md)
+9. [Rumus Tonelli-Shanks](Rumus%20Tonelli-Shanks.md)
+10. [Chinese Remainder Theorem](Chinese%20Remainder%20Theorem.md)
+11. 
