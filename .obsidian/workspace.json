@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1443f8b4e4386018",
+        "id": "bb4ceb0b0426fad9",
         "type": "tabs",
         "children": [
           {
-            "id": "f1c2afe04819c96a",
+            "id": "46d72a2d91f6a62e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note Personal/Daily/2026-04-26.md",
+                "file": "Jaringan/Hardware/Thread, Multithreading, dan Hyper-Threading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-26"
+              "title": "Thread, Multithreading, dan Hyper-Threading"
+            }
+          },
+          {
+            "id": "619bba43b8c1d36f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jaringan/Hardware/Hardware.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hardware"
             }
           }
         ]
@@ -169,53 +183,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "f1c2afe04819c96a",
+  "active": "46d72a2d91f6a62e",
   "lastOpenFiles": [
-    "Note Personal/Daily/2026-02-23.md",
-    "Note Personal/Daily/2026-06-30.md",
-    "Note Personal/Daily/2026-04-26.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Chinese Remainder Theorem.md",
+    "Jaringan/Hardware/Hardware.md",
+    "Jaringan/Hardware/Thread, Multithreading, dan Hyper-Threading.md",
+    "Jaringan/Hardware/Mikroprosesor.md",
+    "Jaringan/Fundamental jaringan/img/Subnet Mask.png",
+    "Jaringan/Fundamental jaringan/img/Network Address.png",
+    "Jaringan/Fundamental jaringan/img/Classless Addressing.png",
+    "Jaringan/Hardware/Transistor.md",
+    "Jaringan/Hardware/UNIVAC.md",
+    "Jaringan/Hardware/ENIAC.md",
+    "Jaringan/Fundamental jaringan/01_Fundamental Jaringan.md",
+    "Jaringan/Hardware/Sejarah singkat perangkat keras komputer.md",
+    "Jaringan/Hardware/central processing unit (CPU).md",
+    "Jaringan/Hardware/Data Storage.md",
+    "Jaringan/Hardware/Penjelasan Hardware.md",
+    "Jaringan/Fundamental jaringan/Pengenalan Jaringan komputer.md",
+    "Jaringan/Fundamental jaringan/Alamat Network, Host dan Broadcast.md",
+    "Jaringan/Jaringan.md",
+    "CyberSecurity/Cyber Security.md",
+    "Pemrograman/Cloud/Cloud.md",
+    "Programming.md",
+    "Pemrograman/Cloud/Dasar/Pengenalan Jaringan di AWS.md",
+    "CyberSecurity/Cryptography/Cryptography.md",
+    "Jaringan/Hardware",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert/React Web Developer Expert.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert/JavaScript Linter.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert/Style Guide.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert/Pengantar Linter dan Clean Code.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert/Materi yang akan Dipelajari.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/03_Javascript For Frontend.md",
+    "Note Personal/Catatan kuliah/Ide Bisnis.md",
+    "Pemrograman/JavaScript/Javascript For Frontend/Expert",
     "Note Personal/Daily/img/Structure Otak.png",
-    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/optional-06-full-coverage-testing/instruksi.md",
-    "Pemrograman/JavaScript/Javascript Advanced/latihan/final-assessment/01-writing-comments/instruksi.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Extended GCD.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Legendre Symbol.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/02_Modular Aritmathic.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Rumus Tonelli-Shanks.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Tonelli-Shanks.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Legendre Symbol.py",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Quadratic Residues.md",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Quadratic Residue.py",
     "CyberSecurity/Cryptography/Modular Aritmathic/praktek/Modular inverting.py",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Inverting.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmathic.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Matematika Cryptography.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Algoritmh Euclides.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/GCD.md",
-    "Programming.md",
     "Note Personal/Daily/img",
-    "Note Personal/Daily/2026-03-25.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Express.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Tools.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/8.png",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/5.jpg",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/4.jpg",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/3.jpg",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/2.jpg",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Membangun RESTful API dengan Express.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Body Atau Payload Request.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Query Parameters.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Path Parameter.md",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/Method Atau Verb Request dan Routing.md",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/1.png",
     "Untitled.canvas",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img",
     "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework/Express/img/7.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/6.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img/5.png",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js/img",
-    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Web Service Dengan Node.js"
+    "Pemrograman/JavaScript/Javascript For Backend/Node.js/Framework"
   ]
 }

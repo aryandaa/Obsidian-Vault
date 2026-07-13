@@ -15,4 +15,5 @@ dan bahasa pendukung:
 [Html](Html/Html.md)
 [CSS](CSS/CSS.md)
 
-
+Untuk hosting dan Support Deploy:
+[Cloud](Cloud.md)

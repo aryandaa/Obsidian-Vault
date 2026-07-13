@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag: #myskill ",
@@ -29,13 +29,6 @@
       }
     },
     {
-      "query": "tag: #Iam  ",
-      "color": {
-        "a": 1,
-        "rgb": 0
-      }
-    },
-    {
       "query": "tag: #cybersecurity",
       "color": {
         "a": 1,
@@ -55,6 +48,20 @@
         "a": 1,
         "rgb": 16767831
       }
+    },
+    {
+      "query": "tag:#cloud  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:#hardware",
+      "color": {
+        "a": 1,
+        "rgb": 3932252
+      }
     }
   ],
   "collapse-display": true,
@@ -62,11 +69,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.8378892733564,
   "lineSizeMultiplier": 2.22785467128028,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.295595358792385,
   "repelStrength": 16.8446547256956,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.05430458817230397,
+  "scale": 0.05494330127378463,
   "close": true
 }

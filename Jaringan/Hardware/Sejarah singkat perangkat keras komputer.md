@@ -1,0 +1,10 @@
+#jaringan 
+Era perangkat keras komputer modern dimulai pada tahun 1940-an dengan [komputer mainframe](https://www.ibm.com/think/topics/mainframe) besar yang terutama digunakan oleh pemerintah dan lembaga penelitian. Workstation ini mahal dan berukuran sangat besar, sehingga penggunaannya terbatas pada lingkungan khusus. Tahun 1950-an dan 1960-an membawa kemajuan penting dalam komponen elektronik, membuat komputer menjadi lebih kecil, lebih andal, dan lebih mudah diakses.
+
+Pada tahun 1970-an dan 1980-an, penemuan mikroprosesor [menyebabkan](https://www.ibm.com/think/topics/microprocessor) munculnya komputer pribadi seperti [IBM PC](https://www.ibm.com/history/personal-computer) , yang membawa daya komputasi kepada pengguna individu dan usaha kecil.
+
+Dekade 1990-an dan awal 2000-an menyaksikan pertumbuhan pesat perangkat keras jaringan dan munculnya internet, yang mengubah cara orang berkomunikasi dan cara perusahaan beroperasi. Pusat data dan server perusahaan menjadi [infrastruktur TI](https://www.ibm.com/think/topics/infrastructure) yang penting , sementara laptop dan perangkat keras portabel membuat komputasi lebih mudah diakses dan praktis.
+
+Dalam beberapa tahun terakhir, komputasi awan telah mengurangi kebutuhan akan infrastruktur fisik dengan mengalihkan penyimpanan dan daya komputasi ke pusat data jarak jauh. Namun, layanan awan ini masih bergantung pada perangkat keras fisik yang besar dan sangat khusus. Pada saat yang sama, perangkat seluler, sensor yang terhubung, dan sistem tertanam telah membuat komputasi menjadi lebih personal dari sebelumnya.
+
+Saat ini, inovasi seperti pemrosesan yang dioptimalkan AI dan [komputasi edge](https://www.ibm.com/think/topics/edge-computing) mengubah cara bisnis menganalisis data dan memberikan wawasan. Perangkat keras terus berevolusi, menjadi lebih canggih, efisien, dan terintegrasi secara mulus ke dalam kehidupan dan pekerjaan sehari-hari. [Komputasi kuantum](https://www.ibm.com/think/topics/quantum-computing) mewakili batas berikutnya, memperkenalkan arsitektur perangkat keras yang fundamentally baru yang mampu memecahkan masalah di luar jangkauan sistem tradisional.
