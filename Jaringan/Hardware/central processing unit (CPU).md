@@ -92,3 +92,52 @@ Fungsi CPU ditangani oleh unit kontrol, dengan bantuan sinkronisasi yang disedia
 Kalo lebih jelasnya: Mengambil data -> Mendecode data tersebut -> dan menjalankannya.
 
 Perlu disebutkan bahwa dengan sedikit modifikasi dasar, jam komputer di dalam CPU dapat dimanipulasi agar waktu berjalan lebih cepat dari biasanya. Beberapa pengguna melakukan ini untuk menjalankan komputer mereka dengan kecepatan lebih tinggi. Namun, praktik ini tidak disarankan karena dapat menyebabkan komponen komputer aus lebih cepat dari biasanya dan dapat melanggar garansi pabrikan CPU.
+
+### Produsen dan Pengembang CPU Terkemuka
+Meskipun teknologi CPU telah dikembangkan selama puluhan tahun, perkembangan prosesor masih terus berlangsung. Produsen dan perancang chip terus mengembangkan arsitektur baru untuk meningkatkan performa, efisiensi energi, kemampuan pemrosesan paralel, dan dukungan terhadap berbagai jenis perangkat.
+
+Beberapa perusahaan yang memiliki peran penting dalam perkembangan teknologi CPU antara lain AMD, Qualcomm, Arm, dan Intel.
+
+#### Advanced Micro Devices (AMD)
+
+**Advanced Micro Devices (AMD)** adalah perusahaan semikonduktor yang mengembangkan berbagai jenis prosesor untuk komputer desktop, laptop, workstation, dan server.
+
+Pada tahun **2017**, AMD memperkenalkan keluarga prosesor **Ryzen** yang menggunakan arsitektur Zen. Prosesor Ryzen kemudian menjadi salah satu pesaing utama prosesor Intel dalam pasar komputer pribadi.
+
+Seri seperti **Ryzen 5, Ryzen 7, dan Ryzen 9** dirancang untuk berbagai tingkat kebutuhan komputasi. Ryzen 5 banyak digunakan pada komputer kelas menengah, sedangkan Ryzen 7 dan Ryzen 9 menawarkan jumlah core dan kemampuan pemrosesan yang lebih tinggi untuk pekerjaan seperti gaming, pengembangan software, rendering, dan pembuatan konten.
+
+AMD juga mengembangkan prosesor **EPYC** yang ditujukan untuk server dan pusat data.
+
+#### Qualcomm
+
+**Qualcomm** adalah perusahaan semikonduktor yang banyak mengembangkan teknologi prosesor untuk perangkat mobile dan perangkat dengan kebutuhan efisiensi energi tinggi.
+
+Qualcomm dikenal melalui keluarga **Snapdragon**, yaitu System on a Chip (SoC) yang banyak digunakan pada smartphone dan perangkat mobile lainnya.
+
+Berbeda dengan CPU komputer tradisional, sebuah SoC menggabungkan berbagai komponen ke dalam satu chip. Komponen tersebut dapat mencakup CPU, GPU, modem komunikasi, dan berbagai unit pemrosesan khusus lainnya.
+
+Qualcomm juga mengembangkan prosesor berbasis arsitektur Arm untuk komputer. Salah satu fokus utamanya adalah menghasilkan prosesor dengan performa tinggi tetapi tetap memiliki konsumsi daya yang rendah.
+
+#### Arm
+
+**Arm** memiliki model bisnis yang berbeda dibandingkan AMD dan Intel. Arm pada umumnya tidak memproduksi chip prosesor secara langsung.
+
+Sebaliknya, Arm mengembangkan **arsitektur dan desain prosesor** yang kemudian dapat dilisensikan kepada perusahaan lain.
+
+Perusahaan seperti Apple, Qualcomm, Samsung, dan berbagai produsen chip lainnya dapat menggunakan teknologi dan arsitektur Arm untuk mengembangkan prosesor mereka sendiri.
+
+Arsitektur Arm dikenal memiliki efisiensi energi yang tinggi. Oleh karena itu, teknologi ini banyak digunakan pada smartphone, tablet, perangkat IoT, embedded system, dan semakin banyak digunakan pada komputer serta server.
+
+#### Intel
+
+**Intel** merupakan salah satu perusahaan yang memiliki peran besar dalam perkembangan mikroprosesor modern.
+
+Pada tahun **1971**, Intel memperkenalkan **Intel 4004**, yang dikenal sebagai salah satu mikroprosesor komersial pertama dalam sejarah.
+
+Intel kemudian mengembangkan keluarga prosesor berbasis arsitektur **x86**, yang menjadi salah satu arsitektur CPU paling banyak digunakan pada komputer desktop dan laptop.
+
+Seri prosesor seperti **Intel Core** digunakan untuk berbagai kebutuhan komputasi. Keluarga prosesor ini memiliki beberapa tingkatan yang dirancang untuk kebutuhan dan tingkat performa yang berbeda.
+
+Prosesor Intel digunakan untuk berbagai pekerjaan, mulai dari penggunaan komputer sehari-hari hingga pengembangan software, gaming, pengolahan multimedia, dan pekerjaan komputasi lainnya.
+
+Selain prosesor untuk komputer pribadi, Intel juga mengembangkan prosesor untuk server dan pusat data.

@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 3932252
       }
+    },
+    {
+      "query": "tag:#devops ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 16.8446547256956,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.05494330127378463,
-  "close": true
+  "scale": 0.05997671327155887,
+  "close": false
 }

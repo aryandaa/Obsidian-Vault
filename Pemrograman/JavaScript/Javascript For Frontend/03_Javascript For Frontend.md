@@ -43,6 +43,3 @@
 3. [Macam-Macam web storage](Macam-Macam%20web%20storage.md)
 4. [Local Storage](Local%20Storage.md)
 5. [Session Storage](Session%20Storage.md)
-
-# Expert
-[React Web Developer Expert](React%20Web%20Developer%20Expert.md)
