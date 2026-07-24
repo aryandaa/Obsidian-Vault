@@ -13,4 +13,4 @@ docker container stop <NamaContainer>
 docker container rm <NamaContainer>  
 ```
 
-jika sudah, maka kita sudah bisa menghapus image tersebut.
+jika sudah, maka kita sudah bisa menghapus image tersebut..
