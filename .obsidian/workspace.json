@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3d6c0632c370df9e",
+        "id": "227c4e18ac03e624",
         "type": "tabs",
         "children": [
           {
-            "id": "c30d6b68588f3e57",
+            "id": "28680a7dcf0e6edd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Docker/Docker.md",
+                "file": "DevOps/Docker/Manage Data di Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Manage Data di Docker"
             }
           }
         ]
@@ -161,17 +161,31 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "c30d6b68588f3e57",
+  "active": "28680a7dcf0e6edd",
   "lastOpenFiles": [
     "DevOps/Docker/Docker.md",
+    "DevOps/Docker/Manage Data di Docker.md",
+    "DevOps/Docker/Docker Compose.md",
+    "DevOps/Docker/img/Pasted image 20260726224635.png",
+    "DevOps/Docker/Praktek/Database/docker-compose.yml",
+    "DevOps/Docker/Praktek/Compose/docker-compose.yml",
+    "DevOps/Docker/Praktek/Compose",
+    "DevOps/Docker/Integrasi Container dengan Network.md",
+    "Pemrograman/CSS/Native/Box Model.md",
+    "DevOps/Docker/img/Pasted image 20260726203051.png",
+    "DevOps/Docker/img/Pasted image 20260726172514.png",
+    "DevOps/Docker/Praktek/Database/Dockerfile",
+    "DevOps/Docker/Praktek/Database/requirements.txt",
+    "DevOps/Docker/Praktek/Database/app.py",
+    "DevOps/Docker/Praktek/Database",
     "DevOps/Docker/Arsitektur Docker.md",
     "DevOps/DevOps.md",
     "DevOps/Cloud/Cloud.md",
@@ -180,28 +194,17 @@
     "DevOps/GitHUb/GitHUb",
     "DevOps/GitHUb/Git",
     "DevOps/GitHUb",
-    "DevOps/Docker/Integrasi Container dengan Network.md",
     "DevOps/Docker/Praktek Environment Variabel.md",
     "DevOps/Docker/Mengupload Image ke Registry.md",
     "DevOps/Docker/Environment Variabel di Docker.md",
     "DevOps/Docker/img/Pasted image 20260726161212.png",
     "DevOps/Docker/img/Pasted image 20260726161018.png",
     "DevOps/Docker/img/Pasted image 20260726160109.png",
-    "DevOps/Docker/Praktek/python/requirements.txt",
     "DevOps/Docker/Membuat Image dengan Dockerfile.md",
-    "DevOps/Docker/Praktek/python/myenv/bin/activate.csh",
-    "DevOps/Docker/Praktek/python/myenv/bin/activate.fish",
-    "DevOps/Docker/Praktek/python/myenv/bin/activate",
-    "DevOps/Docker/Praktek/python/myenv/bin/Activate.ps1",
-    "DevOps/Docker/Praktek/python/myenv/lib/python3.13/site-packages/pip-25.1.1.dist-info/REQUESTED",
-    "DevOps/Docker/Praktek/python/myenv/lib/python3.13/site-packages/pip-25.1.1.dist-info/INSTALLER",
     "DevOps/Docker/img/Pasted image 20260726152035.png",
     "DevOps/Docker/img/Pasted image 20260725165418.png",
     "DevOps/Docker/img/Pasted image 20260725163300.png",
     "DevOps/Docker/img/Pasted image 20260725162127.png",
-    "DevOps/Docker/img/Pasted image 20260725155925.png",
-    "DevOps/Docker/img/Pasted image 20260725153332.png",
-    "DevOps/Docker/img/Pasted image 20260725151849.png",
     "DevOps/Docker/Menghapus Docker Image.md",
     "DevOps/Docker/Image.md",
     "DevOps/Docker/Implementasi Container.md",
@@ -214,9 +217,6 @@
     "DevOps/Cloud/Dasar/Pengenalan Jaringan di AWS.md",
     "Pemrograman/Programming.md",
     "DevOps/Cloud/Dasar/Tujuan Pembelajaran.md",
-    "DevOps/Cloud/Dasar/Tipe Instance Amazon EC2.md",
-    "DevOps/Cloud/Dasar/Model Penerapan.md",
-    "DevOps/Cloud/Dasar/Manfaat Komputasi Cloud.md",
     "Untitled.canvas"
   ]
 }
