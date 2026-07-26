@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "227c4e18ac03e624",
+        "id": "da4d7f13097d51ab",
         "type": "tabs",
         "children": [
           {
-            "id": "28680a7dcf0e6edd",
+            "id": "cf08f21aaea72ef4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevOps/Docker/Manage Data di Docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Manage Data di Docker"
+              "title": "New tab"
             }
           }
         ]
@@ -169,10 +165,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "28680a7dcf0e6edd",
+  "active": "cf08f21aaea72ef4",
   "lastOpenFiles": [
     "DevOps/Docker/Docker.md",
+    "DevOps/Docker/Docker Logs.md",
+    "DevOps/Docker/Kitematic.md",
+    "DevOps/Docker/Masuk ke Docker Container.md",
     "DevOps/Docker/Manage Data di Docker.md",
+    "DevOps/Docker/img/Pasted image 20260726230404.png",
     "DevOps/Docker/Docker Compose.md",
     "DevOps/Docker/img/Pasted image 20260726224635.png",
     "DevOps/Docker/Praktek/Database/docker-compose.yml",
@@ -204,7 +204,6 @@
     "DevOps/Docker/img/Pasted image 20260726152035.png",
     "DevOps/Docker/img/Pasted image 20260725165418.png",
     "DevOps/Docker/img/Pasted image 20260725163300.png",
-    "DevOps/Docker/img/Pasted image 20260725162127.png",
     "DevOps/Docker/Menghapus Docker Image.md",
     "DevOps/Docker/Image.md",
     "DevOps/Docker/Implementasi Container.md",
@@ -214,9 +213,6 @@
     "DevOps/Docker/Virtual Machine vs Container.md",
     "DevOps/Docker/Container Registry.md",
     "DevOps/Docker/Installasi Docker.md",
-    "DevOps/Cloud/Dasar/Pengenalan Jaringan di AWS.md",
-    "Pemrograman/Programming.md",
-    "DevOps/Cloud/Dasar/Tujuan Pembelajaran.md",
     "Untitled.canvas"
   ]
 }
