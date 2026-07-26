@@ -1,10 +1,15 @@
 #roadmap 
 1. [Pengenalan Docker](Pengenalan%20Docker.md)
-2. [Virtual Machine vs Container](Virtual%20Machine%20vs%20Container.md)
-3. [Image](Image.md)
-4. [Container Registry](Container%20Registry.md)
-5. [Container](Container.md)
-6. [Mengambil Image dari Registry](Mengambil%20Image%20dari%20Registry.md)
-7. [Implementasi Container](Implementasi%20Container.md)
-8. [Menghapus Docker Image](Menghapus%20Docker%20Image.md)
-9. 
+2. [Arsitektur Docker](Arsitektur%20Docker.md)
+3. [Virtual Machine vs Container](Virtual%20Machine%20vs%20Container.md)
+4. [Image](Image.md)
+5. [Container Registry](Container%20Registry.md)
+6. [Container](Container.md)
+7. [Mengambil Image dari Registry](Mengambil%20Image%20dari%20Registry.md)
+8. [Implementasi Container](Implementasi%20Container.md)
+9. [Menghapus Docker Image](Menghapus%20Docker%20Image.md)
+10. [Membuat Image dengan Dockerfile](Membuat%20Image%20dengan%20Dockerfile.md)
+11. [Mengupload Image ke Registry](Mengupload%20Image%20ke%20Registry.md)
+12. [Environment Variabel di Docker](Environment%20Variabel%20di%20Docker.md)
+13. [Integrasi Container dengan Network](Integrasi%20Container%20dengan%20Network.md)
+14. 
