@@ -1,4 +1,4 @@
-#cloud
+#devops 
 Di modul ini, saya akan mempelajari bagaimana cara:
 - Merangkum manfaat menggunakan AWS.
 - Menjelaskan perbedaan antara penyajian _on-demand_ dan penerapan cloud.

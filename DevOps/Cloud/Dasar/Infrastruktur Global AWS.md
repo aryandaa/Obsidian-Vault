@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:
 
 - Aplikasi yang harus berjalan.

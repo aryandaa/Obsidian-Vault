@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 Salah satu hal hebat tentang infrastruktur global AWS adalah caranya didesain untuk membantu Anda melayani pelanggan dengan lebih baik. Ingat kembali materi kita sebelumnya yang berkenaan dengan memilih Region. Salah satu kriteria utamanya adalah proximity alias kedekatan dengan pelanggan.
 
 Tapi, masih ada permasalahan lainnya. Coba pikirkan kembali tentang skenario kedai kopi kita. Anggaplah Anda ingin membangun kedai kopi di suatu kota yang memiliki basis pelanggan besar. Namun sayangnya, kota tersebut tidak berada dekat dengan salah satu AWS Regions. Apa yang harus Anda lakukan?

@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 Saat memilih strategi untuk menerapkan cloud, Anda harus mempertimbangkan beberapa faktor, seperti komponen aplikasi cloud yang diperlukan, layanan manajemen sumber daya yang dibutuhkan, dan setiap persyaratan infrastruktur IT.
 
 Tiga model penerapan komputasi cloud adalah cloud-based, on-premises (lokal), dan hybrid. Mari kita uraikan masing-masing model tersebut:

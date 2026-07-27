@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 - **Ubah pengeluaran di muka menjadi pengeluaran variabel**  
     Pengeluaran di muka (_upfront expense_) mengacu pada data center, server fisik, dan sumber daya lain yang perlu Anda investasikan sebelum Anda menggunakannya. Sedangkan pengeluaran variabel (_variable expense_) berarti Anda hanya membayar untuk sumber daya komputasi yang Anda konsumsi.  
       

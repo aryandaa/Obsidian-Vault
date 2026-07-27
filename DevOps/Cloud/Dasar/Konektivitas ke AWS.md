@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 Ada jutaan pelanggan yang menggunakan layanan AWS. Lalu, bayangkan terdapat pula jutaan sumber daya yang telah dibuat oleh pelanggan tersebut, seperti Amazon EC2 instance. Tanpa adanya batasan di sekitar semua sumber daya itu, _traffic_ jaringan akan mengalir di antaranya tanpa batasan.
 
 Layanan jaringan yang dapat Anda gunakan untuk menetapkan batasan di sekitar sumber daya AWS adalah Amazon Virtual Private Cloud (Amazon VPC).

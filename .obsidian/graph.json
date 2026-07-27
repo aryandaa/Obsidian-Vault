@@ -50,24 +50,17 @@
       }
     },
     {
-      "query": "tag:#cloud  ",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "tag:#hardware",
-      "color": {
-        "a": 1,
-        "rgb": 3932252
-      }
-    },
-    {
       "query": "tag:#devops ",
       "color": {
         "a": 1,
         "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#latihan  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
       }
     }
   ],
@@ -81,6 +74,6 @@
   "repelStrength": 16.8446547256956,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.0465779769696195,
+  "scale": 0.055425195880925156,
   "close": true
 }

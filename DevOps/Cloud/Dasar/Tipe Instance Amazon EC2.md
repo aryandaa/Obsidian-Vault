@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 Instance family di Amazon EC2 memiliki fungsi yang berbeda-beda. Di antaranya ada _general purpose_, _compute optimized_, _memory optimized_, _accelerated computing_ (komputasi terakselerasi), dan _storage optimized_. Berikut uraiannya:
 
 - **General purpose instances** (Instance tujuan umum)  

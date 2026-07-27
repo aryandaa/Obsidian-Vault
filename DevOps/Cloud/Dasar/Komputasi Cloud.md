@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 simbol awan dipakai karena merepresentasikan keberadaan data kita ada di suatu tempat di luar sana, mengambang, melayang, nirkabel, tersedia di mana saja dan kapan saja ketika kita membutuhkannya. Istilah awan juga menarik karena merupakan kebalikan dari dunia material yang riil seperti colokan, kabel, hard disk, dsb
 
 cloud computing adalah penggunaan sesuai kebutuhan (_on-demand_) sumber daya IT melalui internet dengan harga sesuai pemakaian (_pay-as-you-go_).

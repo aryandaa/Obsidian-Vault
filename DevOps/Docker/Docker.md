@@ -12,7 +12,10 @@
 11. [Mengupload Image ke Registry](Mengupload%20Image%20ke%20Registry.md)
 12. [Environment Variabel di Docker](Environment%20Variabel%20di%20Docker.md)
 13. [Integrasi Container dengan Network](Integrasi%20Container%20dengan%20Network.md)
-14. [Docker Compose](Docker%20Compose.md)
+14. [Docker Compose (YML)](Docker%20Compose%20(YML).md)
 15. [Manage Data di Docker](Manage%20Data%20di%20Docker.md)
 16. [Masuk ke Docker Container](Masuk%20ke%20Docker%20Container.md)
 17. [Docker Logs](Docker%20Logs.md)
+18. [dockerignore](dockerignore.md)
+
+Task For Docker Basic: [Intruksi Task 1 (Docker)](Intruksi%20Task%201%20(Docker).md)

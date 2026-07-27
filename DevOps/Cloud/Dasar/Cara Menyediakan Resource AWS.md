@@ -1,4 +1,4 @@
-#cloud 
+#devops 
 bagaimana sebenarnya kita dapat berinteraksi dengan layanan-layanan tersebut?
 
 Jawabannya adalah API--sudah kita singgung sedikit di modul sebelumnya. Di AWS semua aktivitas adalah panggilan API. API adalah application programming interface atau antarmuka pemrograman aplikasi. Dengan kata lain, ada cara yang telah ditentukan sebelumnya untuk Anda sehingga dapat berinteraksi dengan layanan AWS.

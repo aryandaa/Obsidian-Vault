@@ -1,4 +1,4 @@
-#cloud 
+#devops 
  Anda membutuhkan server yang dapat memberikan kapasitas komputasi untuk menjalankan aplikasi dan menyediakan daya komputasi sesuai kebutuhan bisnis Anda. Di AWS, server tersebut berbentuk virtual. Dan layanan yang dapat Anda gunakan untuk mendapatkan akses ke server virtual tersebut disebut dengan Amazon EC2.
 Dengan menggunakan layanan EC2, Anda memiliki kapasitas komputasi yang fleksibel, hemat biaya, dan cepat dibandingkan dengan menjalankan server sendiri di data center _on-premise_.
 
