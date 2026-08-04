@@ -1,0 +1,22 @@
+name: Dispatch website synchronization
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify the website repository
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          repository: ${{ secrets.WEBSITE_REPOSITORY }}
+          event-type: vault-sync
+          client-payload: >-
+            {"vaultCommit":"${{ github.sha }}","vaultBranch":"${{ github.ref_name }}","vaultRepository":"${{ github.server_url }}/${{ github.repository }}.git"}
