@@ -18,32 +18,22 @@ Seluruh tugas di bawah harus diselesaikan.
 
 # Task 1 - Membuat Aplikasi
 Buat aplikasi Flask sederhana yang menampilkan:
-
 - Nama pengguna dari Environment Variable.
 - Status koneksi MongoDB.
 
 Contoh tampilan browser:
-
 ```
 Halo, Aryanda
 
 🟢 MongoDB Connected
 ```
 
-Materi yang digunakan:
-
-- Docker Image
-- Dockerfile
-- Environment Variable
-
 ---
 
 # Task 2 - Dockerfile
-
 Buat Dockerfile yang dapat menjalankan aplikasi tersebut.
 
 Dockerfile harus memiliki:
-
 - Base Image Python
 - WORKDIR
 - COPY
@@ -51,67 +41,40 @@ Dockerfile harus memiliki:
 - CMD
 
 Build image.
-
 ```
-docker build -t aryanda/app-python:1.0 .
+docker build -t aryanda/app-python:Task1 .
 ```
-
 Pastikan image berhasil dibuat.
-
-Materi yang digunakan:
-
-- Dockerfile
-- Build Image
 
 ---
 
 # Task 3 - Menjalankan Container
 
 Jalankan aplikasi.
-
 ```
-docker run -p 8080:5000 aryanda/app-python:1.0
+docker run -p 8080:5000 aryanda/app-python:Task1
 ```
-
 Pastikan browser bisa diakses.
-
-Materi:
-
-- Docker Container
 
 ---
 
 # Task 4 - Environment Variable
-
 Jalankan kembali container dengan nama berbeda.
 
 ```
 docker run \
 -p 8080:5000 \
 -e NAMA=Aryanda \
-aryanda/app-python:1.0
+aryanda/app-python:Task1
 ```
-
 Pastikan nama berubah.
-
-Materi:
-
-- Environment Variable
 
 ---
 
 # Task 5 - Docker Hub
 
-Login.
-
 ```
-docker login
-```
-
-Push image.
-
-```
-docker push aryanda/app-python:1.0
+docker push aryanda/app-python:Task1
 ```
 
 Lalu hapus image lokal.
@@ -121,40 +84,24 @@ docker rmi
 ```
 
 Download kembali.
-
 ```
 docker pull
 ```
-
 Pastikan image tetap bisa dijalankan.
-
-Materi:
-
-- Docker Registry
-- Docker Hub
-- Push
-- Pull
 
 ---
 
 # Task 6 - MongoDB
-
 Buat container MongoDB.
-
 ```
 docker run
 ```
 
 Gunakan:
-
 - username
 - password
 
 Pastikan MongoDB berjalan.
-
-Materi:
-
-- Container
 
 ---
 
@@ -167,15 +114,10 @@ docker network create belajar-network
 ```
 
 Hubungkan:
-
 - MongoDB
 - Flask
-
 Pastikan aplikasi berhasil melakukan ping ke MongoDB.
 
-Materi:
-
-- Docker Network
 
 ---
 
@@ -184,23 +126,16 @@ Materi:
 Buat file `docker-compose.yml`.
 
 Syarat:
-
 - Flask
 - MongoDB
 - Network
 - Environment Variable
 
 Jalankan.
-
 ```
 docker compose up -d
 ```
-
 Pastikan cukup satu command untuk menjalankan seluruh aplikasi.
-
-Materi:
-
-- Docker Compose
 
 ---
 

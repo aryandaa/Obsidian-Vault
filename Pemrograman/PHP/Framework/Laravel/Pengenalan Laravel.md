@@ -1,12 +1,10 @@
 #programming 
 ## **Apa itu Laravel?**
-
 - **Definisi Laravel:** Laravel adalah framework PHP yang dirancang untuk membuat pengembangan web lebih mudah dan cepat dengan menyediakan berbagai fitur dan alat yang siap pakai.
     
 - **Arsitektur MVC:** Laravel mengikuti arsitektur Model-View-Controller (MVC) yang membantu memisahkan logika aplikasi dari tampilan.
     
 - **Keunggulan Laravel:**
-    
     - **Sintaks yang Elegan:** Laravel memiliki sintaks yang bersih dan mudah dipahami.
         
     - **Fitur Lengkap:** Menyediakan fitur seperti routing, middleware, autentikasi, dan banyak lagi.

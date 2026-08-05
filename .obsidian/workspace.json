@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9d7f62f4a11260ce",
+        "id": "d02b07ce11b5cc69",
         "type": "tabs",
         "children": [
           {
-            "id": "7acdc2a795a656ce",
+            "id": "91352155f5688b89",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevOps/Docker/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Intruksi Task 1 (Docker)"
+              "title": "New tab"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -169,54 +167,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "7acdc2a795a656ce",
+  "active": "91352155f5688b89",
   "lastOpenFiles": [
-    "DevOps/Docker/Praktek/praktek real case/Writeup.md",
+    "Note Personal/Daily/2026-08-02.md",
+    "Note Personal/Daily/2026-08-04.md",
+    "Note Personal/Daily/2026-06-30.md",
+    "Note Personal/Daily/2026-04-26.md",
+    "Note Personal/Daily/2026-02-23.md",
+    "Untitled.canvas",
+    "Pemrograman/PHP/Framework/Laravel/Resource Route.md",
+    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
+    "Pemrograman/PHP/Framework/Laravel/Route Group.md",
+    "Pemrograman/PHP/Framework/Laravel/Latihan Route Group.md",
+    "Pemrograman/PHP/Framework/Laravel/Database Dan Migrasi.md",
+    "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
+    "Pemrograman/PHP/Framework/Laravel/Named Route.md",
+    "Pemrograman/PHP/Framework/Laravel/Latihan Named Route.md",
+    "Pemrograman/PHP/Framework/Laravel/Latihan Route Parameter.md",
+    "Pemrograman/PHP/Framework/Laravel/Route Parameter.md",
+    "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
+    "Pemrograman/PHP/Framework/Laravel/Latihan Dasar Routing.md",
     "DevOps/Docker/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
-    "DevOps/Docker/Docker.md",
+    "Pemrograman/PHP/Framework/Laravel/Lifecycle Request.md",
+    "Pemrograman/PHP/Framework/Laravel/Struktur Folder & File.md",
+    "Pemrograman/PHP/Framework/Routes Controller.md",
+    "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
+    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
+    "Pemrograman/PHP/Framework/Laravel/Filament/Mengenai Filament.md",
+    "Pemrograman/PHP/Framework/Laravel/Filament/Filament.md",
+    "Pemrograman/PHP/Framework/Laravel/Filament/Arsitektur Filament.md",
+    "Pemrograman/PHP/Framework/Laravel/Filament",
+    "DevOps/Docker/Praktek/praktek real case/docker-compose.yml",
+    "DevOps/Docker/Praktek/praktek real case/requirements.txt",
+    "DevOps/Docker/Praktek/praktek real case/dockerfile",
+    "DevOps/Docker/Praktek/praktek real case/app.py",
     "DevOps/Docker/Praktek/praktek real case",
-    "DevOps/Docker/dockerignore.md",
-    "DevOps/Cloud/Dasar/Tujuan Pembelajaran.md",
-    "Jaringan/Hardware/Penjelasan Hardware.md",
-    "Jaringan/Hardware/Graphics Processing Unit (GPU).md",
-    "DevOps/Cloud/Dasar/Tipe Instance Amazon EC2.md",
-    "DevOps/Cloud/Dasar/Pengenalan Jaringan di AWS.md",
-    "DevOps/Cloud/Dasar/Konektivitas ke AWS.md",
-    "DevOps/Cloud/Dasar/Model Penerapan.md",
-    "DevOps/Cloud/Dasar/Manfaat Komputasi Cloud.md",
-    "DevOps/Cloud/Dasar/Komputasi Cloud.md",
-    "DevOps/Cloud/Dasar/Infrastruktur Global AWS.md",
-    "DevOps/Cloud/Dasar/Edge Locations.md",
-    "DevOps/Cloud/Dasar/Cloud.md",
-    "DevOps/Cloud/Dasar/Cara Menyediakan Resource AWS.md",
-    "DevOps/Cloud/Dasar/Amazon Elastic Compute Cloud (Amazon EC2).md",
-    "DevOps/Docker/Docker Inspect.md",
-    "DevOps/Docker/Docker Logs.md",
-    "DevOps/Docker/Docker Compose (YML).md",
-    "DevOps/Docker/Kitematic.md",
-    "DevOps/Docker/Masuk ke Docker Container.md",
-    "DevOps/Docker/Manage Data di Docker.md",
     "DevOps/Docker/img/Pasted image 20260726230404.png",
     "DevOps/Docker/img/Pasted image 20260726224635.png",
     "DevOps/Docker/Praktek/Database/docker-compose.yml",
     "DevOps/Docker/Praktek/Compose/docker-compose.yml",
     "DevOps/Docker/Praktek/Compose",
-    "DevOps/Docker/Integrasi Container dengan Network.md",
-    "Pemrograman/CSS/Native/Box Model.md",
     "DevOps/Docker/img/Pasted image 20260726203051.png",
     "DevOps/Docker/img/Pasted image 20260726172514.png",
     "DevOps/Docker/Praktek/Database/Dockerfile",
-    "DevOps/Docker/Praktek/Database/requirements.txt",
-    "DevOps/Docker/Praktek/Database/app.py",
-    "DevOps/Docker/Praktek/Database",
-    "DevOps/GitHUb/GitHUb",
-    "DevOps/GitHUb/Git",
     "DevOps/Docker/img/Pasted image 20260726161212.png",
     "DevOps/Docker/img/Pasted image 20260726161018.png",
     "DevOps/Docker/img/Pasted image 20260726160109.png",
     "DevOps/Docker/img/Pasted image 20260726152035.png",
     "DevOps/Docker/img/Pasted image 20260725165418.png",
-    "DevOps/Docker/img/Pasted image 20260725163300.png",
-    "Untitled.canvas"
+    "DevOps/Docker/img/Pasted image 20260725163300.png"
   ]
 }

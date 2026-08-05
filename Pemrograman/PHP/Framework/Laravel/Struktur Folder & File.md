@@ -1,92 +1,258 @@
 #programming 
-## **Struktur Folder:**
+Kalau diibaratkan tubuh manusia, folder Laravel adalah organ-organ yang punya pekerjaan masing-masing. Semuanya bekerja sama setiap kali ada request masuk.
 
-Setelah instalasi, penting untuk memahami struktur folder Laravel:
+Misalnya ada orang membuka
+```
+http://localhost:8000/products
+```
 
-- **app/**: Berisi kode aplikasi seperti model, controller, dan middleware.
-    
-- **bootstrap/**: Berisi file untuk bootstrap aplikasi.
-    
-- **config/**: Berisi file konfigurasi untuk berbagai komponen Laravel.
-    
-- **database/**: Berisi migrasi, seeder, dan file database lainnya.
-    
-- **public/**: Berisi file yang dapat diakses publik seperti index.php, CSS, dan JavaScript.
-    
-- **resources/**: Berisi view, file bahasa, dan aset lainnya.
-    
-- **routes/**: Berisi file routing aplikasi.
-    
-- **storage/**: Berisi file yang dihasilkan aplikasi seperti log dan cache.
-    
-- **tests/**: Berisi file untuk pengujian aplikasi.
-    
-- **vendor/**: Berisi dependensi yang diinstal oleh Composer.
+Laravel tidak asal mencari file `products.php` tetapi Ia akan melewati banyak bagian ini:
 
-## **Rincian Folder Utama**
+```
+Browser
+      │
+      ▼
+public/index.php
+      │
+      ▼
+Bootstrap Laravel
+      │
+      ▼
+Route
+      │
+      ▼
+Middleware
+      │
+      ▼
+Controller
+      │
+      ▼
+Model
+      │
+      ▼
+Database
+      │
+      ▼
+Controller
+      │
+      ▼
+Blade
+      │
+      ▼
+Browser
+```
+Seluruh folder Laravel dibuat agar alur ini berjalan.
 
-### **1. app/**
-Folder ini berisi kode aplikasi utama, termasuk model, controller, dan middleware.
-- **Console/:** Berisi perintah Artisan yang dapat Anda buat.
-    
-- **Exceptions/:** Berisi handler untuk pengecualian.
-    
-- **Http/:** Berisi controller, middleware, dan request.
-    
-    - **Controllers/:** Tempat Anda menyimpan semua controller aplikasi.
-        
-    - **Middleware/:** Berisi middleware yang digunakan untuk memfilter permintaan HTTP.
-        
-- **Models/:** Berisi model Eloquent yang mewakili tabel database.
-### **2. bootstrap/**
-Folder ini berisi file yang digunakan untuk bootstrap aplikasi.
-- **app.php:** File ini mem-bootstrapping framework dan memuat semua komponen aplikasi.
-### **3. config/**
-Folder ini berisi file konfigurasi untuk berbagai komponen Laravel.
-- **app.php:** Konfigurasi utama aplikasi.
-    
-- **database.php:** Konfigurasi koneksi database.
-    
-- **mail.php:** Konfigurasi pengaturan email.
-    
-### **4. database/**
-Folder ini berisi migrasi, seeder, dan file database lainnya.
-- **migrations/:** Berisi file migrasi untuk membuat dan mengubah tabel database.
-    
-- **seeds/:** Berisi file seeder untuk mengisi database dengan data awal.
-### **5. public/**
-- **index.php**: _Entry point_ untuk semua permintaan ke aplikasi Anda.
-    
-### **6. resources/**
-- **views/**: Berisi file Blade template yang digunakan untuk tampilan.
-    
-- **lang/**: Berisi file terjemahan untuk aplikasi multibahasa.
-    
-- **assets/**: Berisi file CSS dan JavaScript yang dapat dikompilasi.
-    
-### **7. routes/**
-- **web.php**: Berisi rute untuk antarmuka web.
-    
-- **api.php**: Berisi rute untuk API.
-    
-### **8. storage/**
-- **app/**: Berisi file yang dihasilkan oleh aplikasi.
-    
-- **logs/**: Berisi file log aplikasi.
-    
-- **framework/**: Berisi cache, sesi, dan file framework lainnya.
-    
-### **9. tests/**
-- **Feature/**: Berisi pengujian fitur aplikasi.
-    
-- **Unit/**: Berisi pengujian unit aplikasi.
-    
-### **File Utama di Laravel**
-- **.env**: File konfigurasi environment yang berisi pengaturan aplikasi seperti database, mail, dll.
-    
-- **composer.json**: File yang berisi informasi tentang proyek dan dependensi yang digunakan.
-    
-- **artisan**: CLI (_Command Line Interface_) Laravel untuk menjalankan berbagai perintah Artisan.
+## Structure Folder
+## app/
+Ini adalah folder yang paling sering kamu buka dan Di sinilah seluruh logika aplikasi berada, Misalnya:
+```
+app/
+│
+├── Models/
+├── Http/
+├── Providers/
+├── Console/
+├── Jobs/
+├── Events/
+└── Policies/
+```
 
+Kalau membuat
+```
+php artisan make:model Product
+```
+hasilnya ada di
+```
+app/Models/Product.php
+```
 
+Kalau membuat controller
+```
+php artisan make:controller ProductController
+```
+hasilnya berada di
+```
+app/Http/Controllers
+```
 
+Jadi bisa dibilang, **folder `app` adalah rumah utama kode yang kamu tulis sendiri**.
+
+--- 
+## routes/
+Semua jalan masuk aplikasi ada di sini.
+```
+routes/
+```
+
+Berisi
+```
+web.php
+api.php
+console.php
+channels.php
+```
+
+Yang paling sering digunakan adalah
+```
+web.php
+```
+
+Contoh umum (Routes Controller):
+```php
+Route::get('/products', [
+	ProductController::class, 'index']);
+```
+
+Contoh lain (Closure):
+```php
+Route::get('/', function () {
+	return view('welcome');
+});
+```
+
+dan nanti aku akan membahas penggunaan routes controller lebih lanjut di pembahasan [Routes Controller](Routes%20Controller.md)
+
+---
+## resources/
+Kalau `app` adalah otak, maka `resources` adalah wajah aplikasi, Di dalamnya terdapat:
+```
+resources/views
+```
+Misalnya:
+```
+welcome.blade.php
+```
+
+atau
+```
+products/index.blade.php
+```
+Semua HTML biasanya berada di sini.
+
+---
+
+## database/
+Folder ini berisi seluruh kebutuhan database.
+```
+database/
+
+migrations/
+seeders/
+factories/
+```
+
+Migration
+```
+Create users table
+Create products table
+```
+
+Seeder
+```
+Isi data awal
+```
+
+Factory
+```
+Generate data palsu
+```
+
+Misalnya
+```
+ProductFactory
+```
+dapat menghasilkan
+```
+Laptop ASUS
+Mouse Logitech
+Keyboard Mechanical
+```
+
+ribuan data hanya dalam hitungan detik. Karena tidak ada yang waras mengisi 10.000 produk satu per satu hanya demi menguji pagination.
+
+---
+## public/
+
+Ini satu-satunya folder yang boleh diakses browser karena di dalamnya terdapat:
+```
+index.php
+```
+Semua request Laravel selalu dimulai dari file ini.
+
+Kalau kamu upload gambar
+```
+storage:link
+```
+hasil akhirnya juga akan bisa diakses melalui folder `public`.
+
+---
+## config/
+Menyimpan semua konfigurasi Laravel, Misalnya:
+```
+config/app.php
+config/database.php
+config/cache.php
+```
+Kalau ingin mengubah database default, timezone, locale, cache, mail, hampir semuanya ada di folder ini.
+
+---
+## storage/
+Laravel menyimpan banyak hal di sini, Misalnya:
+
+```
+logs
+```
+
+Kalau aplikasi error
+```
+storage/logs/laravel.log
+```
+adalah tempat pertama yang wajib kamu buka.
+
+Selain itu ada
+```
+storage/app
+storage/framework
+```
+untuk cache, session, upload, dan file lainnya.
+
+---
+## vendor/
+Folder ini berisi seluruh library dari Composer, Misalnya
+
+```
+Laravel Framework
+Monolog
+Symfony
+Carbon
+Guzzle
+```
+Semua berada di sini.
+
+Karena dibuat otomatis oleh Composer, **jangan pernah mengedit isi folder `vendor`**. Kalau kamu mengubahnya, pembaruan Composer berikutnya akan menimpa semua perubahanmu. Ibarat mengecat mobil orang lain yang sedang dipinjam.
+
+# Gambaran besar
+Sekarang coba lihat alurnya sekali lagi.
+
+```
+Browser
+↓
+public/
+↓
+routes/
+↓
+Controller
+↓
+Model
+↓
+Database
+↓
+Controller
+↓
+Blade
+↓
+Browser
+```
+
+Kalau kamu memahami alur ini, nanti saat belajar Middleware, Dependency Injection, Service Container, hingga Filament, semuanya terasa jauh lebih masuk akal karena mereka hanya "menyisip" di beberapa titik dalam alur tersebut.
