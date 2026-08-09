@@ -1,7 +1,6 @@
 #programming 
 Observation -> Pattern -> Tentative Hypothesis -> Theory.
 
-
 Ketika memutuskan suatu hal, Anda biasanya mengandalkan pengamatan dan menghubungkannya dengan pengalaman yang pernah terjadi. Misalnya, Pada suatu sore, Anda ingin membeli nasi goreng menggunakan sepeda motor karena warungnya lumayan jauh. Kemudian langit mulai mendung dan angin bertiup dingin. Karena akhir-akhir ini sering turun hujan terutama ketika sore hari, Anda langsung memasukkan jas hujan ke dalam jok motor dan berangkat ke warung. Nah, di sana Anda sudah menerapkan logika penalaran induktif.
 
 Secara sederhana, penalaran induktif merupakan metode berpikir menggunakan pengamatan dan digabungkan dengan pengalaman yang sudah Anda ketahui kebenarannya untuk mendapatkan sebuah kesimpulan.

@@ -3,8 +3,8 @@ Menurut Technopedia, logika pemrograman adalah sebuah kemampuan dasar yang mener
 
 Ada 3 jenis logika pemrograman yang akan kita bahas, antara lain:
 
-1. Logika aritmatika
-2. Logika perbandingan
+1. Logika aritmatika 
+2. Logika perbandingan 
 3. Logika perulangan
 
 mari kita ilustrasikan manfaat belajar logika pemrograman dalam kehidupan sehari-hari dengan cerita sederhana. Bayangkan di awal bulan Anda pergi ke swalayan untuk membeli kebutuhan rumah tangga. Kemudian Anda melihat sebuah plakat bertuliskan “Khusus hari ini. Diskon 20% untuk semua jenis barang yang dijual.” Tentunya hal tersebut menarik perhatian Anda karena lumayan untuk menghemat pengeluaran belanja.

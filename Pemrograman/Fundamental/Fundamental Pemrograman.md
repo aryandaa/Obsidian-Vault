@@ -1,6 +1,12 @@
 #roadmap 
 Fundamental yang harus di pelajari sebelum lanjut ke bahasa pemrograman yang lebih spesifik, karena fundamental ini berguna untuk semua bahasa, baik php, javascript, python, dll.
 
+## Cara Berpikir Programmer (Mindset)
+1. [Apa itu program](Apa%20itu%20program.md)
+2. [Apa Itu Programmer](Apa%20Itu%20Programmer.md)
+3. [Bagaimana Komputer Bekerja](Bagaimana%20Komputer%20Bekerja.md)
+4. 
+
 [[Pemrograman/Fundamental/Logika|Logika]]
 [Algoritma](Algoritma.md)
 

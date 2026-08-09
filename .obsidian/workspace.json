@@ -11,10 +11,14 @@
             "id": "91352155f5688b89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Pemrograman/Fundamental/Input > Process > Output.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Input > Process > Output"
             }
           }
         ]
@@ -169,6 +173,19 @@
   },
   "active": "91352155f5688b89",
   "lastOpenFiles": [
+    "Pemrograman/Fundamental/Fundamental Pemrograman.md",
+    "Pemrograman/Fundamental/Input > Process > Output.md",
+    "Pemrograman/Fundamental/Bagaimana Komputer Bekerja.md",
+    "Pemrograman/Fundamental/Apa Itu Programmer.md",
+    "Pemrograman/Fundamental/Apa itu program.md",
+    "Pemrograman/Fundamental/Logika.md",
+    "Pemrograman/Vibe Coding/Vibe Coding.md",
+    "Pemrograman/Fundamental/Algoritma.md",
+    "Pemrograman/Fundamental/Deduktif.md",
+    "Pemrograman/Untitled",
+    "Pemrograman/Fundamental/Induktif.md",
+    "Pemrograman/Programming.md",
+    "Pemrograman/Vibe Coding",
     "Note Personal/Daily/2026-08-02.md",
     "Note Personal/Daily/2026-08-04.md",
     "Note Personal/Daily/2026-06-30.md",
@@ -185,17 +202,6 @@
     "Pemrograman/PHP/Framework/Laravel/Latihan Named Route.md",
     "Pemrograman/PHP/Framework/Laravel/Latihan Route Parameter.md",
     "Pemrograman/PHP/Framework/Laravel/Route Parameter.md",
-    "Pemrograman/PHP/Framework/Laravel/Dasar Routing.md",
-    "Pemrograman/PHP/Framework/Laravel/Latihan Dasar Routing.md",
-    "DevOps/Docker/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
-    "Pemrograman/PHP/Framework/Laravel/Lifecycle Request.md",
-    "Pemrograman/PHP/Framework/Laravel/Struktur Folder & File.md",
-    "Pemrograman/PHP/Framework/Routes Controller.md",
-    "Pemrograman/PHP/Framework/Laravel/Instalasi.md",
-    "Pemrograman/PHP/Framework/Laravel/Pengenalan Laravel.md",
-    "Pemrograman/PHP/Framework/Laravel/Filament/Mengenai Filament.md",
-    "Pemrograman/PHP/Framework/Laravel/Filament/Filament.md",
-    "Pemrograman/PHP/Framework/Laravel/Filament/Arsitektur Filament.md",
     "Pemrograman/PHP/Framework/Laravel/Filament",
     "DevOps/Docker/Praktek/praktek real case/docker-compose.yml",
     "DevOps/Docker/Praktek/praktek real case/requirements.txt",
@@ -206,10 +212,8 @@
     "DevOps/Docker/img/Pasted image 20260726224635.png",
     "DevOps/Docker/Praktek/Database/docker-compose.yml",
     "DevOps/Docker/Praktek/Compose/docker-compose.yml",
-    "DevOps/Docker/Praktek/Compose",
     "DevOps/Docker/img/Pasted image 20260726203051.png",
     "DevOps/Docker/img/Pasted image 20260726172514.png",
-    "DevOps/Docker/Praktek/Database/Dockerfile",
     "DevOps/Docker/img/Pasted image 20260726161212.png",
     "DevOps/Docker/img/Pasted image 20260726161018.png",
     "DevOps/Docker/img/Pasted image 20260726160109.png",
