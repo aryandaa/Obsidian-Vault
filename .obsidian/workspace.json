@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jaringan/jaringan/Jaringan.md",
+                "file": "Jaringan/Hardware/Hardware.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jaringan"
+              "title": "Hardware"
             }
           }
         ],
@@ -188,16 +188,16 @@
   },
   "active": "a68935be9a1ab2a3",
   "lastOpenFiles": [
+    "Jaringan/Hardware/Hardware Basic/Hardware.md",
+    "Jaringan/Hardware/Hardware.md",
+    "Jaringan/jaringan/Jaringan.md",
     "Jaringan/jaringan/Jaringan Basic/Subnet Mask.md",
     "Jaringan/jaringan/Jaringan Basic/Pengenalan Jaringan komputer.md",
     "Jaringan/jaringan/Jaringan Basic/IP Address.md",
     "Jaringan/jaringan/Jaringan Basic/Alamat Network, Host dan Broadcast.md",
     "Jaringan/jaringan/Jaringan Basic/1. Fundamental Jaringan.md",
-    "Jaringan/jaringan/Jaringan.md",
-    "Jaringan/Hardware/Hardware.md",
     "Jaringan/Jaringan.md",
     "Jaringan/jaringan/Jaringan Basic",
-    "Jaringan/Hardware/Hardware Basic/Hardware.md",
     "Jaringan/Hardware/Hardware Basic",
     "Jaringan/Hardware/Hardware Basic/Penjelasan Hardware.md",
     "DevOps/DevOps.md",
