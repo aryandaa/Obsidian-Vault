@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Docker/Docker Basic/1. Docker Basic.md",
+                "file": "DevOps/Cloud/Cloud Dasar/1. Cloud Dasar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Docker Basic"
+              "title": "1. Cloud Dasar"
             }
           }
         ],
@@ -188,8 +188,15 @@
   },
   "active": "a68935be9a1ab2a3",
   "lastOpenFiles": [
-    "DevOps/Docker/Docker Basic/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
+    "DevOps/Cloud/Cloud Dasar/Komputasi Cloud.md",
+    "DevOps/Cloud/Cloud Dasar/1. Cloud Dasar.md",
+    "DevOps/Cloud/Cloud Dasar/Tujuan Pembelajaran.md",
+    "DevOps/Cloud/Cloud.md",
+    "DevOps/Cloud/Dasar/Untitled.md",
+    "DevOps/Docker/Docker.md",
+    "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
     "DevOps/Docker/Docker Basic/1. Docker Basic.md",
+    "DevOps/Docker/Docker Basic/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
     "DevOps/Docker/Docker Basic/dockerignore.md",
     "DevOps/Docker/Docker Basic/Docker Logs.md",
     "DevOps/Docker/Docker Basic/Masuk ke Docker Container.md",
@@ -206,17 +213,10 @@
     "DevOps/Docker/Docker Basic/Container Registry.md",
     "DevOps/Docker/Docker Basic/Image.md",
     "DevOps/Docker/Docker Basic/Virtual Machine vs Container.md",
-    "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
     "DevOps/Docker/Docker Basic/Pengenalan Docker.md",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
-    "DevOps/Docker/Docker.md",
-    "DevOps/GitHUb/GitHub.md",
-    "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/5. Asymmetric key.md",
     "DevOps/Docker/Docker Basic",
-    "CyberSecurity/Cryptography/Modular Aritmathic/2. Modular Aritmathic.md",
-    "CyberSecurity/Cryptography/Pengenalan/1. Pengenalan.md",
     "CyberSecurity/Cryptography/Pengenalan/Untitled",
-    "CyberSecurity/Cryptography/Cryptography.md",
     "Pemrograman/Untitled",
     "Pemrograman/Vibe Coding",
     "Untitled.canvas",
