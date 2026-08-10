@@ -3,15 +3,15 @@ Sebelumnya untuk mendapatkan image harus mendownload langsung lewat registry nya
 
 1. bisa buka text editor, seperti vscode.
 
-![](Pasted%20image%2020260724212703.png)
+![](img/Pasted%20image%2020260724212703.png)
 disini saya sudah menyiapkan 1 code go sederhana untuk web yang cuman menampilkan "Hello World!"
-![](Pasted%20image%2020260724213112.png)
+![](img/Pasted%20image%2020260724213112.png)
 
 2. Lalu dibawahnya saya akan menambahkan 1 file bernama "Dockerfile",
 yang perlu di highlight adalah, para developer sangat jarang sekali membuat image dari kosongan, biasanya mereka akan menggunakan image yang sudah ada ke image yang akan dibuat.
 
 sebagai contoh, disini saya akan membuat aplikasi golang, dibandingkan membuat image manual dari 0 akan sangat ribet sekali, lebih baik saya akan memakai image golang yang sudah di siapkan di registry Docker Hub. 
-![](Pasted%20image%2020260724213806.png)
+![](img/Pasted%20image%2020260724213806.png)
 
 3. jika ingin menggunakan Image itu, kita bisa tambahkan ini di Dockerfile nya
 ```Dockerfile
@@ -58,7 +58,7 @@ docker build --tag app-golang:1.0 .
 ```
 
 7. kirim dan tunggu sampai selesai,
-![](Pasted%20image%2020260724220551.png)
+![](img/Pasted%20image%2020260724220551.png)
 
 step dari prosessnya itu sesuai dengan isi dari Dockerfile, yaitu:
 1. Installasi Image
@@ -83,5 +83,5 @@ docker container start app1
 ```
 
 10. jika kita buka di browser dengan port 8080, maka webnya berhasil muncul:
-![](Pasted%20image%2020260724221824.png)
+![](img/Pasted%20image%2020260724221824.png)
 Yang artinya kita berhasil membuat image kita sendiri, dan membuatkan containernya. 

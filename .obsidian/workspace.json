@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
+                "file": "DevOps/Docker/Docker Basic/1. Docker Basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arsitektur Docker"
+              "title": "1. Docker Basic"
             }
           }
         ],
@@ -188,34 +188,35 @@
   },
   "active": "a68935be9a1ab2a3",
   "lastOpenFiles": [
-    "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
-    "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
+    "DevOps/Docker/Docker Basic/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
     "DevOps/Docker/Docker Basic/1. Docker Basic.md",
+    "DevOps/Docker/Docker Basic/dockerignore.md",
+    "DevOps/Docker/Docker Basic/Docker Logs.md",
+    "DevOps/Docker/Docker Basic/Masuk ke Docker Container.md",
+    "DevOps/Docker/Docker Basic/Manage Data di Docker.md",
+    "DevOps/Docker/Docker Basic/Integrasi Container dengan Network.md",
+    "DevOps/Docker/Docker Basic/Environment Variabel di Docker.md",
+    "DevOps/Docker/Docker Basic/Praktek Environment Variabel.md",
+    "DevOps/Docker/Docker Basic/Mengupload Image ke Registry.md",
+    "DevOps/Docker/Docker Basic/Membuat Image dengan Dockerfile.md",
+    "DevOps/Docker/Docker Basic/Menghapus Docker Image.md",
+    "DevOps/Docker/Docker Basic/Implementasi Container.md",
+    "DevOps/Docker/Docker Basic/Mengambil Image dari Registry.md",
+    "DevOps/Docker/Docker Basic/Container.md",
+    "DevOps/Docker/Docker Basic/Container Registry.md",
+    "DevOps/Docker/Docker Basic/Image.md",
+    "DevOps/Docker/Docker Basic/Virtual Machine vs Container.md",
+    "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
     "DevOps/Docker/Docker Basic/Pengenalan Docker.md",
+    "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
     "DevOps/Docker/Docker.md",
     "DevOps/GitHUb/GitHub.md",
-    "DevOps/Docker/Docker Basic/Integrasi Container dengan Network.md",
-    "DevOps/Docker/Docker Basic/Implementasi Container.md",
     "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/5. Asymmetric key.md",
     "DevOps/Docker/Docker Basic",
     "CyberSecurity/Cryptography/Modular Aritmathic/2. Modular Aritmathic.md",
     "CyberSecurity/Cryptography/Pengenalan/1. Pengenalan.md",
     "CyberSecurity/Cryptography/Pengenalan/Untitled",
     "CyberSecurity/Cryptography/Cryptography.md",
-    "CyberSecurity/Cryptography/Cryptography Modern/Cryptography Modern.md",
-    "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/4. Symmetric key.md",
-    "CyberSecurity/Cryptography/Cryptography Classic/3. Cryptography Classic.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmatika.md",
-    "CyberSecurity/Cryptography/Pengenalan/tes.md",
-    "Pemrograman/Fundamental/Bagaimana Komputer Bekerja.md",
-    "Pemrograman/Fundamental/Fundamental Pemrograman.md",
-    "Note Personal/Daily/2026-08-02.md",
-    "Note Personal/Daily/2026-08-04.md",
-    "Pemrograman/Fundamental/Input > Process > Output.md",
-    "Pemrograman/Fundamental/Apa Itu Programmer.md",
-    "Pemrograman/Fundamental/Apa itu program.md",
-    "Pemrograman/Fundamental/Logika.md",
-    "Pemrograman/Vibe Coding/Vibe Coding.md",
     "Pemrograman/Untitled",
     "Pemrograman/Vibe Coding",
     "Untitled.canvas",
@@ -233,7 +234,6 @@
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726161018.png",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726160109.png",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726152035.png",
-    "DevOps/Docker/Docker Basic/img/Pasted image 20260725165418.png",
-    "DevOps/Docker/Docker Basic/img/Pasted image 20260725163300.png"
+    "DevOps/Docker/Docker Basic/img/Pasted image 20260725165418.png"
   ]
 }

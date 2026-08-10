@@ -6,7 +6,7 @@ Kenapa tidak langsung simpan ke servernya saja dan harus ke registry dulu? karen
 Fungsi lain yaitu untuk share Image antar Developer tanpa perlu menginstall/membuat ulang dari Registry itu.
 
 contoh beberapa Platform Registry untuk docker:
-![](Pasted%20image%2020260723194804.png)
+![](img/Pasted%20image%2020260723194804.png)
 Docker Hub adalah Registry bawaan dari docker itu sendiri, di docker hub ini untuk yang open source itu gratis dan untuk private berbayar.
 
 Google container registry itu bagian dari google cloud, jadi jika ingin deploy ke google cloud bisa menggunakan registry itu, dan begitupula dengan AWS elastic container registry.

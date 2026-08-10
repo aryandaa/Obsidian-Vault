@@ -1,7 +1,7 @@
 #devops 
 1. sekarang saya akan mencoba mengupload image yang sudah dibuat sebelumnya ke dalam Registry Docker Hub, pertama buka link https://hub.docker.com/repositories/
 
-![](Pasted%20image%2020260725151542.png)
+![](img/Pasted%20image%2020260725151542.png)
 Disini untuk upload image kita butuh membuat repositorynya, dengan memencet create a Repository. 
 ![](Pasted%20image%2020260725151849.png)
 Yang harus di inputkan adalah:
@@ -9,7 +9,7 @@ Yang harus di inputkan adalah:
 2. Deskripsi Optional.
 3. Atur Visibility Public = bisa dilihat oleh orang lain, Private = hanya bisa dilihat oleh diri sendiri saja.
 4. Dan pencet Create.
-![](Pasted%20image%2020260725155925.png)
+![](img/Pasted%20image%2020260725155925.png)
 dan reponya sudah terbuat.
 
 5. Lalu gimana caranya kita upload Image yang sudah dibuat ke Repository Docker Hub ini?
@@ -63,8 +63,8 @@ Waiting for authentication in the browser…
 ```
 
 8. sekarang docker sudah mengetahui identitas terminal kita dan sudah bisa ngepush lagi:
-![](Pasted%20image%2020260725162127.png)
+![](img/Pasted%20image%2020260725162127.png)
 
-![](Pasted%20image%2020260725163300.png)
+![](img/Pasted%20image%2020260725163300.png)
 dan image kita sudah ada di registry nya, jadi kalo orang lain ingin mengambil Projectnya tinggal gunakan perintah
 `docker pull aryanda/app-golang:tagname`

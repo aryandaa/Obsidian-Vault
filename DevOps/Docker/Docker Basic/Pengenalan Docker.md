@@ -1,5 +1,5 @@
 #devops
-![](Pasted%20image%2020260720172550.png)
+![Gambar1](img/Pasted%20image%2020260720172550.png)
 Jika ingin mendeploay aplikasi kita ke production biasanya melakukan tahapan seperti diatas, pertama bikin aplikasinya terlebih dahulu, entah di java golang dan lain lain yang sudah siap untuk di aplikasikan.
 
 Tapi sebelum di deploy, kita terlebih dahulu menginstall hal hal yang dibutuhkan seperti:

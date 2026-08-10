@@ -99,7 +99,7 @@ Karena itulah image Docker jauh lebih kecil dibanding Virtual Machine.
 
 ---
 ## Docker Hub menyediakan ribuan Image
-![](Pasted%20image%2020260722210604.png)
+![](img/Pasted%20image%2020260722210604.png)
 Docker memiliki registry resmi bernama **Docker Hub**.
 
 Di sana tersedia ribuan image open-source yang siap digunakan, misalnya:
@@ -133,7 +133,7 @@ Docker akan mengunduh image Python terlebih dahulu jika belum ada di komputer ki
 
 ---
 ## Image Version (Tag)
-![](Pasted%20image%2020260722214601.png)
+![](img/Pasted%20image%2020260722214601.png)
 Docker mendukung banyak versi image menggunakan **Tag**.
 
 Tag berfungsi seperti nomor versi.

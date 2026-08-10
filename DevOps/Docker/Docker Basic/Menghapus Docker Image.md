@@ -5,7 +5,7 @@ docker image rm <NamaImage>:tag
 ```
 
 tapi terkadang saat menghapus, kita mendapatkan error conflict karena ada salah satu container yang memakai image tersebut, contoh errornya seperti ini:
-![](Pasted%20image%2020260724203413.png)
+![](img/Pasted%20image%2020260724203413.png)
 
 jika mendapati error seperti itu, kita harus menghapus container yang mengandung image itu terlebih dahulu, dengan cara yang sudah di sebutkan sebelumnya:
 ```shell

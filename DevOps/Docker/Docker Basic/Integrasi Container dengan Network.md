@@ -110,7 +110,7 @@ lalu saat run saya menambahkan --network agar container tersebut connect ke netw
 `docker run -d --name mongodb --network belajar-network -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=123456 mongo:latest`
 
 sekarang saya akan pull image mongodb nya:
-![](Pasted%20image%2020260726172514.png)
+![](img/Pasted%20image%2020260726172514.png)
 
 ```shell
 docker run -d \
@@ -195,7 +195,7 @@ dan cari di bagian "Container: { ... }", jika ada keduanya maka berhasil, disini
 ```
 
 dan ketika dibuka aplikasinya maka akan berhasil connect:
-![](Pasted%20image%2020260726203051.png)
+![](img/Pasted%20image%2020260726203051.png)
 
 
 > Jika km lupa untuk menambahkan --network ketika nge run container, km bisa menconnect-kannya di akhir dengan cara
