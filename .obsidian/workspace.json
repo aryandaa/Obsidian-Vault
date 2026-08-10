@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Pengenalan/tes.md",
+                "file": "CyberSecurity/Cryptography/Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tes"
+              "title": "Cryptography"
             }
           }
         ]
@@ -173,9 +173,12 @@
   },
   "active": "cac5c3856bb9455f",
   "lastOpenFiles": [
-    "CyberSecurity/Cryptography/Pengenalan/01_Pengenalan.md",
-    "CyberSecurity/Cryptography/Pengenalan/tes.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmathic.md",
     "CyberSecurity/Cryptography/Cryptography.md",
+    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmatika.md",
+    "CyberSecurity/Cryptography/Cryptography Classic/Cryptography Classic.md",
+    "CyberSecurity/Cryptography/Pengenalan/Pengenalan.md",
+    "CyberSecurity/Cryptography/Pengenalan/tes.md",
     "Pemrograman/Fundamental/Bagaimana Komputer Bekerja.md",
     "Pemrograman/Fundamental/Fundamental Pemrograman.md",
     "Note Personal/Daily/2026-08-02.md",
@@ -199,9 +202,6 @@
     "Pemrograman/PHP/Framework/Laravel/Laravel.md",
     "Pemrograman/PHP/Framework/Laravel/Route Group.md",
     "Pemrograman/PHP/Framework/Laravel/Latihan Route Group.md",
-    "Pemrograman/PHP/Framework/Laravel/Database Dan Migrasi.md",
-    "Pemrograman/PHP/Framework/Laravel/Konsep MVC.md",
-    "Pemrograman/PHP/Framework/Laravel/Named Route.md",
     "Pemrograman/PHP/Framework/Laravel/Filament",
     "DevOps/Docker/Praktek/praktek real case/docker-compose.yml",
     "DevOps/Docker/Praktek/praktek real case/requirements.txt",

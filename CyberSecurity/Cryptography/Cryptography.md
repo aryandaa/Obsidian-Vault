@@ -1,5 +1,9 @@
 #Subskill
 
-[01_Pengenalan](Pengenalan/01_Pengenalan.md)
-[[03_Cryptography Classic]]
+[Pengenalan](Pengenalan.md)
+
+[Modular Aritmathic](Modular%20Aritmathic.md)
+
+[[Cryptography Classic]]
+
 [[Cryptography Modern]]
