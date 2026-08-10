@@ -15,7 +15,7 @@ if __name__ == "__main__":
 	app.run(host="0.0.0.0", port=5000)
 ```
 Default nya adalah "Guest".
-![](img/Pasted%20image%2020260726152035.png)
+![](Pasted%20image%2020260726152035.png)
 
 disini saya juga menambahkan 1 file tambahkan yaitu requirements.txt untuk meletakan semua library python yang di perlukan untuk menjalankan aplikasi tersebut, isinya cuman 1 yaitu:
 `Flask==3.1.1`
@@ -50,7 +50,7 @@ Dan bisa, cuman karena belum di tambahkan Environment Variabel, jadi namanya mas
 
 3. Dan saya menjalankan dengan menggunakan Environment Variable:
 `docker run -p 8080:5000 -e NAMA=Yanda aryanda/app-python:latest`
-![](img/Pasted%20image%2020260726160109.png)
+![](Pasted%20image%2020260726160109.png)
 
 Ini adalah jika kita mengatur Environment dari luar, gimana caranya mengatur ENV dari dalam dan menjalankannya?
 1. Tambahkan file .env di dalamnya yang berisi
@@ -62,10 +62,10 @@ dan hasilnya akan `Halo, Aryanda`.
 
 Sekarang saya akan mencoba untuk menguploadnya ke dalam Docker Hub Repository,
 1. Membuat Repository nya terlebih dahulu.
-![](img/Pasted%20image%2020260726161018.png)
+![](Pasted%20image%2020260726161018.png)
 2. Terus akan saya Push image yang sudah dibuat tadi ke dalam Repo ini
 `docker push aryanda/app-python:latest`
-![](img/Pasted%20image%2020260726161212.png)karena sudah login sebelumnya jadi tidak perlu lagi saya mengenalkan terminal ke docker hub, dan tinggal push saja. 
+![](Pasted%20image%2020260726161212.png)karena sudah login sebelumnya jadi tidak perlu lagi saya mengenalkan terminal ke docker hub, dan tinggal push saja. 
 
 dan jika orang lain ingin mengambil project kita tinggal ambil saja dengan perintah:
 `docker pull aryanda/app-python:latest`.

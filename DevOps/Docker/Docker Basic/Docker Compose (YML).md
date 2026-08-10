@@ -105,7 +105,7 @@ jika ketemu output begini artinya berhasil
 ```
 
 kalo ngebuka localhost:8080 di browser maka akan berhasil connect
-![](img/Pasted%20image%2020260726224635.png)
+![](Pasted%20image%2020260726224635.png)
 
 Kesimpulan:
 Pada praktik ini, saya mempelajari bagaimana mengintegrasikan beberapa container menggunakan Docker Compose sehingga seluruh layanan dapat dijalankan secara otomatis dalam satu konfigurasi. Aplikasi Python yang sebelumnya berjalan secara mandiri berhasil dihubungkan dengan database MongoDB melalui Docker Network tanpa perlu mengetahui alamat IP container, melainkan cukup menggunakan nama service sebagai host. Selain itu, saya juga memahami pentingnya penggunaan Environment Variable untuk mengelola konfigurasi aplikasi secara fleksibel, serta proses autentikasi MongoDB yang harus diinisialisasi sejak container pertama kali dibuat. Dengan Docker Compose, proses menjalankan aplikasi menjadi jauh lebih sederhana karena pembuatan network, konfigurasi environment, serta eksekusi beberapa container dapat dilakukan hanya dengan satu perintah (`docker compose up -d`). Praktik ini memberikan pemahaman bahwa Docker Compose merupakan solusi untuk mengelola aplikasi yang terdiri dari banyak service secara lebih terstruktur, mudah dipelihara, dan mendekati alur deployment yang digunakan pada lingkungan pengembangan maupun produksi.

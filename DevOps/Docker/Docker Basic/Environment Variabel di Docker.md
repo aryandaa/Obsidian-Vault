@@ -7,7 +7,7 @@ Docker memungkinkan kita menyuntikkan konfigurasi melalui **Environment Variable
 
 terus gimana caranya bikin agar docker image support Environment Variabel?
 disini sudah ada Dockerfile untuk aplikasi Java
-![](img/Pasted%20image%2020260725165418.png)
+![](Pasted%20image%2020260725165418.png)
 disini tidak menyetting Environment Variabelnya karena EV akan di setting saat membuat Containernya. 
 
 Untuk step pembuatan image sama seperti sebelumnya, bedanya saat pembuatan container kita harus menambahkan sedikit perintah untuk menset env nya saat docker container create:

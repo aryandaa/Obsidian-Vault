@@ -47,7 +47,7 @@ docker container start mongo
 
 Selanjutnya saya menghubungkan MongoDB ke aplikasi MongoDB Compass menggunakan host dan port dari container yang telah dibuat. Setelah berhasil terhubung, saya membuat sebuah database beserta beberapa data di dalamnya.
 
-![](img/Pasted%20image%2020260726230404.png)
+![](Pasted%20image%2020260726230404.png)
 
 Data berhasil tersimpan dan dapat diakses selama container masih berjalan.
 

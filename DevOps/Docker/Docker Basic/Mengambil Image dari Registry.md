@@ -10,12 +10,12 @@ IMAGE   ID             DISK USAGE   CONTENT SIZE   EXTRA
 karna masih kosong maka tidak akan menampilkan apapun kecuali judulnya.
 
 maka dari itu kita akan menginstall image dari https://hub.docker.com/
-![](img/Pasted%20image%2020260723211422.png)
+![](Pasted%20image%2020260723211422.png)
 dari yang sudah di jelaskan disebelumnya kalo docker hub banyak menyediakan image open source yang sudah jadi, jadi kita tidak perlu membuatnya dari awal lagi, cukup mempull dari situ saja.
 
 Misalnya aku ingin mendownload Image python, tinggal ke searchbar nya saja lalu cari "python" dan pencet card nya.
 di dalam situ sudah banyak sekali informasi, salah satunya ada section untuk mempull
-![](img/Pasted%20image%2020260723211831.png)
+![](Pasted%20image%2020260723211831.png)
 perintah diatas itu tinggal salin saja ke dalam terminal docker tadi, dan otomatis akan menginstall imagenya.
 ```output
 IMAGE         ID             DISK USAGE   CONTENT SIZE   EXTRA  
