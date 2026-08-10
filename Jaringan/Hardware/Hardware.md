@@ -1,4 +1,5 @@
-#Subskill
+#Subskill #roadmap
+
 1. [Penjelasan Hardware](Penjelasan%20Hardware.md)
 	1. [central processing unit (CPU)](central%20processing%20unit%20(CPU).md)
 		1. [ENIAC](ENIAC.md)
