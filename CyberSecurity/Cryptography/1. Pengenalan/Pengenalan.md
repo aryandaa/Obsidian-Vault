@@ -11,7 +11,7 @@ Setelah mempelajari Python, skill Fundamental itu akan berguna untuk melakukan C
 [Hexadecimal](Hexadecimal.md)
 [Base64](Base64.md)
 [bytes](bytes.md)
-[Xor](CyberSecurity/Cryptography/Pengenalan/Xor.md)
+[Xor](CyberSecurity/Cryptography/1.%20Pengenalan/Xor.md)
 [Binary](Binary.md)
 [tes](tes.md)
 

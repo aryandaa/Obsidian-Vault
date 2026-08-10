@@ -84,7 +84,7 @@ for a in range(p):
 ```
 jadi kode ini untuk mencari nilai a dan nilai dari Kuadrat residue dari bilangan a jika di moduluskan dengan P dengan cara di bruteforce, dan output yang keluar adalah:
 
-![](images/Residue.png)
+![](Residue.png)
 
 kenapa disitu pake 2 untuk rumusnya? tidak seperti inverting yang -1?
 karena 2 menunjukan pangkat yang digunakan yaitu pangkat 2 atau kaudrat.

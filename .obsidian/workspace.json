@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/00_Asymmetric key.md",
+                "file": "CyberSecurity/Cryptography/1. Pengenalan/Pengenalan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Asymmetric key"
+              "title": "Pengenalan"
             }
           }
         ]
@@ -173,13 +173,15 @@
   },
   "active": "cac5c3856bb9455f",
   "lastOpenFiles": [
-    "CyberSecurity/Cryptography/Cryptography Modern/Cryptography Modern.md",
-    "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/00_Symmetric key.md",
+    "CyberSecurity/Cryptography/Pengenalan/Untitled",
     "CyberSecurity/Cryptography/Cryptography.md",
-    "CyberSecurity/Cryptography/Cryptography Classic/Cryptography Classic.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmathic.md",
-    "CyberSecurity/Cryptography/Pengenalan/Pengenalan.md",
-    "CyberSecurity/Cryptography/Modular Aritmathic/Modular Aritmatika.md",
+    "CyberSecurity/Cryptography/Cryptography Modern/Cryptography Modern.md",
+    "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/00_Asymmetric key.md",
+    "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/00_Symmetric key.md",
+    "CyberSecurity/Cryptography/3. Cryptography Classic/Cryptography Classic.md",
+    "CyberSecurity/Cryptography/2. Modular Aritmathic/Modular Aritmathic.md",
+    "CyberSecurity/Cryptography/1. Pengenalan/Pengenalan.md",
+    "CyberSecurity/Cryptography/2. Modular Aritmathic/Modular Aritmatika.md",
     "CyberSecurity/Cryptography/Pengenalan/tes.md",
     "Pemrograman/Fundamental/Bagaimana Komputer Bekerja.md",
     "Pemrograman/Fundamental/Fundamental Pemrograman.md",
@@ -200,8 +202,6 @@
     "Note Personal/Daily/2026-04-26.md",
     "Note Personal/Daily/2026-02-23.md",
     "Untitled.canvas",
-    "Pemrograman/PHP/Framework/Laravel/Resource Route.md",
-    "Pemrograman/PHP/Framework/Laravel/Laravel.md",
     "Pemrograman/PHP/Framework/Laravel/Filament",
     "DevOps/Docker/Praktek/praktek real case/docker-compose.yml",
     "DevOps/Docker/Praktek/praktek real case/requirements.txt",
