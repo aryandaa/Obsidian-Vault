@@ -12,5 +12,6 @@ Setelah mempelajari Python, skill Fundamental itu akan berguna untuk melakukan C
 [bytes](bytes.md)
 [Xor](CyberSecurity/Cryptography/Pengenalan/Xor.md)
 [Binary](Binary.md)
+[tes](tes.md)
 
 Setelah Mempelajari Pengenalan jenis Cryptography paling dasar, selanjutnya saya akan mempelajari [02_Modular Aritmathic](02_Modular%20Aritmathic.md) , matematikanya Cryptography yang bisa digunakan untuk melakukan Decode maupun Encode, karena matematika di sini sifatnya "Reversable", yaitu bisa di bolak balik 
