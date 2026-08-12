@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cyber Security.md",
+                "file": "CyberSecurity/Forensic/Forensic Basic/Apa itu Digital Forensics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cyber Security"
+              "title": "Apa itu Digital Forensics"
             }
           }
         ]
@@ -173,8 +173,11 @@
   },
   "active": "de25d1bbbe3a6c1e",
   "lastOpenFiles": [
-    "CyberSecurity/Forensic/Forensic Basic",
+    "CyberSecurity/Forensic/Forensic Basic/1. Basic Forensic.md",
+    "CyberSecurity/Forensic/Forensic Basic/Apa itu Digital Forensics.md",
     "CyberSecurity/Forensic/Forensic.md",
+    "CyberSecurity/Cyber Security.md",
+    "CyberSecurity/Forensic/Forensic Basic",
     "CyberSecurity/Forensic",
     "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/5. Asymmetric key.md",
     "Jaringan/Hardware/Hardware Basic/central processing unit (CPU).md",
@@ -200,8 +203,6 @@
     "DevOps/Docker/Docker.md",
     "DevOps/Docker/Docker Basic/Arsitektur Docker.md",
     "DevOps/Docker/Docker Basic/Praktek/praktek real case/Intruksi Task 1 (Docker).md",
-    "DevOps/Docker/Docker Basic/dockerignore.md",
-    "DevOps/Docker/Docker Basic/Docker Logs.md",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
     "DevOps/Docker/Docker Basic",
     "CyberSecurity/Cryptography/Pengenalan/Untitled",
@@ -210,7 +211,6 @@
     "Untitled.canvas",
     "Pemrograman/PHP/Framework/Laravel/Filament",
     "DevOps/Docker/Docker Basic/Praktek/praktek real case/docker-compose.yml",
-    "DevOps/Docker/Docker Basic/Praktek/praktek real case/requirements.txt",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726230404.png",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726224635.png",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726203051.png",
