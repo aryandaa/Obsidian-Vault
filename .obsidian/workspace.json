@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Forensic/Forensic Basic/Digital Evidence dan Jenis-Jenisnya.md",
+                "file": "CyberSecurity/Forensic/Evidence Handling/Digital Evidence dan Jenis-Jenisnya.md",
                 "mode": "source",
                 "source": false
               },
@@ -173,13 +173,14 @@
   },
   "active": "de25d1bbbe3a6c1e",
   "lastOpenFiles": [
-    "CyberSecurity/Forensic/Forensic Basic/1. Evidence Handling.md",
+    "CyberSecurity/Forensic/Evidence Handling/Latihan 1.md",
+    "CyberSecurity/Forensic/Evidence Handling/Digital Evidence dan Jenis-Jenisnya.md",
+    "CyberSecurity/Forensic/Evidence Handling/1. Evidence Handling.md",
     "a.md",
-    "CyberSecurity/Forensic/Forensic Basic/Digital Evidence dan Jenis-Jenisnya.md",
-    "CyberSecurity/Forensic/Forensic Basic/Apa itu Digital Forensics.md",
+    "CyberSecurity/Forensic/Evidence Handling/Apa itu Digital Forensics.md",
     "CyberSecurity/Forensic/Forensic.md",
     "CyberSecurity/Cyber Security.md",
-    "CyberSecurity/Forensic/Forensic Basic",
+    "CyberSecurity/Forensic/Evidence Handling",
     "CyberSecurity/Forensic",
     "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/5. Asymmetric key.md",
     "Jaringan/Hardware/Hardware Basic/central processing unit (CPU).md",
@@ -202,7 +203,6 @@
     "DevOps/Cloud/Cloud Dasar/Tujuan Pembelajaran.md",
     "DevOps/Cloud/Cloud.md",
     "DevOps/Cloud/Dasar/Untitled.md",
-    "DevOps/Docker/Docker.md",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
     "DevOps/Docker/Docker Basic",
     "CyberSecurity/Cryptography/Pengenalan/Untitled",

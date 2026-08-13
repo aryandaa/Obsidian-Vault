@@ -61,39 +61,23 @@ Disk evidence adalah data yang berada pada media penyimpanan seperti HDD, SSD, U
 
 Di dalam disk kamu bisa menemukan filesystem, operating system, aplikasi, dokumen, gambar, browser data, log, registry, temporary files, deleted files, dan berbagai artefak lainnya.
 
-Dalam kompetisi, kamu mungkin diberikan sebuah file seperti:
+Dalam kompetisi, kamu mungkin diberikan sebuah file seperti: `disk.img`
 
-`disk.img`
+atau: `evidence.E01`
 
-atau:
-
-`evidence.E01`
-
-atau:
-
-`forensic.dd`
+atau: `forensic.dd`
 
 File tersebut bisa merupakan forensic image dari media penyimpanan.
 
 Kita tidak seharusnya memperlakukan forensic image sebagai file biasa. Image tersebut merepresentasikan data dari media penyimpanan yang sedang kita investigasi. Nantinya kita akan belajar bagaimana memeriksa image tersebut tanpa mengubah evidence asli.
 
-Misalnya:
-
-`evidence.E01`
+Misalnya: `evidence.E01`
 
 berisi image dari sebuah Windows machine.
 
-Dari sana kita mungkin menemukan:
+Dari sana kita mungkin menemukan: `C:\Users\Alice\Downloads\invoice.exe`
 
-`C:\Users\Alice\Downloads\invoice.exe`
-
-Kemudian kita menemukan Prefetch yang menunjukkan executable tersebut pernah dijalankan.
-
-Kemudian kita menemukan browser history yang menunjukkan user mengunduh file tersebut.
-
-Kemudian Event Logs menunjukkan aktivitas login pada waktu yang sama.
-
-Sekarang disk evidence telah menghasilkan beberapa artifact yang dapat dikorelasikan.
+Kemudian kita menemukan Prefetch yang menunjukkan executable tersebut pernah dijalankan, Kemudian kita menemukan browser history yang menunjukkan user mengunduh file tersebut, Kemudian Event Logs menunjukkan aktivitas login pada waktu yang sama, Sekarang disk evidence telah menghasilkan beberapa artifact yang dapat dikorelasikan.
 
 ## Filesystem Evidence
 
@@ -103,9 +87,7 @@ Filesystem menyimpan lebih dari sekadar isi file. Ia juga dapat menyimpan inform
 
 Ini sangat penting dalam forensic karena filesystem dapat memberikan informasi tentang bagaimana data berada pada disk.
 
-Misalnya sebuah file:
-
-`C:\Users\Alice\Documents\secret.docx`
+Misalnya sebuah file: `C:\Users\Alice\Documents\secret.docx`
 
 bisa memberi kita informasi mengenai nama file dan lokasinya. Kemudian metadata atau filesystem structures dapat memberikan timestamp dan informasi lainnya.
 
@@ -124,7 +106,6 @@ Browser adalah salah satu contoh terbaik.
 Ketika kamu menggunakan Chrome, Firefox, atau browser lainnya, aktivitasmu dapat meninggalkan berbagai data seperti history, cookies, cache, downloads, bookmarks, dan database aplikasi.
 
 Misalnya investigator ingin mengetahui:
-
 > “Apakah user pernah mengakses website tertentu?”
 
 File dokumen mungkin tidak memberikan jawabannya.
@@ -132,13 +113,11 @@ File dokumen mungkin tidak memberikan jawabannya.
 Tetapi browser history mungkin memberikan evidence tersebut.
 
 Kalau investigator ingin mengetahui:
-
 > “Apakah user pernah mengunduh file tertentu?”
 
 Browser download database dapat menjadi sumber evidence.
 
 Kalau ingin mengetahui:
-
 > “Apakah user pernah login ke website tertentu?”
 
 Cookies atau session-related artifacts mungkin memberikan informasi tambahan.
@@ -161,20 +140,16 @@ Jangan khawatir kalau nama-nama tersebut sekarang terlihat seperti daftar mantra
 
 Evidence juga dapat berasal dari jaringan.
 
-Misalnya kamu mendapatkan file:
-
-`traffic.pcap`
+Misalnya kamu mendapatkan file: `traffic.pcap`
 
 File tersebut bisa berisi packet capture yang merekam komunikasi jaringan.
 
 Dengan Wireshark atau tools lainnya, kita bisa melakukan analysis terhadap traffic tersebut.
 
 Misalnya kamu menemukan:
-
 `DNS query → suspicious-domain.com`
 
 Kemudian:
-
 `TCP connection → 10.10.10.20:443`
 
 Kemudian terlihat adanya HTTP request atau pola komunikasi lainnya.
@@ -193,21 +168,15 @@ Dengan memory forensics, kita dapat mencari hal-hal seperti process, command lin
 
 Tool yang nantinya akan kita gunakan antara lain **Volatility**.
 
-Misalnya kita mempunyai:
-
-`memory.raw`
+Misalnya kita mempunyai: `memory.raw`
 
 Kita dapat melakukan analisis untuk menemukan process yang berjalan.
 
-Kemudian menemukan:
-
-`powershell.exe`
+Kemudian menemukan: `powershell.exe`
 
 yang memiliki command line mencurigakan.
 
-Kemudian menemukan koneksi:
-
-`192.168.1.10 → 203.x.x.x:443`
+Kemudian menemukan koneksi: `192.168.1.10 → 203.x.x.x:443`
 
 Sekarang kita mempunyai evidence yang tidak harus terlihat jelas dari filesystem.
 
@@ -221,9 +190,7 @@ Contohnya sebuah foto dapat memiliki metadata seperti waktu pengambilan, kamera 
 
 Sebuah dokumen juga dapat mempunyai metadata seperti author, creation time, modification time, application yang digunakan, dan sebagainya.
 
-Misalnya kamu menemukan:
-
-`confidential.pdf`
+Misalnya kamu menemukan: `confidential.pdf`
 
 Kemudian metadata menunjukkan bahwa dokumen tersebut dibuat menggunakan aplikasi tertentu dan memiliki author tertentu.
 
@@ -269,100 +236,22 @@ Dalam konteks lomba CTF, chain of custody mungkin tidak menjadi bagian yang haru
 
 Sekarang kita satukan semua konsep tadi.
 
-Misalkan kita mempunyai:
-
-`evidence.E01`
-
+Misalkan kita mempunyai: `evidence.E01`
 Itu adalah **evidence**.
 
 Di dalamnya kita menemukan Windows Prefetch yang menunjukkan `malware.exe` pernah dijalankan.
-
 Itu adalah **artifact**.
 
 Kemudian kita menemukan bahwa timestamp eksekusinya sesuai dengan aktivitas network yang mencurigakan dan file tersebut berada di lokasi yang tidak biasa.
-
 Gabungan informasi tersebut menghasilkan sebuah **finding**.
 
 Dengan demikian pola berpikir kita adalah:
-
 **Evidence → Artifact → Correlation → Finding → Conclusion**
 
 Ini adalah pola yang akan terus kita gunakan sampai level Advanced.
 
-## Praktik Materi 2
 
-Sekarang praktik pertama kita akan dibuat sederhana dulu. Belum ada malware, belum ada memory dump, belum ada kasus yang membuatmu mempertanyakan pilihan hidup.
-
-Kita akan membuat beberapa file evidence sendiri dan mengamati bagaimana evidence dapat diverifikasi.
-
-Di Linux, buat sebuah directory:
-
-```bash
-mkdir forensic-lab
-cd forensic-lab
-```
-
-Kemudian buat sebuah file:
-
-```bash
-echo "Digital Forensics Lab" > evidence.txt
-```
-
-Sekarang lihat file tersebut:
-
-```bash
-cat evidence.txt
-```
-
-Kemudian hitung SHA-256:
-
-```bash
-sha256sum evidence.txt
-```
-
-Kamu akan mendapatkan hash seperti:
-
-```text
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  evidence.txt
-```
-
-Nilai persisnya akan berbeda berdasarkan isi file.
-
-Sekarang buat salinan:
-
-```bash
-cp evidence.txt evidence-copy.txt
-```
-
-Kemudian hash keduanya:
-
-```bash
-sha256sum evidence.txt evidence-copy.txt
-```
-
-Hash keduanya harus sama.
-
-Sekarang kita sengaja mengubah evidence copy:
-
-```bash
-echo "modified" >> evidence-copy.txt
-```
-
-Kemudian:
-
-```bash
-sha256sum evidence.txt evidence-copy.txt
-```
-
-Sekarang hash-nya berbeda.
-
-Di sinilah kamu mulai melihat hubungan antara **integrity dan evidence**. Kalau sebuah evidence berubah, hash dapat membantu kita mendeteksi perubahan tersebut.
-
-Praktik kecil ini memang terlihat sederhana, tetapi konsepnya akan kita bawa terus sampai nanti kamu menerima forensic image berukuran gigabyte. Bedanya nanti bukan `evidence.txt`, melainkan sesuatu seperti:
-
-`Windows-Forensic-Image.E01`
-
-dan ukurannya mungkin membuat storage laptop ikut mempertanyakan keputusan hidup.
+Untuk mendalami lebih dalam kita akan melakukan latihan di sini : [Latihan 1](Latihan%201.md)
 
 ## Kesimpulan Materi 2
 
