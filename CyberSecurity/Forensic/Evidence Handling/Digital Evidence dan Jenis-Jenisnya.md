@@ -251,7 +251,7 @@ Dengan demikian pola berpikir kita adalah:
 Ini adalah pola yang akan terus kita gunakan sampai level Advanced.
 
 
-Untuk mendalami lebih dalam kita akan melakukan latihan di sini : [Latihan 1](Latihan%201.md)
+Untuk mendalami lebih dalam kita akan melakukan latihan di sini : [Praktek 1](Praktek%201.md)
 
 ## Kesimpulan Materi 2
 
@@ -260,50 +260,11 @@ Digital Evidence adalah dasar dari seluruh investigasi forensic. Evidence dapat 
 Hal yang paling penting untuk kamu bawa dari materi ini adalah bahwa **evidence tidak selalu berupa file**. Sebuah timestamp, registry entry, browser history, process, network connection, deleted file record, bahkan informasi yang ditemukan di memory dapat menjadi bagian dari evidence.
 
 Kemudian biasakan membedakan:
-
-**Evidence** adalah sumber data yang kita periksa.
-
-**Artifact** adalah jejak atau informasi yang ditemukan dari evidence.
-
-**Finding** adalah hasil analisis yang relevan terhadap kasus.
+- **Evidence** adalah sumber data yang kita periksa.
+- **Artifact** adalah jejak atau informasi yang ditemukan dari evidence.
+- **Finding** adalah hasil analisis yang relevan terhadap kasus.
 
 Dan akhirnya:
-
 **Finding + Correlation → Conclusion**
 
 Kalau pola ini sudah mulai terasa natural, kamu sudah berada di jalur yang benar.
-
-### Progress Digital Forensics
-
-**BASIC**
-
--  1. Apa itu Digital Forensics
-    
--  2. Digital Evidence dan jenis-jenisnya
-    
--  3. Integrity, Authenticity, dan Chain of Custody
-    
--  4. File System dan Storage
-    
--  5. Metadata dan Timestamp
-    
--  6. Hashing
-    
--  7. Disk Image
-    
--  8. File Carving
-    
--  9. Deleted Files & Recovery
-    
--  10. Basic Forensic Workflow
-    
--  11. Forensic Tools
-    
--  12. Basic Investigation
-    
-
-**Progress Basic: 2/12**
-
-**Digital Forensics: Basic 17% | Intermediate 0% | Advanced 0%**
-
-Praktik pada materi ini sudah mulai kita sentuh melalui **hash verification**, tetapi praktik besar akan mulai terasa ketika kita masuk ke **Integrity, Authenticity, dan Chain of Custody**, karena setelah memahami evidence, kita perlu belajar bagaimana memastikan evidence tersebut tetap dapat dipercaya.
