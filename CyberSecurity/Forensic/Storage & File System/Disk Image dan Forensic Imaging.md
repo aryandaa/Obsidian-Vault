@@ -7,7 +7,6 @@ Bayangkan investigator mendapatkan sebuah laptop yang diduga digunakan dalam seb
 Karena itu dalam forensic kita sebisa mungkin tidak menjadikan **original storage** sebagai tempat utama untuk melakukan analisis. Kita membuat salinan forensik dari storage tersebut, kemudian melakukan examination terhadap salinan tersebut.
 
 Konsep sederhananya:
-
 ```text
 Original Evidence
        ↓
@@ -23,13 +22,11 @@ Forensic Analysis
 Dengan cara ini, investigator dapat melakukan analisis berulang kali tanpa harus terus menyentuh evidence asli.
 
 ---
-
 # Apa itu Disk Image?
 
 **Disk image** adalah representasi digital dari media storage yang dibuat untuk merepresentasikan isi media tersebut sehingga dapat dianalisis sebagai evidence.
 
 Misalnya terdapat hard disk:
-
 ```text
 Physical Disk
 ┌─────────────────────────────┐
@@ -44,19 +41,16 @@ Physical Disk
 Kemudian dilakukan acquisition.
 
 Hasilnya bisa berupa:
-
 ```text
 disk.dd
 ```
 
 atau:
-
 ```text
 disk.raw
 ```
 
 atau format forensic seperti:
-
 ```text
 disk.E01
 ```
@@ -64,7 +58,6 @@ disk.E01
 Kita kemudian melakukan analisis terhadap image tersebut.
 
 Jadi ketika nanti kamu mendapatkan:
-
 ```text
 evidence.E01
 ```
@@ -74,19 +67,16 @@ jangan menganggapnya sebagai "sebuah file biasa".
 Secara konseptual, itu adalah **wadah yang merepresentasikan evidence storage**.
 
 ---
-
 # Imaging vs Copy File
 
 Ini bagian yang sangat penting.
 
 Misalnya kamu memiliki:
-
 ```text
 C:\Users\Alice\Documents\
 ```
 
 dan kamu melakukan:
-
 ```bash
 cp report.pdf backup/
 ```
@@ -98,7 +88,6 @@ Sedangkan forensic imaging memiliki tujuan yang jauh berbeda.
 Kita ingin mendapatkan representasi storage yang mencakup sebanyak mungkin informasi yang relevan, termasuk area yang tidak terlihat melalui filesystem biasa.
 
 Secara sederhana:
-
 ```text
 File Copy
 
@@ -110,7 +99,6 @@ Copy File A
 ```
 
 Sedangkan:
-
 ```text
 Forensic Image
 
@@ -122,7 +110,6 @@ Forensic Image
 ```
 
 Forensic image dapat mencakup:
-
 ```text
 Active files
 Deleted data
@@ -137,7 +124,6 @@ tergantung metode acquisition dan format yang digunakan.
 Inilah alasan forensic imaging jauh lebih penting daripada sekadar menyalin folder.
 
 ---
-
 # Logical Acquisition dan Physical Acquisition
 
 Dalam acquisition, terdapat beberapa pendekatan.
@@ -145,7 +131,6 @@ Dalam acquisition, terdapat beberapa pendekatan.
 **Logical acquisition** mengambil data yang terlihat atau dapat diakses melalui logical filesystem.
 
 Misalnya:
-
 ```text
 Users/
 Documents/
@@ -158,7 +143,6 @@ Pendekatan ini lebih mudah dan sering lebih cepat, tetapi tidak selalu mencakup 
 Sedangkan **physical acquisition** berusaha mendapatkan representasi storage pada level yang lebih rendah.
 
 Secara sederhana:
-
 ```text
 Logical Acquisition
 Filesystem
@@ -167,7 +151,6 @@ Files
 ```
 
 sedangkan:
-
 ```text
 Physical Acquisition
 Storage
@@ -182,19 +165,16 @@ Files
 Physical acquisition lebih berguna ketika kita ingin melakukan analisis seperti deleted file recovery atau file carving.
 
 ---
-
 # Raw Image
 
 Format paling sederhana yang sering digunakan adalah **raw image**.
 
 Contohnya:
-
 ```text
 disk.dd
 ```
 
 atau:
-
 ```text
 disk.raw
 ```
@@ -202,7 +182,6 @@ disk.raw
 Raw image pada dasarnya merupakan representasi data storage dalam bentuk raw.
 
 Secara konseptual:
-
 ```text
 Physical Disk
       ↓
@@ -216,7 +195,6 @@ Keuntungannya adalah format ini relatif sederhana dan didukung oleh banyak foren
 Namun raw image sendiri tidak menyediakan banyak metadata tambahan mengenai acquisition.
 
 ---
-
 # E01
 
 Format yang sangat penting untuk kamu kenal adalah **E01**.
@@ -224,7 +202,6 @@ Format yang sangat penting untuk kamu kenal adalah **E01**.
 E01 merupakan format forensic imaging yang digunakan secara luas dalam forensic investigation.
 
 Contohnya:
-
 ```text
 evidence.E01
 ```
@@ -234,7 +211,6 @@ Salah satu kelebihan format forensic seperti E01 adalah dapat menyimpan metadata
 Image juga dapat dipecah menjadi beberapa segment.
 
 Misalnya:
-
 ```text
 evidence.E01
 evidence.E02
@@ -244,7 +220,6 @@ evidence.E03
 Ketiganya dapat menjadi bagian dari satu forensic image.
 
 Jadi jangan menganggap:
-
 ```text
 E01
 E02
@@ -256,7 +231,6 @@ sebagai tiga disk berbeda hanya karena namanya berbeda.
 Mereka bisa merupakan **segment dari satu evidence image**.
 
 ---
-
 # Kenapa Forensic Image Harus Diverifikasi?
 
 Sekarang kita kembali ke konsep yang sudah kita pelajari di Evidence Handling.
@@ -274,13 +248,11 @@ Bagaimana kita tahu bahwa image tersebut tidak berubah?
 Kita dapat menggunakan hash.
 
 Misalnya:
-
 ```text
 SHA-256
 ```
 
 Secara konseptual:
-
 ```text
 Evidence
    ↓
@@ -290,7 +262,6 @@ ABC123...
 ```
 
 Kemudian setelah acquisition:
-
 ```text
 Forensic Image
    ↓
@@ -304,7 +275,6 @@ Jika nilai yang dibandingkan sesuai berdasarkan prosedur dan sumber hash yang te
 Ini menghubungkan materi sekarang dengan **Evidence Integrity** yang sudah kita pelajari.
 
 Jadi konsepnya mulai menyatu:
-
 ```text
 Evidence Handling
        ↓
@@ -318,19 +288,15 @@ Analysis
 ```
 
 ---
-
 # Write Blocker
 
 Sekarang kita kembali sebentar ke hardware.
 
 Dalam forensic acquisition, investigator harus mencegah komputer melakukan write ke evidence source apabila prosedurnya membutuhkan preservation pada media asli.
 
-Salah satu perangkat yang digunakan adalah:
-
-**Write blocker.**
+Salah satu perangkat yang digunakan adalah: **Write blocker.**
 
 Secara sederhana, write blocker memungkinkan:
-
 ```text
 Forensic Workstation
        ↓
@@ -340,7 +306,6 @@ Evidence Drive
 ```
 
 tetapi mencegah:
-
 ```text
 Forensic Workstation
        ↓
@@ -352,7 +317,6 @@ Evidence Drive
 Tujuannya adalah menjaga agar investigator tidak secara tidak sengaja mengubah evidence.
 
 Misalnya investigator hanya ingin membaca:
-
 ```text
 secret.txt
 ```
@@ -362,11 +326,9 @@ tetapi operating system melakukan operasi write ke filesystem tanpa disadari.
 Kalau itu terjadi pada original evidence, integrity evidence dapat dipertanyakan.
 
 Karena itu prinsipnya adalah:
-
 > **Read evidence, don't modify evidence.**
 
 ---
-
 # Acquisition Workflow
 
 Sekarang kita satukan konsep yang sudah kita pelajari.
@@ -394,7 +356,6 @@ Analyze Working Copy
 Perhatikan bahwa **analysis datang setelah acquisition dan verification**.
 
 Jangan langsung:
-
 ```text
 Laptop ditemukan
       ↓
@@ -406,7 +367,6 @@ Klik folder
 Itu bukan workflow forensic yang ideal untuk original evidence.
 
 Workflow yang lebih baik:
-
 ```text
 Evidence
    ↓
@@ -424,7 +384,6 @@ Reporting
 ```
 
 ---
-
 # Live Acquisition vs Dead Acquisition
 
 Sekarang ada satu konsep penting.
@@ -432,7 +391,6 @@ Sekarang ada satu konsep penting.
 **Dead acquisition** dilakukan ketika sistem tidak sedang berjalan.
 
 Misalnya:
-
 ```text
 Laptop
    ↓
@@ -446,7 +404,6 @@ Forensic acquisition
 Sedangkan **live acquisition** dilakukan ketika sistem masih aktif.
 
 Misalnya komputer sedang menyala dan investigator perlu mengambil volatile evidence seperti:
-
 ```text
 RAM
 Running processes
@@ -459,7 +416,6 @@ Ini berkaitan dengan **Order of Volatility** yang sudah kita pelajari.
 Karena RAM bersifat volatile, mematikan komputer terlebih dahulu dapat menyebabkan informasi di RAM hilang.
 
 Jadi kita tidak bisa mengatakan:
-
 > "Selalu matikan komputer sebelum forensic."
 
 Konteks investigation menentukan tindakan.
@@ -467,17 +423,14 @@ Konteks investigation menentukan tindakan.
 Untuk disk imaging biasa, kondisi media dan prosedur acquisition harus dipertimbangkan. Untuk memory forensics, sistem aktif justru bisa sangat penting.
 
 ---
-
 # Apa yang Bisa Ada di Dalam Disk Image?
 
 Bayangkan kita memiliki:
-
 ```text
 evidence.E01
 ```
 
 Di dalamnya mungkin terdapat:
-
 ```text
 Partition Table
       ↓
@@ -509,7 +462,6 @@ Ketika nanti menggunakan Autopsy atau The Sleuth Kit, tool akan membantu kita me
 Tetapi kamu harus memahami apa yang sebenarnya sedang ditampilkan.
 
 Misalnya Autopsy menunjukkan:
-
 ```text
 Deleted Files
 ```
@@ -517,7 +469,6 @@ Deleted Files
 kamu harus sudah memahami bahwa konsep deleted file berhubungan dengan filesystem allocation.
 
 Kalau tool menunjukkan:
-
 ```text
 Unallocated Space
 ```
@@ -525,7 +476,6 @@ Unallocated Space
 kamu sudah memahami bahwa area tersebut tidak sedang dialokasikan sebagai file aktif.
 
 Kalau tool menunjukkan:
-
 ```text
 MFT
 ```
@@ -536,211 +486,10 @@ Jadi tools bukan pengganti pemahaman.
 
 ---
 
-# Praktik: Membuat Raw Image dari File Lab
-
-Kita belum akan membuat image dari disk asli. Jangan mencoba eksperimen forensic pertama dengan `/dev/sda` milik komputer sendiri. Ada banyak cara untuk mengubah hard disk menjadi dekorasi meja.
-
-Kita akan menggunakan file dummy sebagai media latihan.
-
-Buat directory:
-
-```bash
-mkdir -p ~/forensic-lab/disk-image
-cd ~/forensic-lab/disk-image
-```
-
-Buat file image berukuran 20 MB:
-
-```bash
-dd if=/dev/zero of=evidence.raw bs=1M count=20
-```
-
-Kemudian:
-
-```bash
-ls -lh evidence.raw
-```
-
-Kamu akan melihat file sekitar:
-
-```text
-20M
-```
-
-Sekarang kita memiliki:
-
-```text
-evidence.raw
-```
-
-yang akan kita perlakukan sebagai **forensic image latihan**.
+Praktek: [Praktek 4](Praktek%204.md)
 
 ---
-
-# Menghitung Hash Image
-
-Sekarang lakukan:
-
-```bash
-sha256sum evidence.raw
-```
-
-Hasilnya kira-kira:
-
-```text
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  evidence.raw
-```
-
-Simpan nilai tersebut.
-
-Misalnya:
-
-```text
-evidence.sha256
-```
-
-Kita bisa membuatnya:
-
-```bash
-sha256sum evidence.raw > evidence.sha256
-```
-
-Kemudian:
-
-```bash
-cat evidence.sha256
-```
-
-Sekarang kita memiliki:
-
-```text
-evidence.raw
-evidence.sha256
-```
-
-Hash tersebut menjadi fingerprint untuk image pada saat tersebut.
-
----
-
-# Verifikasi Hash
-
-Sekarang jalankan:
-
-```bash
-sha256sum -c evidence.sha256
-```
-
-Jika tidak berubah, hasilnya akan menunjukkan:
-
-```text
-evidence.raw: OK
-```
-
-Sekarang kamu sudah melakukan salah satu proses penting dalam forensic workflow:
-
-```text
-Image
-  ↓
-Hash
-  ↓
-Verification
-```
-
----
-
-# Menguji Perubahan
-
-Sekarang kita sengaja membuat perubahan pada image latihan.
-
-Jangan lakukan ini pada evidence asli.
-
-Kita gunakan:
-
-```text
-evidence.raw
-```
-
-yang hanya merupakan file dummy.
-
-Tambahkan data:
-
-```bash
-echo "test" >> evidence.raw
-```
-
-Kemudian:
-
-```bash
-sha256sum -c evidence.sha256
-```
-
-Sekarang hasilnya seharusnya menunjukkan bahwa verification gagal.
-
-Ini menunjukkan konsep:
-
-```text
-Before modification
-SHA-256 = A
-
-After modification
-SHA-256 = B
-
-A ≠ B
-```
-
-Satu perubahan saja dapat menghasilkan hash berbeda.
-
-Itulah mengapa hash sangat berguna untuk mendeteksi perubahan terhadap evidence yang sedang diverifikasi.
-
-Setelah selesai praktik, jangan gunakan `evidence.raw` tersebut sebagai evidence lagi karena kita memang sengaja mengubahnya.
-
----
-
-# Menghubungkan dengan Case 01
-
-Mulai sekarang Case 01 kita mulai mendapatkan evidence image.
-
-Struktur yang kita gunakan:
-
-```text
-CASE-01/
-├── evidence/
-│   ├── evidence.raw
-│   └── evidence.sha256
-│
-├── extracted/
-│
-├── timeline/
-│
-└── notes/
-```
-
-Nanti `evidence.raw` ini akan berkembang menjadi image yang memiliki filesystem sungguhan.
-
-Dari sana kita akan melakukan:
-
-```text
-evidence image
-      ↓
-partition analysis
-      ↓
-filesystem identification
-      ↓
-filesystem examination
-      ↓
-file extraction
-      ↓
-deleted file analysis
-      ↓
-artifact analysis
-```
-
-Jadi praktik hari ini sebenarnya adalah jembatan dari konsep storage menuju **forensic examination**.
-
----
-
 # Cara berpikir setelah materi ini
-
 Sebelum materi ini, kamu melihat:
 
 ```text
@@ -748,11 +497,9 @@ disk.E01
 ```
 
 dan berpikir:
-
 > “Ini image disk.”
 
 Sekarang pola berpikirmu harus menjadi:
-
 ```text
 Evidence
    ↓
@@ -770,7 +517,6 @@ Artifacts
 ```
 
 Kemudian kamu harus mulai bisa membedakan:
-
 ```text
 Original Evidence
        ≠
@@ -786,7 +532,6 @@ Forensic image adalah hasil acquisition yang merepresentasikan evidence tersebut
 Working copy adalah salinan yang digunakan untuk melakukan examination dan analysis sesuai workflow.
 
 Ini penting karena nanti dalam lomba kamu akan sering diberi file seperti:
-
 ```text
 challenge.E01
 challenge.raw
@@ -795,105 +540,3 @@ image.aff4
 ```
 
 dan tugasmu bukan sekadar membuka file tersebut. Kamu harus memahami **apa yang sedang kamu analisis, bagaimana image tersebut diperoleh, bagaimana memverifikasinya, dan bagaimana masuk ke struktur filesystem di dalamnya**.
-
----
-
-# Progress Digital Forensics
-
-**01. Evidence Handling**
-
-```text
-████████████████████  Materi utama selesai
-```
-
-**02. Storage & File System Forensics**
-
-```text
-██████████████░░░░░░  Sedang berjalan
-```
-
-Sudah dipelajari:
-
-- Storage fundamentals
-    
-- HDD vs SSD
-    
-- Sector & block
-    
-- Partition
-    
-- Volume
-    
-- Filesystem fundamentals
-    
-- Unallocated space
-    
-- File slack
-    
-- File signature & magic bytes
-    
-- NTFS
-    
-- MFT
-    
-- Deleted files pada NTFS
-    
-- FAT32
-    
-- exFAT
-    
-- ext4
-    
-- Forensic disk image
-    
-- Raw image
-    
-- E01
-    
-- Logical vs physical acquisition
-    
-- Hash verification pada image
-    
-- Write blocker
-    
-- Basic acquisition workflow
-    
-
-Masih akan kita pelajari dalam kategori ini:
-
-```text
-[ ] Partition Table: MBR & GPT
-[ ] Deep NTFS Analysis
-[ ] MFT Analysis
-[ ] NTFS Attributes
-[ ] Resident & Non-resident Files
-[ ] Data Runs
-[ ] Alternate Data Streams
-[ ] NTFS Deleted File Analysis
-[ ] FAT Filesystem Analysis
-[ ] ext4 Filesystem Analysis
-[ ] File Carving
-[ ] Deleted File Recovery
-[ ] Disk Image Examination
-[ ] The Sleuth Kit
-[ ] Autopsy
-[ ] Full Disk Forensic Case
-```
-
-**Posisi sekarang:**
-
-```text
-Evidence Handling
-████████████████████  selesai materi utama
-
-Storage & File System Forensics
-██████████████░░░░░░  sedang dipelajari
-
-File & Artifact Analysis
-░░░░░░░░░░░░░░░░░░░░  belum mulai
-
-Timeline Analysis
-░░░░░░░░░░░░░░░░░░░░  belum mulai
-```
-
-Materi berikutnya masih di kategori **Storage & File System Forensics**, yaitu **MBR dan GPT, Partition Table, serta bagaimana forensic analyst menemukan dan menginterpretasikan partition di dalam sebuah disk image**. Ini penting karena sebelum masuk ke filesystem, kita harus tahu dulu partition mana yang sebenarnya sedang kita analisis.

@@ -1,6 +1,5 @@
 #cybersecurity 
 
-
 Setelah memahami apa itu Digital Forensics, sekarang kita masuk ke bagian yang sebenarnya menjadi pusat dari seluruh kegiatan forensic, yaitu **Digital Evidence**. Kalau forensic adalah proses investigasinya, maka evidence adalah bahan yang kita gunakan untuk membuktikan apa yang terjadi. Seorang forensic analyst tidak bekerja berdasarkan dugaan atau perasaan. Dia bekerja berdasarkan data yang ditinggalkan oleh sistem digital. Karena itu, sebelum belajar membongkar Windows Registry, membaca memory dump, atau mengejar paket jaringan dengan Wireshark seperti detektif yang kurang tidur, kamu harus memahami dulu jenis evidence yang sedang kamu hadapi.
 
 Digital evidence dapat dipahami sebagai **informasi digital yang memiliki nilai dalam suatu investigasi**. Informasi tersebut dapat berasal dari komputer, smartphone, server, jaringan, cloud, aplikasi, database, memory, maupun media penyimpanan lainnya. Evidence tidak selalu berbentuk file yang bisa kamu buka dengan double-click. Bahkan banyak evidence penting justru berada di tempat yang tidak terlihat oleh pengguna biasa.
