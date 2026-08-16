@@ -677,6 +677,3 @@ Ini jauh lebih kuat daripada:
 > "Saya menemukan malware.exe, berarti user pasti menjalankannya."
 
 Forensic bukan lomba menebak. Kita mencari evidence yang saling menguatkan.
-
----
-Praktik yang akan kita lakukan [Praktek 7](Praktek%207.md)
