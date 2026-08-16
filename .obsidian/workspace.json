@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Forensic/Storage & File System Forensic/2. Storage & File System Forensic.md",
+                "file": "CyberSecurity/Forensic/Storage & File System Forensic/File Carving.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Storage & File System Forensic"
+              "title": "File Carving"
             }
           }
         ]
@@ -174,10 +174,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "3e27810ebffc91be",
+  "active": "7f3320fd61003f09",
   "lastOpenFiles": [
-    "CyberSecurity/Forensic/Storage & File System Forensic/NTFS Metadata Artifacts.md",
     "CyberSecurity/Forensic/Storage & File System Forensic/2. Storage & File System Forensic.md",
+    "CyberSecurity/Forensic/Storage & File System Forensic/File Carving.md",
+    "CyberSecurity/Forensic/Storage & File System Forensic/Deleted File & Unallocated Space Analysis.md",
+    "CyberSecurity/Forensic/Storage & File System Forensic/NTFS Timeline Analysis.md",
+    "CyberSecurity/Forensic/Tools/Tools Forensic.md",
+    "CyberSecurity/Forensic/Tools/Lsblk.md",
+    "CyberSecurity/Forensic/Tools/File.md",
+    "CyberSecurity/Forensic/Forensic.md",
+    "CyberSecurity/Forensic/Storage & File System Forensic/NTFS Metadata Artifacts.md",
     "CyberSecurity/Forensic/Storage & File System Forensic/Advanced NTFS Analysis.md",
     "CyberSecurity/Forensic/Storage & File System/Praktek 7.md",
     "CyberSecurity/Forensic/Storage & File System Forensic/Praktek 6.md",
@@ -196,16 +203,9 @@
     "CyberSecurity/Forensic/Evidence Handling/1. Evidence Handling (Done).md",
     "CyberSecurity/Forensic/Evidence Handling/Digital Evidence dan Jenis-Jenisnya.md",
     "CyberSecurity/Forensic/Evidence Handling/Apa itu Digital Forensics.md",
-    "CyberSecurity/Forensic/Evidence Handling/Metadata dan Timestamp Forensics.md",
-    "CyberSecurity/Forensic/Forensic.md",
     "CyberSecurity/Forensic/Storage & File System Forensic",
-    "a.md",
-    "CyberSecurity/Cyber Security.md",
     "CyberSecurity/Forensic/Evidence Handling",
     "CyberSecurity/Forensic",
-    "CyberSecurity/Cryptography/Cryptography Modern/Asymmetric key/5. Asymmetric key.md",
-    "Jaringan/Hardware/Hardware Basic/central processing unit (CPU).md",
-    "Jaringan/Hardware/Hardware Basic/Hardware.md",
     "Jaringan/jaringan/Jaringan Basic",
     "Jaringan/Hardware/Hardware Basic",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
