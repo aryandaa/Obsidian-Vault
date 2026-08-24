@@ -1,0 +1,11 @@
+# Tabel ARP dari mesin korban (Windows)
+# Diambil menggunakan: arp -a
+# Tanggal: 2026-08-14 09:15:00
+
+Interface: 10.10.15.5 --- 0x7
+  Internet Address      Physical Address      Type
+  10.10.15.1            aa-bb-cc-dd-ee-01     dynamic
+  10.10.15.10           11-22-33-44-55-10     dynamic
+  10.10.15.20           11-22-33-44-55-20     dynamic
+  10.10.15.254          11-22-33-44-55-fe     dynamic
+  10.10.14.2            de-ad-be-ef-00-01     dynamic

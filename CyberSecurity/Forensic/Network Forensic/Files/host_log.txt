@@ -1,0 +1,21 @@
+# /var/log/syslog pada server korban (10.10.15.5)
+# Periode: 2026-08-12 14:55:00 s/d 17:15:00 UTC
+
+Aug 12 14:55:02 kopi-senja CRON[1102]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 12 15:00:05 kopi-senja sshd[1300]: Invalid user test from 10.10.14.2 port 42001
+Aug 12 15:00:08 kopi-senja sshd[1301]: Invalid user guest from 10.10.14.2 port 42005
+Aug 12 15:00:11 kopi-senja sshd[1302]: Invalid user admin from 10.10.14.2 port 42009
+Aug 12 15:01:20 kopi-senja sshd[1303]: error: maximum authentication attempts exceeded for invalid user admin from 10.10.14.2 port 42009
+Aug 12 15:30:02 kopi-senja php[1500]: [login.php] query: SELECT * FROM users WHERE username='admin' OR '1'='1' -- ' AND password='x'
+Aug 12 15:30:04 kopi-senja php[1501]: [login.php] login success for user: admin
+Aug 12 15:31:05 kopi-senja php[1510]: [upload.php] uploaded file: k4nt0r.php
+Aug 12 15:31:10 kopi-senja apache2[1520]: 10.10.14.2 - - [12/Aug/2026:15:31:10 +0000] "GET /uploads/k4nt0r.php?cmd=id HTTP/1.1" 200 44
+Aug 12 16:00:05 kopi-senja CRON[2001]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug 12 16:07:33 kopi-senja php[2100]: [beacon] from 10.10.15.5
+Aug 12 16:07:41 kopi-senja php[2101]: [beacon] from 10.10.15.5
+Aug 12 16:07:49 kopi-senja php[2102]: [beacon] from 10.10.15.5
+Aug 12 16:07:57 kopi-senja php[2103]: [beacon] from 10.10.15.5
+Aug 12 16:08:05 kopi-senja php[2104]: [beacon] from 10.10.15.5
+Aug 12 17:02:10 kopi-senja sshd[2200]: Accepted password for exfil from 203.0.113.66 port 50021
+Aug 12 17:02:12 kopi-senja sftp-server[2201]: session opened for local user exfil from [203.0.113.66]
+Aug 12 17:04:00 kopi-senja sshd[2202]: Closing connection to 203.0.113.66

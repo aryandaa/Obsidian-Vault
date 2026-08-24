@@ -22,7 +22,7 @@ Tampilkan hasil
 Di Linux, `file` menggunakan konsep **magic number** atau **file signature** untuk mengenali banyak jenis file. Misalnya JPEG biasanya memiliki signature tertentu pada bagian awal file, begitu juga PNG, PDF, ELF executable, ZIP archive, filesystem image, dan berbagai format lainnya.
 
 ---
-## 1. Instalasi
+# 1. Instalasi
 
 Pada Debian, Ubuntu, Kali Linux, dan distro berbasis Debian lainnya, `file` biasanya sudah terinstall secara default.
 
@@ -365,8 +365,162 @@ berarti:
 > Analisis symbolic link itu sendiri.
 
 ---
+# 10. Flag `-s` (Block Device)
 
-# 10. Flag `-z`
+Salah satu flag yang paling penting dalam forensic tetapi sering terlewat:
+
+```bash
+-s
+```
+
+atau:
+
+```bash
+--special-files
+```
+
+Secara default, `file` hanya mau membaca file biasa. Kalau kamu mencoba membaca block device langsung tanpa flag ini, hasilnya sering tidak berguna.
+
+Dengan:
+
+```bash
+file -s /dev/sdb
+```
+
+`file` membaca block device tersebut secara langsung tanpa harus di-mount terlebih dahulu.
+
+Contoh hasil:
+
+```text
+/dev/sdb: DOS/MBR boot sector
+```
+
+Ini sangat berguna ketika kamu mendapatkan evidence berupa USB drive atau hard disk fisik. Sebelum melakukan imaging, kamu bisa melakukan triage cepat terhadap device tersebut tanpa menyentuh isinya.
+
+Kombinasi dengan `lsblk`:
+
+```text
+lsblk
+ ↓
+Identifikasi device
+ ↓
+file -s /dev/sdb
+ ↓
+Identifikasi awal evidence
+```
+
+---
+# 11. Flag `-p` (Preserve Date)
+
+Flag ini terlihat sepele, tetapi dalam forensic ia menyimpan konsep penting:
+
+```bash
+-p
+```
+
+atau:
+
+```bash
+--preserve-date
+```
+
+Secara default, setiap kali sebuah file dibaca, sistem dapat memperbarui access time (atime) file tersebut. Dalam forensic, kita tidak ingin analisis kita sendiri mengubah metadata evidence.
+
+Dengan:
+
+```bash
+file -p evidence.txt
+```
+
+`file` berusaha menjaga access time file tetap seperti semula setelah pembacaan.
+
+Ini bagian dari kebiasaan yang lebih besar: **setiap command yang kamu jalankan terhadap evidence harus diminimalkan dampaknya terhadap evidence itu sendiri.**
+
+---
+# 12. Flag `-e` (Exclude Test)
+
+Flag:
+
+```bash
+-e
+```
+
+atau:
+
+```bash
+--exclude
+```
+
+digunakan untuk menonaktifkan jenis pengujian tertentu.
+
+Misalnya:
+
+```bash
+file -e ascii file.bin
+```
+
+membuat `file` tidak menjalankan pengujian teks ASCII, sehingga hasilnya lebih fokus pada identifikasi berdasarkan magic/signature.
+
+Contoh penggunaan lain:
+
+```bash
+file -e compress file.bin
+```
+
+Jenis test yang bisa di-exclude antara lain:
+
+```text
+ascii
+apptype
+compress
+elf
+soft
+text
+tokens
+```
+
+Flag ini berguna ketika `file` memberikan hasil yang terlalu "ramah" terhadap data yang sebenarnya binary.
+
+---
+# 13. Flag `-0` dan `-N` (Automation)
+
+Ketika output `file` akan diproses oleh script, dua flag ini sangat membantu.
+
+```bash
+-0
+```
+
+atau:
+
+```bash
+--print0
+```
+
+membuat `file` menambahkan null character setelah nama file, bukan newline. Ini membuat output aman diproses ketika nama file mengandung spasi atau karakter aneh.
+
+```bash
+-N
+```
+
+atau:
+
+```bash
+--no-pad
+```
+
+membuat `file` tidak menambahkan padding agar kolom nama file sejajar.
+
+Contohnya:
+
+```bash
+file -0 -N evidence/*
+```
+
+Output menjadi lebih ramah untuk diproses oleh script atau tool lain.
+
+---
+
+# 14. Flag `-z`
 
 Sekarang masuk ke archive/compression.
 
@@ -404,7 +558,7 @@ Ini berguna ketika melakukan triage terhadap evidence yang dikompresi.
 
 ---
 
-# 11. Flag `-k`
+# 15. Flag `-k`
 
 Salah satu flag yang menarik untuk forensic adalah:
 
@@ -432,7 +586,7 @@ Ini bisa berguna ketika sebuah file memiliki struktur yang tidak biasa atau terd
 
 ---
 
-# 12. Flag `-f`
+# 16. Flag `-f`
 
 Flag:
 
@@ -469,7 +623,7 @@ Ini mulai menarik ketika kita melakukan forensic triage terhadap banyak evidence
 
 ---
 
-# 13. Flag `-F`
+# 17. Flag `-F`
 
 Flag:
 
@@ -501,7 +655,7 @@ Flag ini bukan flag yang akan paling sering kamu gunakan dalam forensic sehari-h
 
 ---
 
-# 14. File Signature
+# 18. File Signature
 
 Sekarang kita masuk ke bagian yang lebih penting daripada sekadar hafalan flag.
 
@@ -563,6 +717,24 @@ yang jika diterjemahkan ke ASCII menjadi:
 %PDF
 ```
 
+Berikut beberapa magic signature yang paling sering muncul di forensic:
+
+```text
+JPEG      FF D8 FF
+PNG       89 50 4E 47
+GIF       47 49 46 38
+PDF       25 50 44 46 (%PDF)
+ZIP       50 4B 03 04 (PK)
+RAR       52 61 72 21 (Rar!)
+ELF       7F 45 4C 46
+PE/EXE    4D 5A (MZ)
+SQLite    53 51 4C 69 74 65
+7Z        37 7A BC AF 27 1C
+Boot sig  55 AA (akhir boot sector)
+```
+
+Hafalkan beberapa yang paling umum: `FF D8 FF` untuk JPEG, `50 4B` untuk ZIP, `25 50 44 46` untuk PDF, dan `7F 45 4C 46` untuk ELF. Ketika nanti kita masuk file carving, magic signature ini akan menjadi dasar dari tool seperti `foremost`, `scalpel`, dan `binwalk`.
+
 Jadi kamu bisa melihat byte awal sebuah file menggunakan:
 
 ```bash
@@ -579,7 +751,7 @@ Di sinilah `file`, `xxd`, dan `hexdump` mulai saling terhubung.
 
 ---
 
-# 15. Hubungan `file` dengan Forensic Workflow
+# 19. Hubungan `file` dengan Forensic Workflow
 
 Dalam forensic investigation, `file` biasanya bukan tool terakhir.
 
@@ -646,7 +818,7 @@ Tool-tool tersebut akan kita pelajari setelah `file`, sehingga nanti kamu bisa m
 
 ---
 
-# 16. `file` pada Disk Image
+# 20. `file` pada Disk Image
 
 Nah, ini penting karena kita sedang belajar **Storage & File System Forensic**.
 
@@ -677,6 +849,14 @@ evidence.img: DOS/MBR boot sector
 atau informasi filesystem tertentu.
 
 Ini adalah langkah awal untuk mengetahui apa yang sebenarnya ada di dalam file image.
+
+Kalau evidence berupa block device (USB, hard disk fisik), gunakan `-s`:
+
+```bash
+file -s /dev/sdb
+```
+
+hasilnya bisa menunjukkan boot sector atau filesystem dari device tersebut secara langsung.
 
 Tetapi ingat:
 
@@ -732,7 +912,7 @@ Files & directories
 
 ---
 
-# 17. Command yang Perlu Kamu Kuasai
+# 21. Command yang Perlu Kamu Kuasai
 
 Untuk tahap Basic, jangan menghafalkan semua option sekaligus. Yang penting kamu benar-benar memahami command berikut:
 
@@ -774,6 +954,18 @@ file -f <list>
 
 ```bash
 file <directory>/*
+```
+
+```bash
+file -s /dev/sdb
+```
+
+```bash
+file -p <file>
+```
+
+```bash
+file -0 -N <directory>/*
 ```
 
 Dan untuk forensic triage terhadap disk image:

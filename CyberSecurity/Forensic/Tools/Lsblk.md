@@ -675,8 +675,161 @@ sdb  1:0:0:0    disk USB   ...
 Ini berguna untuk hardware/storage identification.
 
 ---
+# 17. Flag `-t` (Topology)
 
-# 17. Kombinasi Flag yang Penting
+Sekarang kita masuk ke flag yang sangat berguna untuk forensic imaging:
+
+```bash
+-t
+```
+
+atau:
+
+```bash
+--topology
+```
+
+menampilkan informasi topology device, termasuk ukuran sector.
+
+Contoh output:
+
+```text
+NAME        ALIGNMENT MIN-IO OPT-IO PHY-SEC LOG-SEC
+sda                 0   512   512    4096     512
+sdb                 0  4096  4096    4096    4096
+```
+
+Perhatikan kolom:
+
+```text
+PHY-SEC   physical sector size
+LOG-SEC   logical sector size
+```
+
+Mengapa ini penting?
+
+Ketika melakukan forensic imaging, ukuran sector menentukan bagaimana kita membaca device. Kalau device menggunakan physical sector 4096 byte, membaca per 512 byte masih bisa dilakukan, tetapi performa dan cara perhitungan offset bisa berbeda.
+
+Beberapa device modern menggunakan:
+
+```text
+4Kn  → 4096 native
+512e → 512 logical, 4096 physical
+```
+
+Mengetahui ini membantu kamu menentukan `bs` (block size) ketika nanti menggunakan `dd` untuk imaging.
+
+---
+# 18. Flag `-P`, `-x`, dan `-i` (Automation)
+
+Tiga flag ini berguna ketika output `lsblk` akan diproses oleh script.
+
+```bash
+-P
+```
+
+atau:
+
+```bash
+--pairs
+```
+
+menghasilkan output dalam format key=value:
+
+```text
+NAME="sda" SIZE="100G" TYPE="disk"
+NAME="sda1" SIZE="96G" TYPE="part" MOUNTPOINT="/"
+```
+
+Format ini mudah di-parse oleh script shell.
+
+```bash
+-x
+```
+
+atau:
+
+```bash
+--sort
+```
+
+digunakan untuk mengurutkan output berdasarkan kolom tertentu.
+
+Contoh:
+
+```bash
+lsblk -x SIZE
+```
+
+```bash
+-i
+```
+
+atau:
+
+```bash
+--ascii
+```
+
+membuat tree menggunakan karakter ASCII, bukan karakter Unicode. Ini membantu ketika output akan diproses atau disimpan dalam file yang tidak mendukung Unicode.
+
+Contoh kombinasi untuk automation:
+
+```bash
+lsblk -P -o NAME,TYPE,SIZE,FSTYPE
+```
+
+---
+# 19. `blkid` dan `/dev/disk/by-*`
+
+`lsblk` membaca informasi dari sistem, tetapi ada tool pendamping yang perlu kamu kenal: `blkid`.
+
+```bash
+blkid
+```
+
+`blkid` membaca filesystem signature langsung dari superblock device. Contoh output:
+
+```text
+/dev/sdb1: UUID="9ABC-1234" TYPE="ntfs" LABEL="EVIDENCE" PARTUUID="..."
+```
+
+Perbedaan penting:
+
+```text
+lsblk  → membaca dari sistem (device name bisa berubah)
+blkid  → membaca langsung dari superblock device
+```
+
+Dalam forensic, dokumentasi evidence sebaiknya menggunakan identifier yang stabil, bukan nama device yang bisa berubah antar boot. Linux menyediakan path stabil di:
+
+```text
+/dev/disk/by-uuid
+/dev/disk/by-id
+/dev/disk/by-label
+/dev/disk/by-path
+```
+
+Contoh:
+
+```bash
+ls -l /dev/disk/by-id/
+```
+
+Kamu bisa melihat bahwa `/dev/sdb` sebenarnya menunjuk ke identifier hardware tertentu.
+
+Jadi ketika mendokumentasikan evidence:
+
+```text
+/dev/sdb  → nama sementara (bisa berubah)
+/dev/disk/by-id/usb-SanDisk_...  → lebih stabil
+UUID      → paling stabil
+```
+
+Ini bagian dari **evidence identification** yang rapi.
+
+---
+# 20. Kombinasi Flag yang Penting
 
 Dalam praktik, kita jarang menggunakan satu flag saja.
 
@@ -714,6 +867,24 @@ Untuk path lengkap:
 lsblk -p -f
 ```
 
+Untuk topology dan sector size:
+
+```bash
+lsblk -t
+```
+
+Untuk automation:
+
+```bash
+lsblk -P -o NAME,TYPE,SIZE
+```
+
+Dan jangan lupa `blkid` untuk identifikasi berbasis UUID:
+
+```bash
+blkid
+```
+
 Untuk melihat semuanya secara lebih lengkap:
 
 ```bash
@@ -724,7 +895,7 @@ Kamu harus mulai terbiasa membaca kombinasi option seperti ini, bukan hanya meng
 
 ---
 
-# 18. `lsblk` dan Forensic Evidence
+# 21. `lsblk` dan Forensic Evidence
 
 Sekarang kita hubungkan dengan forensic workflow.
 
@@ -784,7 +955,7 @@ Kita belum melakukan imaging sekarang. Itu akan kita bahas saat masuk `dd`, `dc3
 
 ---
 
-# 19. Hal Penting: Jangan Sembarangan Menyentuh Evidence
+# 22. Hal Penting: Jangan Sembarangan Menyentuh Evidence
 
 Ini bagian yang harus kamu biasakan sejak sekarang.
 

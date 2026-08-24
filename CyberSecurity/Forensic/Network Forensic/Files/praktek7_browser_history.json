@@ -1,0 +1,16 @@
+{
+  "browser": "Google Chrome",
+  "profile": "Default",
+  "exported_at": "2026-08-14T09:15:00Z",
+  "history": [
+    {"url": "http://web.kopi-senja.co.id/", "visit_time": "2026-08-14T08:02:11Z", "title": "Kopi Senja Home"},
+    {"url": "http://web.kopi-senja.co.id/admin/login.php", "visit_time": "2026-08-14T08:05:40Z", "title": "Admin Login"},
+    {"url": "http://web.kopi-senja.co.id/admin/upload_foto.php", "visit_time": "2026-08-14T08:11:03Z", "title": "Upload Foto"},
+    {"url": "http://update-svc.kopi-senja-bot.net/update", "visit_time": "2026-08-14T08:30:00Z", "title": "Update Service"},
+    {"url": "https://mail.kopi-senja.co.id/owa/", "visit_time": "2026-08-14T08:58:12Z", "title": "Mail OWA"},
+    {"url": "http://flagcheck.example.com/verify", "visit_time": "2026-08-14T09:01:44Z", "title": "Domain Verification"}
+  ],
+  "downloads": [
+    {"url": "http://update-svc.kopi-senja-bot.net/update", "file": "updater_service.exe", "received": "2026-08-14T08:29:55Z"}
+  ]
+}

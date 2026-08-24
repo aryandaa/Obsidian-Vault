@@ -218,7 +218,6 @@ Kalau beberapa artifact independen memberikan waktu yang konsisten, confidence t
 Timestamp bukan satu-satunya cara melakukan correlation.
 
 Kita juga bisa menggunakan:
-
 ```text
 Filename
 Path
@@ -229,14 +228,12 @@ File signature
 ```
 
 Misalnya MFT menunjukkan:
-
 ```text
 tool.exe
 Size: 125 KB
 ```
 
 Kemudian file yang berhasil direcover dari unallocated space memiliki:
-
 ```text
 Size: 125 KB
 ```
@@ -244,7 +241,6 @@ Size: 125 KB
 Dan hash hasil recovery cocok dengan hash yang sebelumnya ditemukan.
 
 Maka kita memiliki hubungan:
-
 ```text
 MFT Entry
     ↓
@@ -258,24 +254,20 @@ Hash
 ```
 
 Ini jauh lebih kuat daripada hanya mengatakan:
-
 > "Ada file bernama tool.exe."
 
 ---
-
 # Hash sebagai correlation mechanism
 
 Kita kembali bertemu dengan SHA-256 yang sudah kamu pelajari pada awal modul.
 
 Misalnya terdapat:
-
 ```text
 File A
 SHA-256 = ABC123...
 ```
 
 Kemudian kita menemukan file hasil recovery:
-
 ```text
 Recovered File
 SHA-256 = ABC123...
@@ -284,7 +276,6 @@ SHA-256 = ABC123...
 Jika hash dihitung pada representasi byte yang sama dan keduanya cocok, kita memiliki bukti kuat bahwa content-nya identik.
 
 Secara konseptual:
-
 ```text
 Known File
     ↓
@@ -306,13 +297,11 @@ Hash dalam konteks ini bukan hanya untuk integrity. Hash juga dapat digunakan un
 Ini salah satu alasan kenapa konsep pertama yang kita pelajari tentang hashing terus muncul sampai bagian advanced.
 
 ---
-
 # Correlation MFT dan USN Journal
 
 Sekarang kita ambil contoh yang lebih dekat dengan NTFS.
 
 MFT:
-
 ```text
 report.txt
 Created:
@@ -322,7 +311,6 @@ Modified:
 ```
 
 USN Journal:
-
 ```text
 10:00
 FILE_CREATE
@@ -335,7 +323,6 @@ RENAME
 ```
 
 Kita dapat membuat timeline:
-
 ```text
 10:00
 report.txt created
@@ -348,13 +335,11 @@ report.txt renamed
 ```
 
 Jika kemudian MFT menunjukkan nama akhirnya:
-
 ```text
 final-report.txt
 ```
 
 kita dapat memiliki indikasi bahwa:
-
 ```text
 report.txt
     ↓
@@ -366,13 +351,11 @@ final-report.txt
 Ini contoh sederhana bagaimana dua artifact membantu mengisi informasi yang tidak lengkap jika hanya menggunakan salah satunya.
 
 ---
-
 # Correlation dengan Deleted Files
 
 Sekarang kita masuk ke skenario yang lebih menarik.
 
 Misalnya file:
-
 ```text
 secret.txt
 ```
@@ -382,7 +365,6 @@ sudah dihapus.
 MFT masih mempunyai informasi terkait record.
 
 USN Journal menunjukkan:
-
 ```text
 FILE_DELETE
 ```
@@ -392,7 +374,6 @@ Unallocated space masih mengandung data.
 Kemudian file carving menemukan sebagian file.
 
 Kita sekarang memiliki:
-
 ```text
 MFT
  ↓
@@ -412,7 +393,6 @@ Recovered content
 ```
 
 Ini jauh lebih kuat daripada hanya menemukan:
-
 ```text
 secret.txt
 ```
@@ -420,19 +400,16 @@ secret.txt
 dari sebuah directory listing.
 
 ---
-
 # Correlation dan File Carving
 
 File carving sendiri memiliki masalah konteks.
 
 Misalnya carver menemukan:
-
 ```text
 recovered_001.jpg
 ```
 
 Kita tidak langsung tahu:
-
 ```text
 Filename asli
 Path asli
@@ -443,7 +420,6 @@ Waktu dibuat
 Tetapi filesystem artifact mungkin memiliki informasi tersebut.
 
 Misalnya:
-
 ```text
 MFT
 → photo.jpg
@@ -454,7 +430,6 @@ MFT
 Kemudian carving menemukan JPEG yang memiliki hash sama.
 
 Sekarang kita dapat menghubungkan:
-
 ```text
 MFT Entry
      ↓
@@ -472,7 +447,6 @@ Same Hash
 Metadata dan raw data saling melengkapi.
 
 ---
-
 # Contradictory Evidence
 
 Correlation tidak selalu menghasilkan informasi yang cocok.
@@ -480,7 +454,6 @@ Correlation tidak selalu menghasilkan informasi yang cocok.
 Kadang artifact justru memberikan informasi berbeda.
 
 Misalnya:
-
 ```text
 MFT:
 Created = 10:00
@@ -490,7 +463,6 @@ Activity = 11:00
 ```
 
 atau:
-
 ```text
 Artifact A:
 File exists at 10:00
@@ -504,7 +476,6 @@ Kita tidak boleh memilih data yang "kelihatannya paling masuk akal" lalu membuan
 Kita harus mencari penyebab discrepancy.
 
 Kemungkinan penyebab dapat berupa:
-
 ```text
 Timezone difference
 Timestamp semantics
@@ -519,13 +490,11 @@ Parsing error
 Jadi contradiction sendiri dapat menjadi **finding yang perlu diselidiki**.
 
 ---
-
 # Artifact Reliability
 
 Tidak semua artifact memiliki tingkat interpretasi yang sama.
 
 Misalnya timestamp file bukan otomatis berarti:
-
 > "User melakukan aktivitas pada waktu tersebut."
 
 Timestamp menunjukkan informasi mengenai state atau metadata filesystem tertentu.
@@ -533,7 +502,6 @@ Timestamp menunjukkan informasi mengenai state atau metadata filesystem tertentu
 Begitu pula sebuah browser history entry tidak otomatis membuktikan bahwa manusia secara sadar membaca halaman tersebut. Program, prefetching, background activity, synchronization, atau mekanisme lain dapat menghasilkan artifact.
 
 Karena itu investigator harus membedakan:
-
 ```text
 Artifact
    ↓
@@ -547,7 +515,6 @@ What cannot be inferred?
 Ini adalah salah satu kemampuan paling penting dalam forensic analysis.
 
 ---
-
 # Evidence, Hypothesis, Conclusion
 
 Mulai sekarang kita harus membiasakan diri memisahkan tiga hal.
@@ -555,7 +522,6 @@ Mulai sekarang kita harus membiasakan diri memisahkan tiga hal.
 **Evidence** adalah apa yang benar-benar ditemukan.
 
 Contohnya:
-
 ```text
 MFT record 42 exists.
 Filename = suspicious.exe.
@@ -565,7 +531,6 @@ USN Journal contains FILE_CREATE.
 **Hypothesis** adalah interpretasi sementara.
 
 Misalnya:
-
 ```text
 suspicious.exe kemungkinan dibuat pada sistem
 pada sekitar waktu tersebut.
@@ -574,7 +539,6 @@ pada sekitar waktu tersebut.
 **Conclusion** adalah kesimpulan setelah evidence dikorelasikan dan dianalisis.
 
 Misalnya:
-
 ```text
 Multiple filesystem artifacts consistently indicate
 that suspicious.exe existed on the system and was
@@ -584,18 +548,15 @@ subsequently deleted.
 Perhatikan bahwa conclusion yang baik tetap sesuai dengan apa yang benar-benar dapat didukung evidence.
 
 ---
-
 # Contoh Full Correlation
 
 Sekarang bayangkan kita memiliki satu kasus:
-
 ```text
 Evidence:
 disk.raw
 ```
 
 Kita menemukan:
-
 ```text
 MFT:
 malware.exe
@@ -603,7 +564,6 @@ Created: 14:20
 ```
 
 USN Journal:
-
 ```text
 14:20
 FILE_CREATE
@@ -616,25 +576,21 @@ FILE_DELETE
 ```
 
 Unallocated space:
-
 ```text
 Data matching malware.exe
 ```
 
 File carving:
-
 ```text
 Recovered executable
 ```
 
 Hash:
-
 ```text
 SHA-256 = ABCDEF...
 ```
 
 Timeline:
-
 ```text
 14:20
 malware.exe created
@@ -650,7 +606,6 @@ Residual data still present
 ```
 
 Sekarang kita dapat membuat hubungan:
-
 ```text
                  ┌── MFT
                  │
@@ -672,13 +627,11 @@ Kita bukan lagi sekadar membaca output tools.
 Kita sedang membangun **forensic narrative** berdasarkan evidence.
 
 ---
-
 # Forensic Narrative
 
 Forensic narrative adalah cara menyusun hasil analysis menjadi urutan kejadian yang dapat dipahami.
 
 Misalnya dari evidence tadi:
-
 ```text
 14:20
 A file named malware.exe was present on the NTFS volume.
@@ -701,11 +654,9 @@ Perhatikan bahwa setiap pernyataan harus dapat dikaitkan kembali ke artifact.
 Inilah yang nantinya akan menjadi dasar laporan forensic.
 
 ---
-
 # Chain of Evidence
 
 Semua konsep yang sudah kita pelajari sebenarnya saling terhubung:
-
 ```text
 Original Evidence
        ↓
@@ -741,11 +692,9 @@ Finding
 Perjalanan tersebut harus dapat ditelusuri kembali.
 
 Jika seseorang bertanya:
-
 > "Dari mana kamu mendapatkan file ini?"
 
 Kita harus bisa menjawab:
-
 ```text
 Forensic Image
 → partition offset
@@ -759,13 +708,11 @@ Forensic Image
 Itulah yang membuat hasil forensic dapat dipertanggungjawabkan.
 
 ---
-
 # Kesalahan yang harus dihindari
 
 Kesalahan terbesar dalam correlation adalah **confirmation bias**.
 
 Misalnya investigator sudah mempunyai dugaan:
-
 > "Ini pasti malware."
 
 Kemudian dia hanya mencari artifact yang mendukung dugaan tersebut.
@@ -779,7 +726,6 @@ Kalau menemukan sesuatu yang bertentangan:
 Itu adalah cara buruk melakukan forensic investigation.
 
 Pendekatan yang lebih baik:
-
 ```text
 Hypothesis
     ↓
@@ -799,68 +745,3 @@ Conclusion
 Tujuan investigator bukan membuktikan bahwa hypothesis-nya benar.
 
 Tujuannya adalah menemukan **apa yang sebenarnya dapat didukung oleh evidence**.
-
----
-
-# Posisi kita sekarang
-
-Kita sudah sampai di bagian paling akhir dari teori utama Storage & File System Forensics:
-
-```text
-Storage & File System Forensics
-
-✓ Storage Fundamentals
-✓ Filesystem Fundamentals
-✓ Disk Imaging
-✓ Partition Analysis
-✓ NTFS Fundamentals
-✓ MFT Analysis
-✓ Advanced NTFS Analysis
-✓ NTFS Metadata Artifacts
-✓ NTFS Timeline Analysis
-✓ Deleted File & Unallocated Space Analysis
-✓ File Carving
-✓ Filesystem Artifact Correlation      ← SEKARANG
-
-□ Final Storage Investigation
-```
-
-Setelah materi ini, kita hanya punya **satu tahap besar terakhir**, yaitu **Final Storage Investigation**.
-
-Di tahap itu seluruh konsep yang sudah kita pelajari akan digabungkan menjadi satu investigation. Bukan lagi belajar MFT sendiri, carving sendiri, atau timeline sendiri. Kita akan mengambil satu forensic image dan melakukan investigation dari awal sampai akhir:
-
-```text
-Evidence
- ↓
-Hash Verification
- ↓
-Partition Analysis
- ↓
-Filesystem Identification
- ↓
-NTFS Examination
- ↓
-MFT Analysis
- ↓
-Artifact Analysis
- ↓
-Timeline
- ↓
-Deleted File Analysis
- ↓
-Unallocated Space
- ↓
-File Carving
- ↓
-Recovery
- ↓
-Hash
- ↓
-Correlation
- ↓
-Finding
- ↓
-Forensic Report
-```
-
-Kalau tahap final tersebut sudah selesai, **Storage & File System Forensics kita nyatakan selesai secara keseluruhan**, lalu roadmap kita berpindah langsung ke **Network Forensics**.

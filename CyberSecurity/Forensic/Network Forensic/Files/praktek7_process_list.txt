@@ -1,0 +1,16 @@
+# Daftar proses pada mesin korban (Windows)
+# Diambil menggunakan: tasklist /v
+# Tanggal: 2026-08-14 09:15:00
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0      8 K
+System                           4 Services                   0    128 K
+svchost.exe                     912 Services                   0   12,540 K
+svchost.exe                     972 Services                   0   14,220 K
+explorer.exe                   2512 Console                    1   45,100 K
+chrome.exe                     3210 Console                    1   190,300 K
+chrome.exe                     3211 Console                    1   145,600 K
+outlook.exe                    3900 Console                    1   210,450 K
+updater_service.exe            4412 Services                   0    67,800 K
+cmd.exe                        5030 Console                    1    3,200 K

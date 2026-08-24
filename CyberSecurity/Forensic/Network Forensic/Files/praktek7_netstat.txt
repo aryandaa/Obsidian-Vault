@@ -1,0 +1,16 @@
+# Output netstat dari mesin korban (Windows)
+# Diambil menggunakan: netstat -ano
+# Tanggal: 2026-08-14 09:15:00
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    10.10.15.5:135         10.10.15.1:49321       ESTABLISHED     912
+  TCP    10.10.15.5:139         0.0.0.0:0              LISTENING       4
+  TCP    10.10.15.5:445         0.0.0.0:0              LISTENING       4
+  TCP    10.10.15.5:3389        0.0.0.0:0              LISTENING       972
+  TCP    10.10.15.5:49752       10.10.15.10:143        ESTABLISHED     3900
+  TCP    10.10.15.5:50123       203.0.113.66:8080      ESTABLISHED     4412
+  TCP    10.10.15.5:50345       8.8.8.8:53             ESTABLISHED     4412
+  UDP    10.10.15.5:53          0.0.0.0:0              LISTENING       4412
+  UDP    10.10.15.5:68          0.0.0.0:0              LISTENING       4

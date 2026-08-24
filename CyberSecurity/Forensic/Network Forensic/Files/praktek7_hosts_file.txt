@@ -1,0 +1,6 @@
+# Isi file C:\Windows\System32\drivers\etc\hosts pada mesin korban
+
+127.0.0.1       localhost
+10.10.15.5      web.kopi-senja.co.id
+10.10.15.10     mail.kopi-senja.co.id
+203.0.113.66    update-svc.kopi-senja-bot.net

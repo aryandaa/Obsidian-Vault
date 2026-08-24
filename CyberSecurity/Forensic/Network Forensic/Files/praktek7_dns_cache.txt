@@ -1,0 +1,50 @@
+# Hasil cache DNS (systemd-resolved) pada mesin Windows korban
+# Diambil menggunakan: ipconfig /displaydns
+# Tanggal: 2026-08-14 09:15:00
+
+Windows IP Configuration
+
+    web.kopi-senja.co.id
+    ----------------------------------------
+    Record Name . . . . . : web.kopi-senja.co.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 259
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 10.10.15.5
+
+    mail.kopi-senja.co.id
+    ----------------------------------------
+    Record Name . . . . . : mail.kopi-senja.co.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 259
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 10.10.15.10
+
+    update-svc.kopi-senja-bot.net
+    ----------------------------------------
+    Record Name . . . . . : update-svc.kopi-senja-bot.net
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 600
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 203.0.113.66
+
+    flagcheck.example.com
+    ----------------------------------------
+    Record Name . . . . . : flagcheck.example.com
+    Record Type . . . . . : 16
+    Time To Live  . . . . : 300
+    Data Length . . . . . : 29
+    Section . . . . . . . : Answer
+    TXT Record . . . . . : flag{h0st_art1f4k_j4ng4n_d1lup4}
+
+    google.com
+    ----------------------------------------
+    Record Name . . . . . : google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 42
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 142.250.4.100
