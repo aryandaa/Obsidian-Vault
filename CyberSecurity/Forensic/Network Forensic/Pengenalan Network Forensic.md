@@ -2,7 +2,7 @@
 
 Network Forensic adalah cabang digital forensics yang fokus pada **pengumpulan, pemeriksaan, dan analisis bukti yang berasal dari jaringan komputer**. Kalau disk forensics membedah hard disk dan memory forensics membedah RAM, maka network forensics membedah **komunikasi antar perangkat**: siapa bicara ke siapa, kapan, lewat protokol apa, dan data apa yang dikirim.
 
-Kenapa ini penting? Karena hampir semua serangan di dunia nyata **melibatkan jaringan**. Malware harus berkomunikasi dengan command & control (C2), attacker harus masuk melalui port yang terbuka, data curian harus dikirim keluar, dan phishing harus melewati jaringan dulu sebelum sampai ke email. Bahkan ketika file sudah dihapus dari disk dan memory sudah dimatikan, jejak komunikasi bisa tetap tersimpan di packet capture, log server, atau firewall.
+Kenapa ini penting? Karena hampir semua serangan di dunia nyata **melibatkan jaringan**. [Malware](Malware.md) harus berkomunikasi dengan [Command & Control (C2)](Command%20&%20Control%20(C2).md), attacker harus masuk melalui port yang terbuka, data curian harus dikirim keluar, dan phishing harus melewati jaringan dulu sebelum sampai ke email. Bahkan ketika file sudah dihapus dari disk dan memory sudah dimatikan, jejak komunikasi bisa tetap tersimpan di packet capture, log server, atau firewall. 
 
 Sederhananya: kalau disk forensic menjawab "apa yang ada di komputer ini?", network forensic menjawab "apa yang terjadi di antara komputer-komputer ini?".
 
@@ -10,10 +10,10 @@ Sederhananya: kalau disk forensic menjawab "apa yang ada di komputer ini?", netw
 
 Evidence di jaringan tidak selalu berbentuk file. Ia bisa berupa:
 
-1. **Packet capture (PCAP)**: rekaman mentah paket yang lewat di sebuah interface. Ini sumber evidence yang paling kaya karena berisi seluruh komunikasi.
+1. **Packet capture (PCAP)**: rekaman mentah paket yang lewat di sebuah [Interface](Interface.md). Ini sumber evidence yang paling kaya karena berisi seluruh komunikasi.
 2. **NetFlow / IPFIX**: ringkasan aliran komunikasi (siapa ke siapa, port, berapa banyak data). Tidak berisi isi paket, tetapi sangat berguna untuk melihat pola.
 3. **Log server**: Apache/Nginx access log, DNS log, proxy log, firewall log, IDS/IPS alert.
-4. **Log endpoint**: Windows Event Log, Sysmon, atau auth.log yang mencatat koneksi keluar dari sebuah mesin.
+4. **Log [Endpoint](Endpoint.md)**: Windows Event Log, Sysmon, atau auth.log yang mencatat koneksi keluar dari sebuah mesin.
 5. **Artefak host**: DNS cache, ARP cache, netstat, dan browser history yang menunjukkan komunikasi yang pernah terjadi.
 
 Dalam lomba CTF, sumber yang paling sering muncul adalah PCAP. Karena itu modul ini akan sangat fokus pada membaca dan menganalisis PCAP.
