@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Cryptography/Cryptography Classic/Transposition Cipher.md",
+                "file": "CyberSecurity/Cryptography/Cryptography Classic/3. Cryptography Classic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transposition Cipher"
+              "title": "3. Cryptography Classic"
             }
           }
         ]
@@ -176,9 +176,11 @@
   },
   "active": "ff9afbaf7d827758",
   "lastOpenFiles": [
+    "CyberSecurity/Cryptography/Cryptography Classic/Enigma dan Mesin Cipher.md",
+    "CyberSecurity/Cryptography/Cryptography Classic/3. Cryptography Classic.md",
+    "CyberSecurity/Cryptography/Cryptography Classic/Transposition Cipher.md",
     "CyberSecurity/Cryptography/Cryptography Classic/Praktek/Columnar Transposition.py",
     "CyberSecurity/Cryptography/Cryptography Classic/Praktek/Rail Fence Cipher.py",
-    "CyberSecurity/Cryptography/Cryptography Classic/3. Cryptography Classic.md",
     "CyberSecurity/Cryptography/Cryptography Classic/Substitution Cipher dan Frequency Analysis.md",
     "CyberSecurity/Cryptography/Cryptography Classic/Caesar Cipher dan ROT.md",
     "CyberSecurity/Cryptography/Cryptography Classic/Vigenere Cipher.md",
@@ -208,10 +210,7 @@
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/Block Cipher dan Mode Operasi.md",
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/DES dan 3DES.md",
     "CyberSecurity/Cryptography/Cryptography Modern/Symmetric key/AES.md",
-    "CyberSecurity/Cryptography/Cryptography Classic/Enigma dan Mesin Cipher.md",
-    "CyberSecurity/Cryptography/Cryptography Classic/Transposition Cipher.md",
     "CyberSecurity/Forensic/Cryptography/Cryptography Modern/Asymmetric key",
-    "CyberSecurity/Forensic/Cryptography/Cryptography Modern/Symmetric key",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260722162150.png",
     "Untitled.canvas",
     "DevOps/Docker/Docker Basic/img/Pasted image 20260726230404.png",

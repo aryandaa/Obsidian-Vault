@@ -77,7 +77,7 @@ Jalankan script itu dan lihat baris mana yang terbaca sebagai kalimat.
 Cara kerjanya: tulis pesan dalam tabel dengan jumlah kolom tertentu, lalu baca kolom demi kolom.
 
 Contoh pesan `ATTACKATDAWN` dengan 4 kolom:
-
+	
 ```text
 A T T A
 C K A T

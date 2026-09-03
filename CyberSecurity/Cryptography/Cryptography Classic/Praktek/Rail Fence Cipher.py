@@ -26,6 +26,6 @@ def rail_fence_decrypt(cipher, rows):
         r += step
     return ''.join(result)
 
-cipher = "WECRERDSOEEAIVD"
+cipher = "CLSAOEMTRU"
 for rows in range(2, 11):
     print(f"rows={rows}: {rail_fence_decrypt(cipher, rows)}")
