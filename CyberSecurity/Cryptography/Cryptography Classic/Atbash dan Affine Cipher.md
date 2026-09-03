@@ -76,7 +76,7 @@ Untuk mendekripsi, kita pakai kebalikannya:
 huruf = (c - b) * invers_a mod 26
 ```
 
-Invers dari `a` adalah angka yang kalau dikalikan dengan `a` hasilnya 1 mod 26. Konsep ini sudah kamu pelajari di materi Modular Arithmetic (modular inverting), jadi kalau terasa asing, kembali dulu ke sana.
+Invers dari `a` adalah angka yang kalau dikalikan dengan `a` hasilnya 1 mod 26. Konsep ini sudah kamu pelajari di materi Modular Arithmetic ([Modular Inverting](Modular%20Inverting.md)), jadi kalau terasa asing, kembali dulu ke sana.
 
 ### Syarat penting: a harus genap dan bukan kelipatan 13
 

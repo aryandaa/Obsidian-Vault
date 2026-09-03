@@ -75,7 +75,7 @@ Coba pecahkan ini (jawabannya adalah sebuah kalimat):
 flag: L ORYH FUBSWR
 ```
 
-Petunjuk: ini Caesar shift 13. Kalau sudah ketemu, coba juga buat script yang bisa menebak pergeseran otomatis dengan membandingkan hasilnya dengan kata-kata umum seperti "the", "and", atau "flag".
+Kalau sudah ketemu, coba juga buat script yang bisa menebak pergeseran otomatis dengan membandingkan hasilnya dengan kata-kata umum seperti "the", "and", atau "flag".
 
 ## Ringkasan
 
